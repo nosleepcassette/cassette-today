@@ -196,9 +196,15 @@ def render_html(card: dict, paragraphs: list[str], generated_at: datetime) -> st
     replacements = {
         # date span
         r'<span id="reading-date">[^<]*</span>': f'<span id="reading-date">{date_display}</span>',
-        # card name div
-        r'<div class="card-name"[^>]*>[^<]*</div>':
-            f'<div class="card-name" id="card-name" aria-label="Today\'s card: {_escape(card_display)}">\n      {card_display}\n    </div>',
+        # card name div — matches multiline with data-text + aria-label attrs
+        r'<div class="card-name"[^>]*>.*?</div>':
+            (
+                f'<div class="card-name" id="card-name"\n'
+                f'     data-text="{_escape(card_display)}"\n'
+                f'     aria-label="Today\'s card: {_escape(card_display.lower())}">\n'
+                f'      {card_display}\n'
+                f'    </div>'
+            ),
         # reading body div (multiline)
         r'<div class="reading-body" id="reading-body"[^>]*>.*?</div>':
             f'<div class="reading-body" id="reading-body" aria-live="polite">\n{paras_html}\n    </div>',
