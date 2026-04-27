@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Daily oracle reading by maps. The oracle and the algorithm — divination for the terminally online.">
+<meta property="og:title" content="NO SLEEP CASSETTE · today's reading">
+<meta property="og:description" content="The oracle and the algorithm. Daily tarot + astrology by maps.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#05070a">
+<title>NO SLEEP CASSETTE · today</title>
+
+<!-- favicon: cassette icon -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%2305070a'/><rect x='10' y='20' width='80' height='60' rx='6' fill='none' stroke='%234bf4ff' stroke-width='4'/><circle cx='35' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><circle cx='65' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><line x1='47' y1='50' x2='53' y2='50' stroke='%234bf4ff' stroke-width='2'/></svg>">
+
+<!-- VT323: the CRT monospace. no other fonts needed. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<style>
+/* ── TOKENS ────────────────────────────────────────────── */
+:root {
+  --bg:      #05070a;
+  --fg:      #e9feff;
+  --dim:     rgba(233,254,255,.65);
+  --accent:  #4bf4ff;
+  --muted:   rgba(75,244,255,.45);
+  --glow:    rgba(75,244,255,.18);
+  --border:  rgba(75,244,255,.30);
+  --scan-opacity: .07;
+  --noise-opacity: .04;
+  --font:    'VT323', 'Courier New', monospace;
+  --size:    clamp(16px, 2vw, 20px);
+  --max-w:   72ch;
+}
+
+/* trans pride variant — swap :root block to activate
+:root {
+  --bg:      #05070a;
+  --fg:      #f7feff;
+  --accent:  #5BCFFB;
+  --muted:   rgba(91,207,251,.45);
+  --glow:    rgba(91,207,251,.15);
+  --border:  rgba(245,171,185,.30);
+}
+*/
+
+/* ── RESET ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── BASE ──────────────────────────────────────────────── */
+html { font-size: var(--size); background: var(--bg); color: var(--fg); }
+
+body {
+  font-family: var(--font);
+  line-height: 1.5;
+  min-height: 100svh;
+  padding: 2rem 1rem 4rem;
+  /* subtle radial bloom */
+  background:
+    radial-gradient(1200px 800px at 40% 30%, var(--glow), transparent 65%),
+    var(--bg);
+  /* scan lines */
+  position: relative;
+}
+
+/* scan line overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 3px,
+    rgba(0,0,0, var(--scan-opacity)) 3px,
+    rgba(0,0,0, var(--scan-opacity)) 4px
+  );
+  z-index: 100;
+}
+
+/* ── LAYOUT ────────────────────────────────────────────── */
+.term {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+/* ── BORDERS / DIVIDERS ────────────────────────────────── */
+.rule {
+  color: var(--border);
+  user-select: none;
+  letter-spacing: 0;
+  white-space: pre;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+/* ── HEADER ────────────────────────────────────────────── */
+.site-header {
+  padding: 1.5rem 0 1rem;
+}
+
+.site-name {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  color: var(--accent);
+  letter-spacing: .08em;
+  text-shadow: 0 0 18px var(--glow);
+  text-transform: uppercase;
+}
+
+.site-tagline {
+  color: var(--dim);
+  font-size: .95rem;
+  margin-top: .15rem;
+}
+
+/* ── READING BLOCK ─────────────────────────────────────── */
+.reading-meta {
+  margin: 1.5rem 0 .5rem;
+  color: var(--muted);
+  font-size: .9rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+}
+
+.card-name {
+  font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+  color: var(--accent);
+  text-shadow: 0 0 14px var(--glow);
+  margin: .3rem 0 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.reading-body {
+  color: var(--fg);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.reading-body p {
+  margin-bottom: 1rem;
+}
+
+.reading-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── READINGS OPEN ─────────────────────────────────────── */
+.tiers-header {
+  margin: 1.5rem 0 .8rem;
+  color: var(--accent);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+}
+
+.tier-list {
+  list-style: none;
+  display: grid;
+  gap: .4rem;
+  margin-bottom: 1.2rem;
+}
+
+.tier-list li {
+  color: var(--fg);
+  font-size: .95rem;
+}
+
+.tier-list li .price {
+  color: var(--accent);
+  min-width: 4ch;
+  display: inline-block;
+}
+
+.tier-list li .label {
+  color: var(--dim);
+}
+
+.kofi-link {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: .06em;
+  border: 1px solid var(--border);
+  padding: .35rem 1.2rem;
+  margin-bottom: 1rem;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.kofi-link:hover, .kofi-link:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 12px var(--glow);
+  outline: none;
+}
+
+.kofi-link::before { content: '→ '; }
+
+/* ── FOOTER ────────────────────────────────────────────── */
+.site-footer {
+  margin-top: 1.2rem;
+  padding-top: .8rem;
+  color: var(--dim);
+  font-size: .85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem 1.8rem;
+}
+
+.site-footer a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color .15s;
+}
+
+.site-footer a:hover, .site-footer a:focus {
+  color: var(--accent);
+  outline: none;
+}
+
+/* ── STALE NOTICE ──────────────────────────────────────── */
+.stale-notice {
+  color: var(--muted);
+  font-size: .8rem;
+  margin-top: .6rem;
+  font-style: italic;
+}
+
+/* ── ACCESSIBILITY ─────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  body::before { display: none; }
+}
+
+@media (prefers-color-scheme: light) {
+  /* still dark — this is a dark-only site by design */
+}
+
+/* ── MOBILE ────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .site-footer { flex-direction: column; gap: .4rem; }
+}
+</style>
+</head>
+
+<body>
+<main class="term" id="main">
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="site-name">No Sleep Cassette</div>
+    <div class="site-tagline">the oracle and the algorithm</div>
+  </header>
+
+  <div class="rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- TODAY'S READING
+       Everything inside data-reading is replaced by the daily cron.
+       The content below is the placeholder shown before first update. -->
+  <section aria-label="Today's reading" data-reading>
+
+    <div class="reading-meta">
+      <!-- CRON: replace content of this span -->
+      <span id="reading-date">today</span>
+      &nbsp;·&nbsp;daily pull
+    </div>
+
+    <!-- CRON: replace content -->
+    <div class="card-name" id="card-name" aria-label="Today's card">
+      initializing oracle
+    </div>
+
+    <!-- CRON: replace content -->
+    <div class="reading-body" id="reading-body" aria-live="polite">
+      <p>
+        the tape is loading. check back shortly.
+      </p>
+    </div>
+
+    <div class="stale-notice" id="stale-notice" hidden>
+      <!-- shown by cron if reading is >36h old -->
+    </div>
+
+  </section>
+
+  <div class="rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- READINGS OPEN -->
+  <section aria-label="Reading tiers">
+    <div class="tiers-header">readings open</div>
+
+    <ul class="tier-list">
+      <li>
+        <span class="price">$5</span>
+        <span aria-hidden="true"> · </span>
+        <span class="label">one card + interpretation — delivered in 30 min</span>
+      </li>
+      <li>
+        <span class="price">$15</span>
+        <span aria-hidden="true"> · </span>
+        <span class="label">quick hit — 3 transits, 3-card spread, synthesis</span>
+      </li>
+      <li>
+        <span class="price">$35</span>
+        <span aria-hidden="true"> · </span>
+        <span class="label">natal essentials — full chart + tarot, personalized</span>
+      </li>
+      <li>
+        <span class="price">$50</span>
+        <span aria-hidden="true"> · </span>
+        <span class="label">deep dive — natal + transits + tarot + I Ching, the works</span>
+      </li>
+    </ul>
+
+    <a class="kofi-link" href="https://ko-fi.com/nosleepcassette" target="_blank" rel="noopener">
+      ko-fi.com/nosleepcassette
+    </a>
+
+    <p style="color:var(--dim);font-size:.85rem;margin-top:.2rem;">
+      include your birth date, time, place + question at checkout.<br>
+      readings delivered via email, usually within a few hours.
+    </p>
+  </section>
+
+  <div class="rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <a href="https://github.com/nosleepcassette" target="_blank" rel="noopener">github</a>
+    <a href="https://ko-fi.com/nosleepcassette" target="_blank" rel="noopener">ko-fi</a>
+    <span style="color:var(--border)">maps · cassette.help · SF</span>
+  </footer>
+
+</main>
+</body>
+</html>
