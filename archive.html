@@ -40,6 +40,15 @@
   --glow: rgba(245,169,184,.22); --glow2: rgba(245,169,184,.08);
   --border: rgba(245,169,184,.3); --anag-r: rgba(91,207,250,.5); --anag-c: rgba(245,169,184,.4);
 }
+:root[data-theme="lesbian"] {
+  --accent: #FF9A56;
+  --muted: rgba(213,45,0,.60);
+  --glow: rgba(255,154,86,.20);
+  --glow2: rgba(255,154,86,.07);
+  --border: rgba(255,154,86,.28);
+  --anag-r: rgba(213,45,0,.58);
+  --anag-c: rgba(161,0,98,.42);
+}
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { height: 100%; background: var(--bg); }
 body {
@@ -49,12 +58,91 @@ body {
     radial-gradient(1100px 700px at 38% 28%, var(--glow), transparent 62%),
     radial-gradient(800px 500px at 72% 72%, rgba(75,244,255,.05), transparent 58%),
     var(--bg);
+  transition: background .4s;
 }
 body::before {
   content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 200;
   background: repeating-linear-gradient(to bottom,
     transparent 0px, transparent 3px,
     rgba(0,0,0,var(--scan)) 3px, rgba(0,0,0,var(--scan)) 4px);
+  transition: opacity .4s;
+}
+/* ── FX SYSTEM ─────────────────────────────────────────────────────────────── */
+
+/* Scanline intensity is set via --scan variable; body::before already uses it. */
+/* FX off: disable scanlines */
+:root[data-fx="0"] { --scan: 0; }
+:root[data-fx="1"] { --scan: .03; }
+:root[data-fx="2"] { --scan: .065; }
+:root[data-fx="3"] { --scan: .10; }
+:root[data-fx="4"] { --scan: .16; }
+
+:root[data-fx="0"] body::before { opacity: 0; }
+
+/* CRT vignette — appears at fx 2+ */
+.crt-vignette {
+  position: fixed; inset: 0; pointer-events: none; z-index: 199;
+  background: radial-gradient(ellipse at center,
+    transparent 60%,
+    rgba(0,0,0,.30) 80%,
+    rgba(0,0,0,.70) 100%);
+  opacity: 0; transition: opacity .4s;
+}
+:root[data-fx="2"] .crt-vignette,
+:root[data-fx="3"] .crt-vignette,
+:root[data-fx="4"] .crt-vignette { opacity: 1; }
+
+/* Screen flicker — vhs and chaos only */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 100% { opacity: 1; }
+  20%, 22%, 24% { opacity: .97; }
+}
+@keyframes flicker-heavy {
+  0%, 10%, 12%, 40%, 42%, 70%, 72%, 100% { opacity: 1; }
+  11%, 41%, 71% { opacity: .93; }
+  50% { opacity: .98; }
+}
+:root[data-fx="3"] body { animation: flicker 9s infinite; }
+:root[data-fx="4"] body { animation: flicker-heavy 6s infinite; }
+
+/* Glow multiplier — applied to banner and card-name text-shadow */
+/* We handle this in JS by setting a CSS variable --glow-mult */
+/* The banner-art and card-name already reference var(--glow) — we rescale --glow in JS */
+
+/* Chaos mode random glitch class — applied transiently by JS */
+body.chaos-glitch .banner-art {
+  transform: translateX(4px) scaleX(1.003);
+  filter: brightness(2) hue-rotate(30deg);
+  transition: none;
+}
+body.chaos-glitch .tui-bar {
+  filter: invert(.12) brightness(1.3);
+  transition: none;
+}
+body.chaos-glitch .card-name {
+  letter-spacing: .18em;
+  filter: brightness(1.8);
+  transition: none;
+}
+:root[data-fx="3"] .banner-art,
+:root[data-fx="4"] .banner-art,
+:root[data-fx="3"] .banner-mobile-inner,
+:root[data-fx="4"] .banner-mobile-inner {
+  text-shadow: 0 0 12px var(--glow), 0 0 36px var(--glow2), 0 0 60px var(--glow2);
+}
+:root[data-fx="3"] .card-name,
+:root[data-fx="4"] .card-name {
+  text-shadow: 0 0 30px var(--glow), 0 0 60px var(--glow2);
+}
+:root[data-fx="0"] .banner-art,
+:root[data-fx="1"] .banner-art,
+:root[data-fx="0"] .banner-mobile-inner,
+:root[data-fx="1"] .banner-mobile-inner {
+  text-shadow: none;
+}
+:root[data-fx="0"] .card-name,
+:root[data-fx="1"] .card-name {
+  text-shadow: none;
 }
 .tui-bar {
   position: fixed; left: 0; right: 0; height: var(--bar-h);
@@ -107,6 +195,11 @@ body::before {
   cursor: pointer; transition: background .1s;
 }
 .date-entry:hover { background: rgba(75,244,255,.04); }
+.date-entry:focus {
+  background: rgba(75,244,255,.08);
+  outline: 1px solid var(--border);
+  outline-offset: -1px;
+}
 .date-entry.loading { opacity: .5; cursor: default; }
 .date-key { color: var(--accent); font-size: 13px; letter-spacing: .08em; flex-shrink: 0; min-width: 11ch; }
 .date-cards { color: var(--dim); font-size: .9rem; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -163,14 +256,43 @@ body::before {
 .cmd-colon { color: var(--accent); margin-right: .2ch; }
 .help-overlay {
   position: fixed; top: var(--bar-h); right: 0;
-  width: min(260px, 92vw); background: rgba(5,7,10,.97);
-  border-left: 1px solid var(--border); border-bottom: 1px solid var(--border);
-  padding: .7rem 1.2ch; font-size: 14px; z-index: 150;
+  width: min(300px, 96vw);
+  background: rgba(5,7,10,.98);
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 0; font-size: 13px; z-index: 150;
+  max-height: calc(100vh - var(--bar-h) * 2);
+  overflow-y: auto;
 }
 .help-overlay[hidden] { display: none; }
-.help-title { color: var(--border); font-size: 12px; letter-spacing: .06em; margin-bottom: .4rem; }
-.help-row { display: flex; gap: 1.5ch; margin-bottom: .2rem; color: var(--dim); font-size: 13px; }
-.key { color: var(--accent); min-width: 8ch; flex-shrink: 0; }
+.help-head {
+  background: var(--accent); color: var(--bg);
+  font-size: 11px; letter-spacing: .12em; padding: .25rem 1ch;
+  text-shadow: none; user-select: none;
+}
+.help-section-label {
+  color: var(--border); font-size: 10px; letter-spacing: .1em;
+  padding: .35rem 1ch .1rem; text-transform: uppercase; user-select: none;
+  border-top: 1px solid rgba(255,255,255,.04); margin-top: .2rem;
+}
+.help-section-label:first-of-type { border-top: none; margin-top: 0; }
+.help-row {
+  display: flex; gap: 0; padding: .12rem 1ch;
+  color: var(--dim); font-size: 12px; align-items: baseline;
+}
+.help-row:hover { background: rgba(255,255,255,.03); }
+.key {
+  color: var(--accent); min-width: 11ch; flex-shrink: 0;
+  font-size: 12px; letter-spacing: .03em;
+}
+.help-desc { color: var(--dim); font-size: 12px; }
+.help-close {
+  color: var(--muted); font-size: 11px; letter-spacing: .08em;
+  padding: .4rem 1ch; cursor: pointer; text-align: right;
+  border-top: 1px solid rgba(255,255,255,.05);
+  transition: color .12s;
+}
+.help-close:hover, .help-close:focus-visible { color: var(--accent); outline: none; }
 @media (prefers-reduced-motion: reduce) {
   body::before { display: none; }
   .led, .blink { animation: none !important; opacity: 1; }
@@ -183,6 +305,9 @@ body::before {
 </head>
 
 <body>
+
+<canvas id="noise-canvas" style="position:fixed;inset:0;z-index:198;pointer-events:none;opacity:0;transition:opacity .5s" aria-hidden="true"></canvas>
+<div class="crt-vignette" aria-hidden="true"></div>
 
 <div class="tui-bar tui-top" role="banner">
   <span class="tui-mode">ARCHIVE</span>
@@ -277,7 +402,7 @@ body::before {
   <span class="status-mode">[ARCHIVE]</span>
   <span class="status-reel" aria-hidden="true" id="status-reel">⣷⣿</span>
   <span class="status-site">cassette.help/archive</span>
-  <span class="status-hint">? help &nbsp;· &nbsp;: cmd</span>
+  <span class="status-hint">? help &nbsp;·&nbsp; : cmd &nbsp;·&nbsp; / search</span>
 </div>
 
 <div class="cmd-overlay" id="cmd-overlay" hidden role="dialog" aria-modal="true" aria-label="Command input">
@@ -285,21 +410,34 @@ body::before {
 </div>
 
 <div class="help-overlay" id="help-overlay" hidden role="dialog" aria-modal="true" aria-label="Keyboard shortcuts">
-  <div class="help-title">── KEYS ───────────────────────</div>
-  <div class="help-row"><span class="key">j / ↓</span> scroll down</div>
-  <div class="help-row"><span class="key">k / ↑</span> scroll up</div>
-  <div class="help-row"><span class="key">?</span> toggle this panel</div>
-  <div class="help-row"><span class="key">:</span> command mode</div>
-  <div class="help-row"><span class="key">Esc</span> close / back</div>
-  <div class="help-title" style="margin-top:.6em">── COMMANDS ───────────────────</div>
-  <div class="help-row"><span class="key">:today</span> → today</div>
-  <div class="help-row"><span class="key">:about</span> → about</div>
-  <div class="help-row"><span class="key">:kofi</span> → ko-fi</div>
-  <div class="help-row"><span class="key">:theme cyan</span> default</div>
-  <div class="help-row"><span class="key">:theme amber</span> CRT amber</div>
-  <div class="help-row"><span class="key">:theme green</span> phosphor</div>
-  <div class="help-row"><span class="key">:theme trans</span> pride</div>
-  <div class="help-row"><span class="key">:q</span> close</div>
+  <div class="help-head">NSC — KEYBINDS &amp; COMMANDS</div>
+  <div class="help-section-label">NAVIGATION</div>
+  <div class="help-row"><span class="key">j / k</span><span class="help-desc">scroll down / up</span></div>
+  <div class="help-row"><span class="key">g / G</span><span class="help-desc">top / bottom</span></div>
+  <div class="help-row"><span class="key">Esc</span><span class="help-desc">close / back</span></div>
+  <div class="help-row"><span class="key">↑↓ j k</span><span class="help-desc">move through dates</span></div>
+  <div class="help-row"><span class="key">← →</span><span class="help-desc">prev / next date</span></div>
+  <div class="help-row"><span class="key">Enter / Space</span><span class="help-desc">open selected date</span></div>
+  <div class="help-row"><span class="key">Backspace</span><span class="help-desc">close viewer</span></div>
+  <div class="help-row"><span class="key">/</span><span class="help-desc">focus search</span></div>
+  <div class="help-section-label">COMMANDS — type : then command</div>
+  <div class="help-row"><span class="key">:today</span><span class="help-desc">go to today</span></div>
+  <div class="help-row"><span class="key">:archive</span><span class="help-desc">go to archive</span></div>
+  <div class="help-row"><span class="key">:about</span><span class="help-desc">go to about</span></div>
+  <div class="help-section-label">THEMES — t to cycle</div>
+  <div class="help-row"><span class="key">:theme amber</span><span class="help-desc">amber CRT (default)</span></div>
+  <div class="help-row"><span class="key">:theme green</span><span class="help-desc">phosphor green</span></div>
+  <div class="help-row"><span class="key">:theme trans</span><span class="help-desc">trans pride flag</span></div>
+  <div class="help-row"><span class="key">:theme lesbian</span><span class="help-desc">lesbian pride flag</span></div>
+  <div class="help-row"><span class="key">:theme cyan</span><span class="help-desc">default cyan</span></div>
+  <div class="help-section-label">FX — e to cycle</div>
+  <div class="help-row"><span class="key">:fx off</span><span class="help-desc">no effects</span></div>
+  <div class="help-row"><span class="key">:fx subtle</span><span class="help-desc">light scanlines</span></div>
+  <div class="help-row"><span class="key">:fx crt</span><span class="help-desc">CRT (default)</span></div>
+  <div class="help-row"><span class="key">:fx vhs</span><span class="help-desc">VHS + noise</span></div>
+  <div class="help-row"><span class="key">:fx chaos</span><span class="help-desc">maximum damage</span></div>
+  <div class="help-row"><span class="key">:kofi</span><span class="help-desc">support the work</span></div>
+  <div class="help-close" id="help-close" tabindex="0" role="button" aria-label="Close help">[ close ]</div>
 </div>
 
 <script>
@@ -310,24 +448,150 @@ body::before {
   var frame = 0;
   var $ = function (id) { return document.getElementById(id); };
 
+  // ── BANNER COLORIZE ──────────────────────────────────────────────────────────
+  var TRANS_STRIPES = ['#5BCEFA','#5BCEFA','#F5A9B8','#F5A9B8','#FFFFFF','#FFFFFF','#F5A9B8','#F5A9B8','#5BCEFA','#5BCEFA','#FFFFFF','#F5A9B8','#5BCEFA'];
+  var LESBIAN_STRIPES = ['#D52D00','#D52D00','#FF9A56','#FF9A56','#FFFFFF','#FFFFFF','#D162A4','#D162A4','#A50062','#A50062','#D52D00','#FF9A56','#FFFFFF'];
+
+  function applyBannerStripes(palette) {
+    var pre = document.querySelector('.banner-art');
+    var lines;
+    var html = [];
+    var i;
+    var color;
+    var line;
+    if (!pre) return;
+    lines = pre.textContent.split('\n');
+    for (i = 0; i < lines.length; i++) {
+      color = palette[i % palette.length];
+      line = lines[i].replace(/&/g, '&amp;').replace(/</g, '&lt;');
+      html.push('<span style="color:' + color + ';text-shadow:0 0 8px ' + color + '44,0 0 20px ' + color + '22">' + line + '</span>');
+    }
+    pre.innerHTML = html.join('\n');
+  }
+
+  function clearBannerStripes() {
+    var pre = document.querySelector('.banner-art');
+    var spans;
+    var text = '';
+    var i;
+    if (!pre) return;
+    spans = pre.querySelectorAll('span');
+    if (!spans.length) return;
+    for (i = 0; i < spans.length; i++) {
+      text += (i ? '\n' : '') + spans[i].textContent;
+    }
+    pre.textContent = text;
+  }
+
+  function refreshBannerForTheme(t) {
+    if (t === 'trans') applyBannerStripes(TRANS_STRIPES);
+    else if (t === 'lesbian') applyBannerStripes(LESBIAN_STRIPES);
+    else clearBannerStripes();
+  }
+
   setInterval(function () {
     frame = (frame + 1) % 4;
     var sr = $('status-reel'); if (sr) sr.textContent = STATUS_FRAMES[frame];
   }, 175);
 
-  // Theme
-  (function () {
-    var saved = localStorage.getItem('nsc-theme') || 'amber';
-    if (saved !== 'cyan') document.documentElement.setAttribute('data-theme', saved);
-  })();
+  // ── THEME ────────────────────────────────────────────────────────────────
+  var savedTheme = localStorage.getItem('nsc-theme') || 'amber';
+  if (savedTheme !== 'cyan') document.documentElement.setAttribute('data-theme', savedTheme);
+  refreshBannerForTheme(savedTheme);
 
   function setTheme(t) {
-    var valid = ['cyan', 'amber', 'green', 'trans'];
+    var valid = ['cyan','amber','green','trans','lesbian'];
     if (valid.indexOf(t) === -1) return;
     localStorage.setItem('nsc-theme', t);
     if (t === 'cyan') document.documentElement.removeAttribute('data-theme');
     else document.documentElement.setAttribute('data-theme', t);
+    refreshBannerForTheme(t);
   }
+
+  // ── NOISE CANVAS ─────────────────────────────────────────────────────────────
+  var noiseCanvas = $('noise-canvas');
+  var noiseCtx = noiseCanvas ? noiseCanvas.getContext('2d') : null;
+  var noiseAnimId = null;
+
+  function resizeNoise() {
+    if (!noiseCanvas) return;
+    noiseCanvas.width = window.innerWidth;
+    noiseCanvas.height = window.innerHeight;
+  }
+
+  function drawNoise(intensity) {
+    var w;
+    var h;
+    var imgData;
+    var buf;
+    var i;
+    var v;
+    if (!noiseCtx || !noiseCanvas) return;
+    w = noiseCanvas.width;
+    h = noiseCanvas.height;
+    imgData = noiseCtx.createImageData(w, h);
+    buf = imgData.data;
+    for (i = 0; i < buf.length; i += 4) {
+      v = Math.random() < intensity ? (Math.random() * 255 | 0) : 0;
+      buf[i] = buf[i+1] = buf[i+2] = v;
+      buf[i+3] = v > 0 ? 180 : 0;
+    }
+    noiseCtx.putImageData(imgData, 0, 0);
+  }
+
+  var noiseLoop = null;
+  function startNoise(intensity) {
+    if (!noiseCanvas) return;
+    resizeNoise();
+    if (noiseLoop) clearInterval(noiseLoop);
+    noiseCanvas.style.opacity = '1';
+    noiseLoop = setInterval(function() { drawNoise(intensity); }, 80);
+  }
+  function stopNoise() {
+    if (noiseLoop) { clearInterval(noiseLoop); noiseLoop = null; }
+    if (noiseCanvas) noiseCanvas.style.opacity = '0';
+  }
+
+  window.addEventListener('resize', function() {
+    if (noiseLoop) resizeNoise();
+  });
+
+  // ── CHAOS GLITCH ─────────────────────────────────────────────────────────────
+  var chaosInterval = null;
+
+  function startChaosGlitches() {
+    if (chaosInterval) return;
+    chaosInterval = setInterval(function() {
+      if (parseInt(localStorage.getItem('nsc-fx'), 10) !== 4) { stopChaosGlitches(); return; }
+      document.body.classList.add('chaos-glitch');
+      setTimeout(function() { document.body.classList.remove('chaos-glitch'); }, 150 + Math.random() * 200);
+    }, 5000 + Math.random() * 10000);
+  }
+
+  function stopChaosGlitches() {
+    if (chaosInterval) { clearInterval(chaosInterval); chaosInterval = null; }
+    document.body.classList.remove('chaos-glitch');
+  }
+
+  // ── FX APPLY ─────────────────────────────────────────────────────────────────
+  var FX_NAMES = ['off','subtle','crt','vhs','chaos'];
+  var FX_NOISE = [0, 0, 0, 0.012, 0.028];
+
+  function applyFx(level) {
+    level = Math.max(0, Math.min(4, parseInt(level, 10) || 0));
+    localStorage.setItem('nsc-fx', level);
+    document.documentElement.setAttribute('data-fx', level);
+    if (level >= 3) {
+      startNoise(FX_NOISE[level]);
+    } else {
+      stopNoise();
+    }
+    if (level === 4) startChaosGlitches(); else stopChaosGlitches();
+  }
+
+  var savedFx = parseInt(localStorage.getItem('nsc-fx'), 10);
+  if (isNaN(savedFx)) savedFx = 2;
+  applyFx(savedFx);
 
   function inlineFormat(text) {
     text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
@@ -377,6 +641,7 @@ body::before {
   var listEl = $('date-list');
   var searchWrap = $('search-wrap');
   var searchInput = $('search-input');
+  var firstRender = true;
 
   function formatDateDisplay(str) {
     var parts = str.split('-');
@@ -397,7 +662,6 @@ body::before {
       '<span class="date-cards">' + cardLabel + '</span>' +
       '<span class="date-count">' + entry.count + '/3</span>';
     row.addEventListener('click', function() { openDate(entry.date); });
-    row.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDate(entry.date); } });
     return row;
   }
 
@@ -411,6 +675,12 @@ body::before {
     });
     listEl.innerHTML = '';
     shown.forEach(function(entry) { listEl.appendChild(makeRow(entry)); });
+    if (firstRender) {
+      var firstRow = listEl.querySelector('.date-entry');
+      var main = $('main');
+      if (firstRow && document.activeElement === main) firstRow.focus();
+      firstRender = false;
+    }
     if (statusEl) {
       if (q) statusEl.textContent = shown.length + ' match' + (shown.length === 1 ? '' : 'es');
       else statusEl.textContent = allEntries.length + ' day' + (allEntries.length === 1 ? '' : 's') + ' in the archive';
@@ -505,6 +775,35 @@ body::before {
     if (main) main.scrollTo({ top: 0 });
   }
 
+  function moveFocus(dir) {
+    var rows = Array.prototype.slice.call(listEl.querySelectorAll('.date-entry'));
+    var cur;
+    var idx;
+    var next;
+    if (!rows.length) return;
+    cur = document.activeElement;
+    idx = rows.indexOf(cur);
+    if (idx === -1) idx = dir > 0 ? -1 : rows.length;
+    next = rows[idx + dir];
+    if (next) {
+      next.focus();
+      next.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+  }
+
+  function navigateDate(dir) {
+    var cur = window.location.hash.slice(1);
+    var idx = -1;
+    var next;
+    var i;
+    for (i = 0; i < allEntries.length; i++) {
+      if (allEntries[i].date === cur) { idx = i; break; }
+    }
+    if (idx === -1) return;
+    next = allEntries[idx + dir];
+    if (next) openDate(next.date);
+  }
+
   if (viewerBack) {
     viewerBack.addEventListener('click', closeViewer);
     viewerBack.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); closeViewer(); } });
@@ -529,8 +828,14 @@ body::before {
   var helpPanel = $('help-overlay');
   var cmdOverlay = $('cmd-overlay');
   var cmdSpan = $('cmd-input');
+  var helpClose = $('help-close');
   var mode = 'normal';
   var cmdBuf = '';
+
+  if (helpClose) {
+    helpClose.addEventListener('click', function() { if (helpPanel) helpPanel.hidden = true; });
+    helpClose.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (helpPanel) helpPanel.hidden = true; } });
+  }
 
   function openCmd() { cmdBuf = ''; if (cmdSpan) cmdSpan.textContent = ''; if (cmdOverlay) cmdOverlay.hidden = false; if (helpPanel) helpPanel.hidden = true; mode = 'command'; }
   function closeCmd() { if (cmdOverlay) cmdOverlay.hidden = true; cmdBuf = ''; if (cmdSpan) cmdSpan.textContent = ''; mode = 'normal'; }
@@ -538,11 +843,18 @@ body::before {
   function execCmd(raw) {
     var cmd = raw.trim().toLowerCase();
     if (cmd === 'today') window.location.href = 'index.html';
+    else if (cmd === 'archive') window.location.href = 'archive.html';
     else if (cmd === 'about') window.location.href = 'about.html';
     else if (cmd === 'kofi') window.open('https://ko-fi.com/nosleepcassette', '_blank', 'noopener');
     else if (cmd === 'help') { if (helpPanel) helpPanel.hidden = false; }
     else if (cmd === 'q') { closeViewer(); }
     else if (cmd.indexOf('theme ') === 0) { setTheme(cmd.slice(6).trim()); }
+    else if (cmd.indexOf('fx ') === 0) {
+      var fxArg = cmd.slice(3).trim();
+      var fxMap = {'off':0,'subtle':1,'crt':2,'vhs':3,'chaos':4};
+      if (fxArg in fxMap) applyFx(fxMap[fxArg]);
+      else if (!isNaN(parseInt(fxArg, 10))) applyFx(parseInt(fxArg, 10));
+    }
     closeCmd();
   }
 
@@ -558,8 +870,66 @@ body::before {
       return;
     }
     switch (e.key) {
-      case 'j': case 'ArrowDown': e.preventDefault(); if (main) main.scrollBy({ top: 64, behavior: 'smooth' }); break;
-      case 'k': case 'ArrowUp': e.preventDefault(); if (main) main.scrollBy({ top: -64, behavior: 'smooth' }); break;
+      case 'ArrowDown':
+      case 'j':
+        e.preventDefault();
+        if (viewer && viewer.classList.contains('open')) {
+          navigateDate(1);
+        } else {
+          moveFocus(1);
+        }
+        break;
+      case 'ArrowUp':
+      case 'k':
+        e.preventDefault();
+        if (viewer && viewer.classList.contains('open')) {
+          navigateDate(-1);
+        } else {
+          moveFocus(-1);
+        }
+        break;
+      case 'ArrowRight':
+        e.preventDefault();
+        if (viewer && viewer.classList.contains('open')) navigateDate(1);
+        break;
+      case 'ArrowLeft':
+        e.preventDefault();
+        if (viewer && viewer.classList.contains('open')) navigateDate(-1);
+        break;
+      case 'Enter':
+      case ' ':
+        e.preventDefault();
+        var focused = document.activeElement;
+        if (focused && focused.classList.contains('date-entry')) {
+          openDate(focused.getAttribute('data-date'));
+        }
+        break;
+      case 'Backspace':
+        e.preventDefault();
+        if (viewer && viewer.classList.contains('open')) closeViewer();
+        break;
+      case '/':
+        e.preventDefault();
+        if (searchInput && searchWrap && searchWrap.style.display !== 'none') {
+          searchInput.focus();
+          searchInput.select();
+        }
+        break;
+      case 'g': e.preventDefault(); if (main) main.scrollTo({ top: 0, behavior: 'smooth' }); break;
+      case 'G': e.preventDefault(); if (main) main.scrollTo({ top: main.scrollHeight, behavior: 'smooth' }); break;
+      case 't':
+        e.preventDefault();
+        var THEMES = ['cyan','amber','green','trans','lesbian'];
+        var cur = localStorage.getItem('nsc-theme') || 'amber';
+        var idx = THEMES.indexOf(cur);
+        setTheme(THEMES[(idx + 1) % THEMES.length]);
+        break;
+      case 'e':
+        e.preventDefault();
+        var curFx = parseInt(localStorage.getItem('nsc-fx'), 10);
+        if (isNaN(curFx)) curFx = 2;
+        applyFx((curFx + 1) % 5);
+        break;
       case ':': e.preventDefault(); openCmd(); break;
       case '?': e.preventDefault(); if (helpPanel) helpPanel.hidden = !helpPanel.hidden; break;
       case 'Escape':
