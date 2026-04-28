@@ -1,0 +1,20 @@
+{
+  "slot": "single-card",
+  "time": "7am",
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T07:05:00-07:00",
+  "card": {
+    "name": "The Hierophant",
+    "reversed": false,
+    "position": "focus",
+    "keywords": ["tradition", "teaching", "guidance", "ritual", "belief"],
+    "element": "earth",
+    "astrology": "Taurus",
+    "number": "5"
+  },
+  "astro_highlight": "Sun square Pluto — the will to transform clashes with the need for control. Adaptation required on both sides.",
+  "reading": "Three to five paragraphs of the 300-500 word website reading. Written in maps' voice — direct, dry, zero filler. Divination without the crystals-and-good-vibes framing. Technical precision meets the uncanny.",
+  "cross_ref": null,
+  "tweet_excerpt": "Short 12-15 line version for twitter. The skill writes this too.",
+  "full_md_path": "~/readings/daily/2026-04-27/single-card.md"
+}
