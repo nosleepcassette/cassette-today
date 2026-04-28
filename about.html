@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="About NO SLEEP CASSETTE — daily oracle readings by maps. Tarot, I Ching, and astrology for the terminally online.">
+<meta property="og:title" content="NO SLEEP CASSETTE · about">
+<meta property="og:description" content="Daily oracle readings by maps — tarot, I Ching, astrology. Book a personal reading.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#05070a">
+<title>NO SLEEP CASSETTE · about</title>
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%2305070a'/><rect x='10' y='20' width='80' height='60' rx='6' fill='none' stroke='%234bf4ff' stroke-width='4'/><circle cx='35' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><circle cx='65' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><line x1='47' y1='50' x2='53' y2='50' stroke='%234bf4ff' stroke-width='2'/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #05070a; --fg: #e9feff; --dim: rgba(233,254,255,.65);
+  --accent: #4bf4ff; --muted: rgba(75,244,255,.45);
+  --glow: rgba(75,244,255,.22); --glow2: rgba(75,244,255,.08);
+  --border: rgba(75,244,255,.25);
+  --anag-r: rgba(250,74,51,.62); --anag-c: rgba(71,184,184,.42);
+  --scan: .065; --bar-h: 22px; --font: 'VT323', 'Courier New', monospace;
+}
+:root[data-theme="amber"] {
+  --accent: #ffb000; --muted: rgba(255,176,0,.45);
+  --glow: rgba(255,176,0,.22); --glow2: rgba(255,176,0,.08);
+  --border: rgba(255,176,0,.25); --anag-r: rgba(255,60,0,.5); --anag-c: rgba(200,140,0,.4);
+}
+:root[data-theme="green"] {
+  --accent: #39ff14; --muted: rgba(57,255,20,.45);
+  --glow: rgba(57,255,20,.22); --glow2: rgba(57,255,20,.08);
+  --border: rgba(57,255,20,.25); --anag-r: rgba(0,200,60,.5); --anag-c: rgba(100,255,50,.4);
+}
+:root[data-theme="trans"] {
+  --accent: #f5a9b8; --muted: rgba(245,169,184,.45);
+  --glow: rgba(245,169,184,.22); --glow2: rgba(245,169,184,.08);
+  --border: rgba(245,169,184,.3); --anag-r: rgba(91,207,250,.5); --anag-c: rgba(245,169,184,.4);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { height: 100%; background: var(--bg); }
+body {
+  font-family: var(--font); font-size: 18px; line-height: 1.5;
+  color: var(--fg); height: 100%; overflow: hidden;
+  background:
+    radial-gradient(1100px 700px at 38% 28%, var(--glow), transparent 62%),
+    radial-gradient(800px 500px at 72% 72%, rgba(75,244,255,.05), transparent 58%),
+    var(--bg);
+}
+body::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 200;
+  background: repeating-linear-gradient(to bottom,
+    transparent 0px, transparent 3px,
+    rgba(0,0,0,var(--scan)) 3px, rgba(0,0,0,var(--scan)) 4px);
+}
+.tui-bar {
+  position: fixed; left: 0; right: 0; height: var(--bar-h);
+  background: rgba(5,7,10,.94); display: flex; align-items: center;
+  gap: .8ch; padding: 0 1ch; font-size: 13px; z-index: 100;
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  user-select: none;
+}
+.tui-top { top: 0; border-bottom: 1px solid var(--border); }
+.tui-bottom { bottom: 0; border-top: 1px solid var(--border); }
+.tui-mode { color: var(--bg); background: var(--accent); padding: 0 .6ch; font-size: 11px; letter-spacing: .1em; line-height: var(--bar-h); flex-shrink: 0; text-shadow: none; }
+.tui-title { color: var(--dim); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; letter-spacing: .04em; font-size: 13px; }
+.tui-nav { display: flex; gap: 1.2ch; flex-shrink: 0; align-items: center; }
+.tui-nav a { color: var(--dim); text-decoration: none; font-size: 12px; letter-spacing: .08em; transition: color .12s; }
+.tui-nav a:hover, .tui-nav a:focus-visible { color: var(--accent); outline: none; }
+.tui-nav a.active { color: var(--accent); }
+.tui-nav .nav-sep { color: var(--border); font-size: 10px; }
+.tui-leds { display: flex; gap: .5ch; flex-shrink: 0; align-items: center; font-size: 9px; }
+.led { line-height: 1; }
+.led-rec { color: #ff3333; animation: led-pulse 1.4s ease-in-out infinite; }
+.led-pwr { color: #33ff55; animation: led-pulse 3.1s ease-in-out infinite .6s; }
+.led-live { color: var(--accent); animation: led-pulse 2.3s ease-in-out infinite 1.2s; }
+@keyframes led-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+.status-mode { color: var(--accent); font-size: 12px; letter-spacing: .1em; flex-shrink: 0; }
+.status-reel { color: var(--muted); font-size: 11px; flex-shrink: 0; letter-spacing: -.01em; }
+.status-site { flex: 1; text-align: center; color: var(--dim); font-size: 12px; letter-spacing: .04em; }
+.status-hint { color: rgba(233,254,255,.30); font-size: 11px; flex-shrink: 0; }
+.tui-main {
+  position: fixed; top: var(--bar-h); bottom: var(--bar-h);
+  left: 0; right: 0; overflow-y: auto; overflow-x: hidden;
+  padding: 1rem 2ch 2rem; -webkit-overflow-scrolling: touch;
+}
+.tui-main:focus { outline: none; }
+.tui-main::-webkit-scrollbar { width: 3px; }
+.tui-main::-webkit-scrollbar-track { background: transparent; }
+.tui-main::-webkit-scrollbar-thumb { background: var(--border); }
+.inner { max-width: 72ch; margin: 0 auto; }
+.tui-rule { color: var(--border); font-size: 13px; white-space: pre; overflow: hidden; line-height: 1.2; margin: .5rem 0; user-select: none; letter-spacing: -.01em; }
+.section-label { color: var(--muted); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; margin: .7rem 0 .3rem; }
+.blink { color: var(--accent); animation: blink .85s step-end infinite; }
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+.sep { color: var(--border); }
+
+.about-section { margin-bottom: 1.4rem; }
+.about-h { color: var(--accent); font-size: 1rem; letter-spacing: .12em; text-transform: uppercase; margin-bottom: .5rem; }
+.about-body { font-size: 1rem; line-height: 1.75; color: var(--fg); }
+.about-body p { margin-bottom: .9rem; }
+.about-body p:last-child { margin-bottom: 0; }
+.about-body strong { color: var(--accent); }
+.about-body em { color: var(--dim); font-style: normal; }
+.about-body a { color: var(--accent); text-decoration: none; }
+.about-body a:hover { text-decoration: underline; }
+.about-body .muted { color: var(--dim); font-size: .9rem; }
+
+.contact-grid { display: grid; gap: .3rem; margin: .4rem 0 .7rem; }
+.contact-row { display: flex; gap: .8ch; align-items: baseline; font-size: .95rem; }
+.contact-label { color: var(--muted); min-width: 8ch; flex-shrink: 0; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+.contact-val { color: var(--accent); }
+.contact-val a { color: inherit; text-decoration: none; }
+.contact-val a:hover { text-decoration: underline; }
+
+.tier-table { display: grid; gap: 0; margin: .5rem 0 .8rem; border: 1px solid var(--border); }
+.tier-row-head { display: flex; gap: 0; background: rgba(75,244,255,.06); border-bottom: 1px solid var(--border); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.tier-row-head > span, .tier-entry > span { padding: .25rem .6ch; }
+.tier-entry { display: flex; gap: 0; border-bottom: 1px solid rgba(75,244,255,.08); font-size: .88rem; }
+.tier-entry:last-child { border-bottom: none; }
+.tier-entry:hover { background: rgba(75,244,255,.04); }
+.t-price { color: var(--accent); min-width: 5ch; flex-shrink: 0; }
+.t-name { color: var(--fg); min-width: 18ch; flex-shrink: 0; flex: 1; }
+.t-time { color: var(--muted); min-width: 8ch; flex-shrink: 0; font-size: .8rem; }
+.t-note { color: var(--dim); font-size: .8rem; flex: 1; }
+
+.bundle-grid { display: grid; gap: .5rem; margin: .5rem 0 .8rem; }
+.bundle-card { border: 1px solid var(--border); padding: .5rem .8ch; }
+.bundle-card:hover { border-color: var(--accent); }
+.bundle-name { color: var(--accent); font-size: .95rem; letter-spacing: .05em; }
+.bundle-price { color: var(--muted); font-size: .85rem; margin-bottom: .2rem; }
+.bundle-desc { color: var(--dim); font-size: .85rem; line-height: 1.5; }
+
+.project-grid { display: grid; gap: .4rem; margin: .5rem 0; }
+.project-row { display: flex; gap: 1ch; align-items: baseline; font-size: .93rem; border-bottom: 1px solid rgba(75,244,255,.07); padding-bottom: .3rem; }
+.project-row:last-child { border-bottom: none; }
+.project-name a { color: var(--accent); text-decoration: none; min-width: 14ch; display: inline-block; }
+.project-name a:hover { text-decoration: underline; }
+.project-desc { color: var(--dim); font-size: .88rem; line-height: 1.4; }
+
+.kofi-btn {
+  display: inline-block; color: var(--accent); text-decoration: none;
+  border: 1px solid var(--border); padding: .3rem 1.4ch; font-size: 1rem;
+  letter-spacing: .05em; margin: .3rem 0 .5rem;
+  transition: border-color .15s, box-shadow .15s;
+}
+.kofi-btn::before { content: '→ '; }
+.kofi-btn:hover, .kofi-btn:focus-visible { border-color: var(--accent); box-shadow: 0 0 16px var(--glow); outline: none; }
+.intake-note { color: var(--dim); font-size: .78rem; line-height: 1.5; }
+
+.tui-footer {
+  margin-top: .9rem; padding-top: .5rem;
+  border-top: 1px solid rgba(75,244,255,.10);
+  display: flex; gap: 1ch; align-items: center;
+  font-size: .82rem; color: var(--dim); flex-wrap: wrap;
+}
+.tui-footer a { color: var(--muted); text-decoration: none; transition: color .12s; }
+.tui-footer a:hover, .tui-footer a:focus-visible { color: var(--accent); outline: none; }
+
+.cmd-overlay {
+  position: fixed; bottom: var(--bar-h); left: 0; right: 0;
+  background: rgba(5,7,10,.97); border-top: 1px solid var(--border);
+  padding: 2px 1ch; font-size: 16px; color: var(--fg); z-index: 150;
+  display: flex; align-items: center;
+}
+.cmd-overlay[hidden] { display: none; }
+.cmd-colon { color: var(--accent); margin-right: .2ch; }
+.help-overlay {
+  position: fixed; top: var(--bar-h); right: 0;
+  width: min(280px, 92vw); background: rgba(5,7,10,.97);
+  border-left: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  padding: .7rem 1.2ch; font-size: 14px; z-index: 150;
+}
+.help-overlay[hidden] { display: none; }
+.help-title { color: var(--border); font-size: 12px; letter-spacing: .06em; margin-bottom: .4rem; }
+.help-row { display: flex; gap: 1.5ch; margin-bottom: .2rem; color: var(--dim); font-size: 13px; }
+.key { color: var(--accent); min-width: 10ch; flex-shrink: 0; }
+@media (prefers-reduced-motion: reduce) {
+  body::before { display: none; }
+  .led, .blink { animation: none !important; opacity: 1; }
+}
+@media (max-width: 480px) {
+  .status-hint { display: none; }
+  .tui-title { display: none; }
+  .t-time, .t-note { display: none; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="tui-bar tui-top" role="banner">
+  <span class="tui-mode">ABOUT</span>
+  <span class="tui-title">NO SLEEP CASSETTE · about</span>
+  <nav class="tui-nav" aria-label="Site navigation">
+    <a href="index.html">today</a>
+    <span class="nav-sep">·</span>
+    <a href="archive.html">archive</a>
+    <span class="nav-sep">·</span>
+    <a href="about.html" class="active" aria-current="page">about</a>
+  </nav>
+  <span class="tui-leds" aria-label="Status indicators" aria-hidden="true">
+    <span class="led led-rec" title="REC">●</span>
+    <span class="led led-pwr" title="PWR">●</span>
+    <span class="led led-live" title="LIVE">●</span>
+  </span>
+</div>
+
+<main class="tui-main" id="main" tabindex="0" aria-label="About">
+<div class="inner">
+
+  <div class="section-label">ABOUT · NO SLEEP CASSETTE</div>
+  <div class="tui-rule" aria-hidden="true">════════════════════════════════════════════════════════════════════════</div>
+
+  <!-- maps -->
+  <div class="about-section">
+    <div class="about-h">maps</div>
+    <div class="about-body">
+      <p>
+        maps is a tarot and I Ching reader based in san francisco. she's been reading
+        seriously for years — long enough that her decks are worn and her Wilhelm/Baynes
+        edition has a cracked spine. she works with the traditional systems without
+        softening them: tarot as a language for what's actually moving, I Ching as a
+        structural read on dynamics too large to see clearly from inside them.
+      </p>
+      <p>
+        she spent over a decade in youth development and social work before this.
+        that kind of work does something to a reader. you learn to say difficult
+        things directly, to hold complexity without collapsing it, and to know the
+        difference between what someone is asking and what they're actually asking.
+        those skills transfer.
+      </p>
+      <p>
+        she also builds things. <a href="https://github.com/nosleepcassette/augury" target="_blank" rel="noopener">augury</a>
+        — the terminal divination suite that runs this site's daily system — is hers.
+        she wrote it because the tools she needed didn't exist in a form she could
+        stand to use. that's a pattern.
+      </p>
+    </div>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- the site -->
+  <div class="about-section">
+    <div class="about-h">the site</div>
+    <div class="about-body">
+      <p>
+        three readings go up every day — single card at 7am, three-card spread at 9am,
+        I Ching synthesis at noon (PST). each reading is written fresh from the day's
+        draw. no templates, no canned interpretation.
+      </p>
+      <p>
+        the single card sets the day's undertone. the three-card spread — past, present,
+        future — runs that thread through time. the I Ching synthesis draws a hexagram
+        independently and gives the structural pattern underneath the tarot surface.
+        the three readings cross-reference; the day is one coherent thing read from
+        three angles.
+      </p>
+      <p class="muted">
+        daily readings are public and free. personal readings are commissioned below.
+      </p>
+    </div>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- readings -->
+  <div class="about-section">
+    <div class="about-h">readings — what's available</div>
+    <div class="about-body">
+      <p>readings are designed to be combined. pick what fits — or start with a tier.</p>
+    </div>
+
+    <div class="section-label" style="margin-top:.7rem;">core tiers</div>
+    <div class="bundle-grid">
+      <div class="bundle-card">
+        <div class="bundle-name">tier 1 · the quick hit — <strong>$5</strong></div>
+        <div class="bundle-price">turnaround: 15 minutes</div>
+        <div class="bundle-desc">
+          current sky snapshot (top 3 transits) + your choice of single tarot card or single hexagram cast.
+          one paragraph synthesis. fast, direct, grounded in what's actually in the sky right now.
+        </div>
+      </div>
+      <div class="bundle-card">
+        <div class="bundle-name">tier 2 · the deep dive — <strong>$12</strong></div>
+        <div class="bundle-price">turnaround: 1 hour</div>
+        <div class="bundle-desc">
+          natal chart essentials (sun, moon, ascendant, venus, mars) + top 5 current transits +
+          your choice of 3-card tarot spread or I Ching full cast with changing lines.
+          1-page synthesis with actionable guidance for your question.
+          add-ons: +$5 full natal table · +$5 I Ching + tarot combo · +$3 PDF delivery.
+        </div>
+      </div>
+      <div class="bundle-card">
+        <div class="bundle-name">tier 3 · the oracle report — <strong>$25</strong></div>
+        <div class="bundle-price">turnaround: 24 hours · PDF included</div>
+        <div class="bundle-desc">
+          full natal table (all planets, houses, degrees, retrogrades) + top 10 current transits +
+          celtic cross (10 cards) + I Ching full cast with relating hexagram + monthly forecast.
+          3–5 page comprehensive report. this is the flagship — a real life audit.
+          add-ons: +$10 weekly transit breakdown · +$15 yearly overview.
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label" style="margin-top:.8rem;">bundle deals</div>
+    <div class="bundle-grid">
+      <div class="bundle-card">
+        <div class="bundle-name">new client special — <strong>$10</strong> <em style="color:var(--muted);font-size:.8rem;">(reg. $17)</em></div>
+        <div class="bundle-desc">deep dive with full natal table included. strong introduction to your chart and where you are right now.</div>
+      </div>
+      <div class="bundle-card">
+        <div class="bundle-name">crisis support — <strong>$30</strong> <em style="color:var(--muted);font-size:.8rem;">(reg. $36)</em></div>
+        <div class="bundle-desc">three deep dive readings in one week, three different questions, 4-hour turnaround. for when things are actually a lot.</div>
+      </div>
+      <div class="bundle-card">
+        <div class="bundle-name">polycule / relationship special — <strong>$25</strong> <em style="color:var(--muted);font-size:.8rem;">(reg. $35)</em></div>
+        <div class="bundle-desc">natal chart analyses for two people + joint divination reading. non-hierarchical relationship dynamics fully supported. additional charts $10 each.</div>
+      </div>
+      <div class="bundle-card">
+        <div class="bundle-name">saturn return special — <strong>$30</strong></div>
+        <div class="bundle-desc">deep dive into your saturn return window — natal saturn placement, exact conjunction dates, what's being restructured, what's being built. for ages ~29–30 or ~58–60.</div>
+      </div>
+    </div>
+
+    <div class="section-label" style="margin-top:.8rem;">à la carte</div>
+    <div class="tier-table" role="table" aria-label="Individual services">
+      <div class="tier-row-head" role="row">
+        <span class="t-price" role="columnheader">price</span>
+        <span class="t-name" role="columnheader">service</span>
+        <span class="t-time" role="columnheader">type</span>
+      </div>
+      <div class="tier-entry" role="row"><span class="t-price">$5</span><span class="t-name">current sky snapshot</span><span class="t-time">astrology</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$12</span><span class="t-name">natal chart essentials</span><span class="t-time">astrology</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$25</span><span class="t-name">full natal chart table</span><span class="t-time">astrology</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$5</span><span class="t-name">weekly pulse</span><span class="t-time">astrology</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$10</span><span class="t-name">monthly horizon</span><span class="t-time">astrology</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$20</span><span class="t-name">yearly overview</span><span class="t-time">astrology</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$5</span><span class="t-name">single card</span><span class="t-time">tarot</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$8</span><span class="t-name">three card · elemental cross · yes/no</span><span class="t-time">tarot</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$11</span><span class="t-name">relationship · career · celtic cross</span><span class="t-time">tarot</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$5</span><span class="t-name">single hexagram</span><span class="t-time">I Ching</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$8</span><span class="t-name">full cast (primary + relating + changing lines)</span><span class="t-time">I Ching</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$10</span><span class="t-name">dual question cast</span><span class="t-time">I Ching</span></div>
+      <div class="tier-entry" role="row"><span class="t-price">$13</span><span class="t-name">monthly I Ching (3 hexagrams)</span><span class="t-time">I Ching</span></div>
+    </div>
+
+    <p class="about-body muted" style="margin-top:.5rem;">
+      prices negotiable. we're all struggling. open to trades.
+      birth date, time, and place needed for natal/transit work.
+    </p>
+
+    <a class="kofi-btn" href="https://ko-fi.com/nosleepcassette" target="_blank" rel="noopener">book at ko-fi.com/nosleepcassette</a>
+    <p class="intake-note">include birth date · time · place + question at checkout. delivered via email.</p>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- contact -->
+  <div class="about-section">
+    <div class="about-h">contact</div>
+    <div class="contact-grid">
+      <div class="contact-row">
+        <span class="contact-label">email</span>
+        <span class="contact-val"><a href="mailto:bitch@cassette.help">bitch@cassette.help</a></span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">discord</span>
+        <span class="contact-val">modest.maoist</span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">twitter/x</span>
+        <span class="contact-val"><a href="https://x.com/m0destma0ist" target="_blank" rel="noopener">@m0destma0ist</a></span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">ko-fi</span>
+        <span class="contact-val"><a href="https://ko-fi.com/nosleepcassette" target="_blank" rel="noopener">ko-fi.com/nosleepcassette</a></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- projects -->
+  <div class="about-section">
+    <div class="about-h">projects</div>
+    <div class="about-body">
+      <p>other things maps has built:</p>
+    </div>
+    <div class="project-grid">
+      <div class="project-row">
+        <span class="project-name"><a href="https://github.com/nosleepcassette/augury" target="_blank" rel="noopener">augury</a></span>
+        <span class="project-desc">terminal divination suite — keyboard-driven TUI, scriptable CLI, full tarot and I Ching systems with the complete Wilhelm/Baynes corpus. draws this site's daily readings. pip-installable.</span>
+      </div>
+      <div class="project-row">
+        <span class="project-name"><a href="https://github.com/nosleepcassette/cartographer" target="_blank" rel="noopener">cartographer</a></span>
+        <span class="project-desc">knowledge graph for plain markdown notes. wire anything to anything with semantic predicates — supports, depends on, contradicts, relates to goal — and query the graph by structure and by feeling. nothing trapped in an app. git-native, fully local.</span>
+      </div>
+      <div class="project-row">
+        <span class="project-name"><a href="https://github.com/nosleepcassette/wireweaver" target="_blank" rel="noopener">wireweaver</a></span>
+        <span class="project-desc">breadboard and schematic diagram generator from declarative JSON. A* pathfinding wire routing with collision avoidance. the same config generates both physical (fritzing-style) and logical (IEEE) views. built for a deranged art project.</span>
+      </div>
+      <div class="project-row">
+        <span class="project-name"><a href="https://github.com/nosleepcassette/mapsOS" target="_blank" rel="noopener">mapsOS</a></span>
+        <span class="project-desc">personal OS configuration and tooling. the environment she builds everything else in.</span>
+      </div>
+    </div>
+    <div class="about-body" style="margin-top:.6rem;">
+      <p><a href="https://github.com/nosleepcassette" target="_blank" rel="noopener">github.com/nosleepcassette</a></p>
+    </div>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">════════════════════════════════════════════════════════════════════════</div>
+
+  <footer class="tui-footer" role="contentinfo">
+    <a href="index.html">today</a>
+    <span class="sep">·</span>
+    <a href="archive.html">archive</a>
+    <span class="sep">·</span>
+    <a href="https://github.com/nosleepcassette" target="_blank" rel="noopener">github</a>
+    <span class="sep">·</span>
+    <a href="https://ko-fi.com/nosleepcassette" target="_blank" rel="noopener">ko-fi</a>
+    <span class="sep">·</span>
+    <span>maps · cassette.help · SF</span>
+  </footer>
+
+</div>
+</main>
+
+<div class="tui-bar tui-bottom" role="status" aria-label="Status bar">
+  <span class="status-mode">[ABOUT]</span>
+  <span class="status-reel" aria-hidden="true" id="status-reel">⣷⣿</span>
+  <span class="status-site">cassette.help/about</span>
+  <span class="status-hint">? help &nbsp;· &nbsp;: cmd</span>
+</div>
+
+<div class="cmd-overlay" id="cmd-overlay" hidden role="dialog" aria-modal="true" aria-label="Command input">
+  <span class="cmd-colon">:</span><span id="cmd-input"></span><span class="blink" aria-hidden="true">▋</span>
+</div>
+
+<div class="help-overlay" id="help-overlay" hidden role="dialog" aria-modal="true" aria-label="Keyboard shortcuts">
+  <div class="help-title">── KEYS ───────────────────────</div>
+  <div class="help-row"><span class="key">j / ↓</span> scroll down</div>
+  <div class="help-row"><span class="key">k / ↑</span> scroll up</div>
+  <div class="help-row"><span class="key">?</span> toggle this panel</div>
+  <div class="help-row"><span class="key">:</span> command mode</div>
+  <div class="help-row"><span class="key">Esc</span> close</div>
+  <div class="help-title" style="margin-top:.6em">── COMMANDS ───────────────────</div>
+  <div class="help-row"><span class="key">:today</span> → today</div>
+  <div class="help-row"><span class="key">:archive</span> → archive</div>
+  <div class="help-row"><span class="key">:kofi</span> → ko-fi</div>
+  <div class="help-row"><span class="key">:theme cyan</span> default theme</div>
+  <div class="help-row"><span class="key">:theme amber</span> amber CRT</div>
+  <div class="help-row"><span class="key">:theme green</span> phosphor green</div>
+  <div class="help-row"><span class="key">:theme trans</span> trans pride</div>
+  <div class="help-row"><span class="key">:q</span> close</div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  // Theme
+  var savedTheme = localStorage.getItem('nsc-theme') || 'cyan';
+  if (savedTheme !== 'cyan') document.documentElement.setAttribute('data-theme', savedTheme);
+
+  var STATUS_FRAMES = ['\u28F7\u28FF','\u28F6\u28FF','\u28E7\u28FF','\u28F7\u28FF'];
+  var frame = 0;
+  var $ = function (id) { return document.getElementById(id); };
+  setInterval(function () {
+    frame = (frame + 1) % 4;
+    var sr = $('status-reel'); if (sr) sr.textContent = STATUS_FRAMES[frame];
+  }, 175);
+
+  var main = $('main');
+  var helpPanel = $('help-overlay');
+  var cmdOverlay = $('cmd-overlay');
+  var cmdSpan = $('cmd-input');
+  var mode = 'normal';
+  var cmdBuf = '';
+
+  function setTheme(t) {
+    var valid = ['cyan','amber','green','trans'];
+    if (valid.indexOf(t) === -1) return;
+    localStorage.setItem('nsc-theme', t);
+    if (t === 'cyan') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', t);
+  }
+
+  function openCmd() { cmdBuf = ''; if (cmdSpan) cmdSpan.textContent = ''; if (cmdOverlay) cmdOverlay.hidden = false; if (helpPanel) helpPanel.hidden = true; mode = 'command'; }
+  function closeCmd() { if (cmdOverlay) cmdOverlay.hidden = true; cmdBuf = ''; if (cmdSpan) cmdSpan.textContent = ''; mode = 'normal'; }
+
+  function execCmd(raw) {
+    var cmd = raw.trim().toLowerCase();
+    if (cmd === 'today') { window.location.href = 'index.html'; return; }
+    if (cmd === 'archive') { window.location.href = 'archive.html'; return; }
+    if (cmd === 'kofi') { window.open('https://ko-fi.com/nosleepcassette', '_blank', 'noopener'); }
+    else if (cmd === 'help') { if (helpPanel) helpPanel.hidden = false; }
+    else if (cmd.startsWith('theme ')) { setTheme(cmd.slice(6).trim()); }
+    closeCmd();
+  }
+
+  document.addEventListener('keydown', function(e) {
+    var tag = (document.activeElement || {}).tagName || '';
+    if (tag === 'A' || tag === 'BUTTON' || tag === 'INPUT' || tag === 'TEXTAREA') return;
+    if (mode === 'command') {
+      e.preventDefault();
+      if (e.key === 'Escape') { closeCmd(); return; }
+      if (e.key === 'Enter') { execCmd(cmdBuf); return; }
+      if (e.key === 'Backspace') { cmdBuf = cmdBuf.slice(0, -1); if (cmdSpan) cmdSpan.textContent = cmdBuf; return; }
+      if (e.key.length === 1) { cmdBuf += e.key; if (cmdSpan) cmdSpan.textContent = cmdBuf; }
+      return;
+    }
+    switch (e.key) {
+      case 'j': case 'ArrowDown': e.preventDefault(); if (main) main.scrollBy({ top: 64, behavior: 'smooth' }); break;
+      case 'k': case 'ArrowUp': e.preventDefault(); if (main) main.scrollBy({ top: -64, behavior: 'smooth' }); break;
+      case ':': e.preventDefault(); openCmd(); break;
+      case '?': e.preventDefault(); if (helpPanel) helpPanel.hidden = !helpPanel.hidden; break;
+      case 'Escape': if (helpPanel) helpPanel.hidden = true; closeCmd(); break;
+    }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (helpPanel && !helpPanel.hidden && !helpPanel.contains(e.target)) helpPanel.hidden = true;
+    if (cmdOverlay && !cmdOverlay.hidden && !cmdOverlay.contains(e.target)) closeCmd();
+  });
+
+  if (main) main.focus();
+}());
+</script>
+</body>
+</html>

@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Archive of daily oracle readings by maps. Browse past tarot, I Ching, and astrology readings.">
+<meta property="og:title" content="NO SLEEP CASSETTE · archive">
+<meta property="og:description" content="Daily oracle readings — tarot, I Ching, astrology. Browse the full archive.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#05070a">
+<title>NO SLEEP CASSETTE · archive</title>
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%2305070a'/><rect x='10' y='20' width='80' height='60' rx='6' fill='none' stroke='%234bf4ff' stroke-width='4'/><circle cx='35' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><circle cx='65' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><line x1='47' y1='50' x2='53' y2='50' stroke='%234bf4ff' stroke-width='2'/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #05070a; --fg: #e9feff; --dim: rgba(233,254,255,.65);
+  --accent: #4bf4ff; --muted: rgba(75,244,255,.45);
+  --glow: rgba(75,244,255,.22); --glow2: rgba(75,244,255,.08);
+  --border: rgba(75,244,255,.25);
+  --anag-r: rgba(250,74,51,.62); --anag-c: rgba(71,184,184,.42);
+  --scan: .065; --bar-h: 22px; --font: 'VT323', 'Courier New', monospace;
+}
+:root[data-theme="amber"] {
+  --accent: #ffb000; --muted: rgba(255,176,0,.45);
+  --glow: rgba(255,176,0,.22); --glow2: rgba(255,176,0,.08);
+  --border: rgba(255,176,0,.25); --anag-r: rgba(255,60,0,.5); --anag-c: rgba(200,140,0,.4);
+}
+:root[data-theme="green"] {
+  --accent: #39ff14; --muted: rgba(57,255,20,.45);
+  --glow: rgba(57,255,20,.22); --glow2: rgba(57,255,20,.08);
+  --border: rgba(57,255,20,.25); --anag-r: rgba(0,200,60,.5); --anag-c: rgba(100,255,50,.4);
+}
+:root[data-theme="trans"] {
+  --accent: #f5a9b8; --muted: rgba(245,169,184,.45);
+  --glow: rgba(245,169,184,.22); --glow2: rgba(245,169,184,.08);
+  --border: rgba(245,169,184,.3); --anag-r: rgba(91,207,250,.5); --anag-c: rgba(245,169,184,.4);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { height: 100%; background: var(--bg); }
+body {
+  font-family: var(--font); font-size: 18px; line-height: 1.5;
+  color: var(--fg); height: 100%; overflow: hidden;
+  background:
+    radial-gradient(1100px 700px at 38% 28%, var(--glow), transparent 62%),
+    radial-gradient(800px 500px at 72% 72%, rgba(75,244,255,.05), transparent 58%),
+    var(--bg);
+}
+body::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 200;
+  background: repeating-linear-gradient(to bottom,
+    transparent 0px, transparent 3px,
+    rgba(0,0,0,var(--scan)) 3px, rgba(0,0,0,var(--scan)) 4px);
+}
+.tui-bar {
+  position: fixed; left: 0; right: 0; height: var(--bar-h);
+  background: rgba(5,7,10,.94); display: flex; align-items: center;
+  gap: .8ch; padding: 0 1ch; font-size: 13px; z-index: 100;
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  user-select: none;
+}
+.tui-top { top: 0; border-bottom: 1px solid var(--border); }
+.tui-bottom { bottom: 0; border-top: 1px solid var(--border); }
+.tui-mode { color: var(--bg); background: var(--accent); padding: 0 .6ch; font-size: 11px; letter-spacing: .1em; line-height: var(--bar-h); flex-shrink: 0; text-shadow: none; }
+.tui-title { color: var(--dim); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; letter-spacing: .04em; font-size: 13px; }
+.tui-nav { display: flex; gap: 1.2ch; flex-shrink: 0; align-items: center; }
+.tui-nav a { color: var(--dim); text-decoration: none; font-size: 12px; letter-spacing: .08em; transition: color .12s; }
+.tui-nav a:hover, .tui-nav a:focus-visible { color: var(--accent); outline: none; }
+.tui-nav a.active { color: var(--accent); }
+.tui-nav .nav-sep { color: var(--border); font-size: 10px; }
+.tui-leds { display: flex; gap: .5ch; flex-shrink: 0; align-items: center; font-size: 9px; }
+.led { line-height: 1; }
+.led-rec { color: #ff3333; animation: led-pulse 1.4s ease-in-out infinite; }
+.led-pwr { color: #33ff55; animation: led-pulse 3.1s ease-in-out infinite .6s; }
+.led-live { color: var(--accent); animation: led-pulse 2.3s ease-in-out infinite 1.2s; }
+@keyframes led-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+.status-mode { color: var(--accent); font-size: 12px; letter-spacing: .1em; flex-shrink: 0; }
+.status-reel { color: var(--muted); font-size: 11px; flex-shrink: 0; letter-spacing: -.01em; }
+.status-site { flex: 1; text-align: center; color: var(--dim); font-size: 12px; letter-spacing: .04em; }
+.status-hint { color: rgba(233,254,255,.30); font-size: 11px; flex-shrink: 0; }
+.tui-main {
+  position: fixed; top: var(--bar-h); bottom: var(--bar-h);
+  left: 0; right: 0; overflow-y: auto; overflow-x: hidden;
+  padding: 1rem 2ch 2rem; -webkit-overflow-scrolling: touch;
+}
+.tui-main:focus { outline: none; }
+.tui-main::-webkit-scrollbar { width: 3px; }
+.tui-main::-webkit-scrollbar-track { background: transparent; }
+.tui-main::-webkit-scrollbar-thumb { background: var(--border); }
+.inner { max-width: 72ch; margin: 0 auto; }
+.blink { color: var(--accent); animation: blink .85s step-end infinite; }
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+.tui-rule { color: var(--border); font-size: 13px; white-space: pre; overflow: hidden; line-height: 1.2; margin: .5rem 0; user-select: none; letter-spacing: -.01em; }
+.section-label { color: var(--muted); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; margin: .7rem 0 .3rem; }
+.sep { color: var(--border); }
+
+/* Archive-specific */
+.archive-status { color: var(--muted); font-size: .85rem; margin-bottom: 1rem; }
+.date-list { display: grid; gap: .15rem; }
+.date-entry {
+  display: flex; align-items: baseline; gap: 1ch;
+  padding: .25rem 0; border-bottom: 1px solid rgba(75,244,255,.06);
+  cursor: pointer; transition: background .1s;
+}
+.date-entry:hover { background: rgba(75,244,255,.04); }
+.date-entry.loading { opacity: .5; cursor: default; }
+.date-key { color: var(--accent); font-size: 13px; letter-spacing: .08em; flex-shrink: 0; min-width: 11ch; }
+.date-cards { color: var(--dim); font-size: .9rem; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.date-count { color: var(--muted); font-size: 11px; flex-shrink: 0; letter-spacing: .06em; }
+
+/* Reading viewer */
+.viewer { display: none; }
+.viewer.open { display: block; }
+.viewer-header { display: flex; align-items: baseline; gap: 1ch; margin-bottom: .5rem; }
+.viewer-date { color: var(--muted); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+.viewer-back {
+  color: var(--accent); font-size: 13px; text-decoration: none;
+  cursor: pointer; letter-spacing: .06em;
+}
+.viewer-back:hover { text-decoration: underline; }
+.reading-slot { margin-bottom: 1.2rem; }
+.slot-header { display: flex; align-items: baseline; gap: .8ch; margin-bottom: .3rem; }
+.slot-time { color: var(--accent); font-size: 13px; letter-spacing: .1em; flex-shrink: 0; }
+.slot-title { color: var(--dim); font-size: 13px; letter-spacing: .12em; text-transform: uppercase; }
+.card-name {
+  position: relative; display: inline-block;
+  font-size: clamp(1.3rem, 3.2vw, 1.8rem); color: var(--accent);
+  text-shadow: 0 0 18px var(--glow); text-transform: uppercase;
+  letter-spacing: .07em; line-height: 1.1; margin: .2rem 0 .5rem;
+}
+.card-name::before { content: attr(data-text); position: absolute; left: -3px; top: -1px; color: var(--anag-r); pointer-events: none; user-select: none; }
+.card-name::after { content: attr(data-text); position: absolute; left: 3px; top: 1px; color: var(--anag-c); pointer-events: none; user-select: none; }
+.reading-body { font-size: 1rem; line-height: 1.72; color: var(--fg); }
+.reading-body p { margin-bottom: 1rem; }
+.reading-body p:last-child { margin-bottom: 0; }
+.reading-body strong { color: var(--accent); }
+.reading-body em { color: var(--dim); font-style: normal; }
+.reading-body hr { border: none; border-top: 1px solid rgba(75,244,255,.10); margin: 1rem 0; }
+.reading-body h3 { color: var(--muted); font-size: 12px; letter-spacing: .15em; text-transform: uppercase; margin: 1rem 0 .3rem; }
+.reading-body ul { padding-left: 1.5ch; margin-bottom: 1rem; }
+.reading-body li { margin-bottom: .3rem; }
+.slot-missing { color: var(--muted); font-size: .85rem; font-style: italic; padding: .2rem 0; }
+
+.tui-footer {
+  margin-top: .9rem; padding-top: .5rem;
+  border-top: 1px solid rgba(75,244,255,.10);
+  display: flex; gap: 1ch; align-items: center;
+  font-size: .82rem; color: var(--dim); flex-wrap: wrap;
+}
+.tui-footer a { color: var(--muted); text-decoration: none; transition: color .12s; }
+.tui-footer a:hover, .tui-footer a:focus-visible { color: var(--accent); outline: none; }
+.cmd-overlay {
+  position: fixed; bottom: var(--bar-h); left: 0; right: 0;
+  background: rgba(5,7,10,.97); border-top: 1px solid var(--border);
+  padding: 2px 1ch; font-size: 16px; color: var(--fg); z-index: 150;
+  display: flex; align-items: center;
+}
+.cmd-overlay[hidden] { display: none; }
+.cmd-colon { color: var(--accent); margin-right: .2ch; }
+.help-overlay {
+  position: fixed; top: var(--bar-h); right: 0;
+  width: min(260px, 92vw); background: rgba(5,7,10,.97);
+  border-left: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  padding: .7rem 1.2ch; font-size: 14px; z-index: 150;
+}
+.help-overlay[hidden] { display: none; }
+.help-title { color: var(--border); font-size: 12px; letter-spacing: .06em; margin-bottom: .4rem; }
+.help-row { display: flex; gap: 1.5ch; margin-bottom: .2rem; color: var(--dim); font-size: 13px; }
+.key { color: var(--accent); min-width: 8ch; flex-shrink: 0; }
+@media (prefers-reduced-motion: reduce) {
+  body::before { display: none; }
+  .led, .blink { animation: none !important; opacity: 1; }
+}
+@media (max-width: 480px) {
+  .status-hint { display: none; }
+  .tui-title { display: none; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="tui-bar tui-top" role="banner">
+  <span class="tui-mode">ARCHIVE</span>
+  <span class="tui-title">NO SLEEP CASSETTE · archive</span>
+  <nav class="tui-nav" aria-label="Site navigation">
+    <a href="index.html">today</a>
+    <span class="nav-sep">·</span>
+    <a href="archive.html" class="active" aria-current="page">archive</a>
+    <span class="nav-sep">·</span>
+    <a href="about.html">about</a>
+  </nav>
+  <span class="tui-leds" aria-label="Status indicators" aria-hidden="true">
+    <span class="led led-rec" title="REC">●</span>
+    <span class="led led-pwr" title="PWR">●</span>
+    <span class="led led-live" title="LIVE">●</span>
+  </span>
+</div>
+
+<main class="tui-main" id="main" tabindex="0" aria-label="Archive">
+<div class="inner">
+
+  <div class="section-label">ARCHIVE · PAST READINGS</div>
+  <div class="tui-rule" aria-hidden="true">════════════════════════════════════════════════════════════════════════</div>
+
+  <!-- Date list view -->
+  <div id="list-view">
+    <div class="archive-status" id="archive-status">loading archive<span class="blink" aria-hidden="true">▋</span></div>
+    <div class="search-wrap" id="search-wrap" style="display:none;margin-bottom:.6rem">
+      <span style="color:var(--muted);font-size:12px;letter-spacing:.1em">/</span>
+      <input type="search" id="search-input" placeholder="filter by card or date…"
+        autocomplete="off" spellcheck="false"
+        style="background:none;border:none;border-bottom:1px solid var(--border);color:var(--fg);font:inherit;font-size:14px;padding:.15rem .4ch;width:32ch;outline:none;letter-spacing:.02em"
+        aria-label="Filter readings by card name or date">
+    </div>
+    <div class="date-list" id="date-list" role="list" aria-label="Available dates"></div>
+  </div>
+
+  <!-- Reading viewer (shown when a date is selected) -->
+  <div class="viewer" id="viewer">
+    <div class="viewer-header">
+      <span class="viewer-back" id="viewer-back" tabindex="0" role="button" aria-label="Back to list">← back</span>
+      <span class="viewer-date" id="viewer-date"></span>
+    </div>
+    <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+    <section class="reading-slot" id="v-slot-single-card" aria-label="Single card">
+      <div class="slot-header">
+        <span class="slot-time">7AM</span>
+        <span class="slot-title">THE SINGLE CARD</span>
+      </div>
+      <div class="card-name" id="v-card-single-card" data-text="—">—</div>
+      <div class="reading-body" id="v-body-single-card"></div>
+    </section>
+
+    <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+    <section class="reading-slot" id="v-slot-three-card" aria-label="Three card spread">
+      <div class="slot-header">
+        <span class="slot-time">9AM</span>
+        <span class="slot-title">THE THREE CARD SPREAD</span>
+      </div>
+      <div class="card-name" id="v-card-three-card" data-text="—">—</div>
+      <div class="reading-body" id="v-body-three-card"></div>
+    </section>
+
+    <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+    <section class="reading-slot" id="v-slot-iching" aria-label="I Ching synthesis">
+      <div class="slot-header">
+        <span class="slot-time">12PM</span>
+        <span class="slot-title">THE SYNTHESIS</span>
+      </div>
+      <div class="card-name" id="v-card-iching" data-text="—">—</div>
+      <div class="reading-body" id="v-body-iching"></div>
+    </section>
+  </div>
+
+  <footer class="tui-footer" role="contentinfo">
+    <a href="index.html">today</a>
+    <span class="sep">·</span>
+    <a href="about.html">about</a>
+    <span class="sep">·</span>
+    <a href="https://ko-fi.com/nosleepcassette" target="_blank" rel="noopener">ko-fi</a>
+    <span class="sep">·</span>
+    <span>maps · cassette.help · SF</span>
+  </footer>
+
+</div>
+</main>
+
+<div class="tui-bar tui-bottom" role="status" aria-label="Status bar">
+  <span class="status-mode">[ARCHIVE]</span>
+  <span class="status-reel" aria-hidden="true" id="status-reel">⣷⣿</span>
+  <span class="status-site">cassette.help/archive</span>
+  <span class="status-hint">? help &nbsp;· &nbsp;: cmd</span>
+</div>
+
+<div class="cmd-overlay" id="cmd-overlay" hidden role="dialog" aria-modal="true" aria-label="Command input">
+  <span class="cmd-colon">:</span><span id="cmd-input"></span><span class="blink" aria-hidden="true">▋</span>
+</div>
+
+<div class="help-overlay" id="help-overlay" hidden role="dialog" aria-modal="true" aria-label="Keyboard shortcuts">
+  <div class="help-title">── KEYS ───────────────────────</div>
+  <div class="help-row"><span class="key">j / ↓</span> scroll down</div>
+  <div class="help-row"><span class="key">k / ↑</span> scroll up</div>
+  <div class="help-row"><span class="key">?</span> toggle this panel</div>
+  <div class="help-row"><span class="key">:</span> command mode</div>
+  <div class="help-row"><span class="key">Esc</span> close / back</div>
+  <div class="help-title" style="margin-top:.6em">── COMMANDS ───────────────────</div>
+  <div class="help-row"><span class="key">:today</span> → today</div>
+  <div class="help-row"><span class="key">:about</span> → about</div>
+  <div class="help-row"><span class="key">:kofi</span> → ko-fi</div>
+  <div class="help-row"><span class="key">:theme cyan</span> default</div>
+  <div class="help-row"><span class="key">:theme amber</span> CRT amber</div>
+  <div class="help-row"><span class="key">:theme green</span> phosphor</div>
+  <div class="help-row"><span class="key">:theme trans</span> pride</div>
+  <div class="help-row"><span class="key">:q</span> close</div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var STATUS_FRAMES = ['\u28F7\u28FF','\u28F6\u28FF','\u28E7\u28FF','\u28F7\u28FF'];
+  var frame = 0;
+  var $ = function (id) { return document.getElementById(id); };
+
+  setInterval(function () {
+    frame = (frame + 1) % 4;
+    var sr = $('status-reel'); if (sr) sr.textContent = STATUS_FRAMES[frame];
+  }, 175);
+
+  // Theme
+  (function () {
+    var saved = localStorage.getItem('nsc-theme') || 'cyan';
+    if (saved !== 'cyan') document.documentElement.setAttribute('data-theme', saved);
+  })();
+
+  function setTheme(t) {
+    var valid = ['cyan', 'amber', 'green', 'trans'];
+    if (valid.indexOf(t) === -1) return;
+    localStorage.setItem('nsc-theme', t);
+    if (t === 'cyan') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', t);
+  }
+
+  function inlineFormat(text) {
+    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return text;
+  }
+
+  function mdToHtml(md) {
+    var lines = md.split('\n'), html = [], inList = false, inParagraph = false;
+    function closeList() { if (inList) { html.push('</ul>'); inList = false; } }
+    function closeParagraph() { if (inParagraph) { html.push('</p>'); inParagraph = false; } }
+    for (var i = 0; i < lines.length; i++) {
+      var t = lines[i].trim();
+      if (t === '---') { closeList(); closeParagraph(); html.push('<hr>'); continue; }
+      var hm = t.match(/^#{2,3}\s+(.+)/);
+      if (hm) { closeList(); closeParagraph(); html.push('<h3>' + inlineFormat(hm[1]) + '</h3>'); continue; }
+      if (t.indexOf('- ') === 0) {
+        closeParagraph();
+        if (!inList) { html.push('<ul>'); inList = true; }
+        html.push('<li>' + inlineFormat(t.slice(2)) + '</li>'); continue;
+      }
+      if (t === '') { closeList(); closeParagraph(); continue; }
+      closeList();
+      if (!inParagraph) { html.push('<p>' + inlineFormat(t)); inParagraph = true; }
+      else html.push('<br>' + inlineFormat(t));
+    }
+    closeList(); closeParagraph();
+    return html.join('\n');
+  }
+
+  function extractCardName(md, key) {
+    if (key === 'iching-integration') {
+      var hx = md.match(/##\s+hexagram\s+\d+:\s+(.+)/i);
+      if (hx) return hx[1].toUpperCase();
+    }
+    if (key === 'three-card') {
+      var all = [], re = /\*\*([^*]+)\*\*/g, m;
+      while ((m = re.exec(md)) !== null) { all.push(m[1]); if (all.length >= 3) break; }
+      if (all.length >= 3) return all.map(function(n) { return n.toUpperCase(); }).join(' · ');
+    }
+    var bm = md.match(/\*\*([^*]+)\*\*/);
+    return bm ? bm[1].toUpperCase() : '';
+  }
+
+  var allEntries = [];
+  var statusEl = $('archive-status');
+  var listEl = $('date-list');
+  var searchWrap = $('search-wrap');
+  var searchInput = $('search-input');
+
+  function formatDateDisplay(str) {
+    var parts = str.split('-');
+    var d = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+    return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toLowerCase();
+  }
+
+  function makeRow(entry) {
+    var row = document.createElement('div');
+    row.className = 'date-entry';
+    row.setAttribute('role', 'listitem');
+    row.setAttribute('tabindex', '0');
+    row.setAttribute('data-date', entry.date);
+    var cardLabel = entry.cards ? entry.cards.join(' · ') : 'reading available';
+    row.setAttribute('aria-label', formatDateDisplay(entry.date) + ', ' + entry.count + ' readings');
+    row.innerHTML =
+      '<span class="date-key">' + entry.date + '</span>' +
+      '<span class="date-cards">' + cardLabel + '</span>' +
+      '<span class="date-count">' + entry.count + '/3</span>';
+    row.addEventListener('click', function() { openDate(entry.date); });
+    row.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDate(entry.date); } });
+    return row;
+  }
+
+  function renderList(filter) {
+    var q = (filter || '').toLowerCase().trim();
+    var shown = allEntries.filter(function(e) {
+      if (!q) return true;
+      if (e.date.indexOf(q) !== -1) return true;
+      if (e.searchText && e.searchText.indexOf(q) !== -1) return true;
+      return false;
+    });
+    listEl.innerHTML = '';
+    shown.forEach(function(entry) { listEl.appendChild(makeRow(entry)); });
+    if (statusEl) {
+      if (q) statusEl.textContent = shown.length + ' match' + (shown.length === 1 ? '' : 'es');
+      else statusEl.textContent = allEntries.length + ' day' + (allEntries.length === 1 ? '' : 's') + ' in the archive';
+    }
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { renderList(searchInput.value); });
+    // Prevent vim keys from scrolling when search is focused
+    searchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') { searchInput.blur(); searchInput.value = ''; renderList(''); }
+      e.stopPropagation();
+    });
+  }
+
+  // Load manifest
+  fetch('./readings/index.json')
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .then(function(manifest) {
+      if (!manifest || !manifest.dates) {
+        if (statusEl) statusEl.textContent = 'no archived readings found';
+        return;
+      }
+      var dates = Object.keys(manifest.dates).sort(function(a, b) { return b > a ? 1 : -1; });
+      dates.forEach(function(date) {
+        var d = manifest.dates[date];
+        var cards = [];
+        var count = 0;
+        ['single-card', 'three-card', 'iching-integration'].forEach(function(k) {
+          if (d[k]) { count++; cards.push(d[k]); }
+        });
+        allEntries.push({
+          date: date,
+          count: count,
+          cards: cards,
+          searchText: (date + ' ' + cards.join(' ')).toLowerCase()
+        });
+      });
+      if (statusEl) statusEl.textContent = allEntries.length + ' day' + (allEntries.length === 1 ? '' : 's') + ' in the archive';
+      if (searchWrap && allEntries.length > 0) searchWrap.style.display = '';
+      renderList('');
+    })
+    .catch(function() {
+      if (statusEl) statusEl.textContent = 'no archived readings found';
+    });
+
+  // Reading viewer
+  var listView = $('list-view');
+  var viewer = $('viewer');
+  var viewerDate = $('viewer-date');
+  var viewerBack = $('viewer-back');
+
+  var VIEWER_SLOTS = [
+    { key: 'single-card', cardEl: 'v-card-single-card', bodyEl: 'v-body-single-card' },
+    { key: 'three-card', cardEl: 'v-card-three-card', bodyEl: 'v-body-three-card' },
+    { key: 'iching-integration', cardEl: 'v-card-iching', bodyEl: 'v-body-iching' },
+  ];
+
+  function openDate(date) {
+    if (listView) listView.style.display = 'none';
+    if (viewer) viewer.classList.add('open');
+    if (viewerDate) viewerDate.textContent = formatDateDisplay(date);
+    if (window.location.hash !== '#' + date) history.pushState(null, '', '#' + date);
+    var main = $('main');
+    if (main) main.scrollTo({ top: 0 });
+
+    VIEWER_SLOTS.forEach(function(slot) {
+      var cardEl = $(slot.cardEl), bodyEl = $(slot.bodyEl);
+      if (cardEl) { cardEl.textContent = '—'; cardEl.setAttribute('data-text', '—'); }
+      if (bodyEl) bodyEl.innerHTML = '<p class="slot-missing">loading…</p>';
+
+      fetch('./readings/daily/' + date + '/' + slot.key + '.website.md')
+        .then(function(r) { if (r.ok) return r.text(); throw new Error(''); })
+        .then(function(md) {
+          if (!md || md.trim().length < 10) throw new Error('');
+          var cn = extractCardName(md, slot.key);
+          if (cardEl) { cardEl.textContent = cn || '—'; cardEl.setAttribute('data-text', cn || '—'); }
+          if (bodyEl) bodyEl.innerHTML = mdToHtml(md);
+        })
+        .catch(function() {
+          if (cardEl) { cardEl.textContent = '—'; cardEl.setAttribute('data-text', '—'); }
+          if (bodyEl) bodyEl.innerHTML = '<p class="slot-missing">reading not available for this date</p>';
+        });
+    });
+  }
+
+  function closeViewer() {
+    if (viewer) viewer.classList.remove('open');
+    if (listView) listView.style.display = '';
+    history.pushState(null, '', window.location.pathname);
+    var main = $('main');
+    if (main) main.scrollTo({ top: 0 });
+  }
+
+  if (viewerBack) {
+    viewerBack.addEventListener('click', closeViewer);
+    viewerBack.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); closeViewer(); } });
+  }
+
+  // Handle hash navigation on load
+  if (window.location.hash) {
+    var hashDate = window.location.hash.slice(1);
+    if (/^\d{4}-\d{2}-\d{2}$/.test(hashDate)) openDate(hashDate);
+  }
+
+  window.addEventListener('popstate', function() {
+    if (window.location.hash) {
+      var hd = window.location.hash.slice(1);
+      if (/^\d{4}-\d{2}-\d{2}$/.test(hd)) { openDate(hd); return; }
+    }
+    closeViewer();
+  });
+
+  // Keyboard
+  var main = $('main');
+  var helpPanel = $('help-overlay');
+  var cmdOverlay = $('cmd-overlay');
+  var cmdSpan = $('cmd-input');
+  var mode = 'normal';
+  var cmdBuf = '';
+
+  function openCmd() { cmdBuf = ''; if (cmdSpan) cmdSpan.textContent = ''; if (cmdOverlay) cmdOverlay.hidden = false; if (helpPanel) helpPanel.hidden = true; mode = 'command'; }
+  function closeCmd() { if (cmdOverlay) cmdOverlay.hidden = true; cmdBuf = ''; if (cmdSpan) cmdSpan.textContent = ''; mode = 'normal'; }
+
+  function execCmd(raw) {
+    var cmd = raw.trim().toLowerCase();
+    if (cmd === 'today') window.location.href = 'index.html';
+    else if (cmd === 'about') window.location.href = 'about.html';
+    else if (cmd === 'kofi') window.open('https://ko-fi.com/nosleepcassette', '_blank', 'noopener');
+    else if (cmd === 'help') { if (helpPanel) helpPanel.hidden = false; }
+    else if (cmd === 'q') { closeViewer(); }
+    else if (cmd.indexOf('theme ') === 0) { setTheme(cmd.slice(6).trim()); }
+    closeCmd();
+  }
+
+  document.addEventListener('keydown', function(e) {
+    var tag = (document.activeElement || {}).tagName || '';
+    if (tag === 'A' || tag === 'BUTTON' || tag === 'INPUT' || tag === 'TEXTAREA') return;
+    if (mode === 'command') {
+      e.preventDefault();
+      if (e.key === 'Escape') { closeCmd(); return; }
+      if (e.key === 'Enter') { execCmd(cmdBuf); return; }
+      if (e.key === 'Backspace') { cmdBuf = cmdBuf.slice(0, -1); if (cmdSpan) cmdSpan.textContent = cmdBuf; return; }
+      if (e.key.length === 1) { cmdBuf += e.key; if (cmdSpan) cmdSpan.textContent = cmdBuf; }
+      return;
+    }
+    switch (e.key) {
+      case 'j': case 'ArrowDown': e.preventDefault(); if (main) main.scrollBy({ top: 64, behavior: 'smooth' }); break;
+      case 'k': case 'ArrowUp': e.preventDefault(); if (main) main.scrollBy({ top: -64, behavior: 'smooth' }); break;
+      case ':': e.preventDefault(); openCmd(); break;
+      case '?': e.preventDefault(); if (helpPanel) helpPanel.hidden = !helpPanel.hidden; break;
+      case 'Escape':
+        if (viewer && viewer.classList.contains('open')) { closeViewer(); break; }
+        if (helpPanel) helpPanel.hidden = true;
+        closeCmd();
+        break;
+    }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (helpPanel && !helpPanel.hidden && !helpPanel.contains(e.target)) helpPanel.hidden = true;
+    if (cmdOverlay && !cmdOverlay.hidden && !cmdOverlay.contains(e.target)) closeCmd();
+  });
+
+  if (main) main.focus();
+}());
+</script>
+</body>
+</html>
