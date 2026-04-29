@@ -1,14 +1,17 @@
 {
-  "updated": "2026-04-28T23:00:00Z",
+  "updated": "2026-04-29T14:00:03Z",
   "dates": {
+    "2026-04-29": {
+      "single-card": "Judgement"
+    },
     "2026-04-28": {
       "single-card": "Six of Cups",
-      "three-card": "past: Six of Cups (reversed) \u00b7 present: Nine of Pentacles \u00b7 future: Three of Cups (reversed)",
-      "iching-integration": "Hindrance (\u5426)"
+      "three-card": "past: Six of Cups (reversed) · present: Nine of Pentacles · future: Three of Cups (reversed)",
+      "iching-integration": "Hindrance (否)"
     },
     "2026-04-27": {
       "single-card": "Knight of Cups",
-      "three-card": "Past: Ace of Wands (reversed) \u00b7 Present: Page of Pentacles (reversed) \u00b7 Future: Queen of Wands",
+      "three-card": "Past: Ace of Wands (reversed) · Present: Page of Pentacles (reversed) · Future: Queen of Wands",
       "iching-integration": "Keeping Still"
     }
   }
