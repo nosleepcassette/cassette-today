@@ -348,6 +348,8 @@ body.chaos-glitch .card-name {
     <span class="nav-sep">·</span>
     <a href="archive.html">archive</a>
     <span class="nav-sep">·</span>
+    <a href="samples.html">samples</a>
+    <span class="nav-sep">·</span>
     <a href="about.html">about</a>
   </nav>
   <span class="tui-leds" aria-label="Status indicators" aria-hidden="true">
@@ -469,6 +471,8 @@ body.chaos-glitch .card-name {
   <footer class="tui-footer" role="contentinfo">
     <a href="archive.html">archive</a>
     <span class="sep">·</span>
+    <a href="samples.html">samples</a>
+    <span class="sep">·</span>
     <a href="about.html">about</a>
     <span class="sep">·</span>
     <a href="feed.xml">rss</a>
@@ -517,6 +521,7 @@ body.chaos-glitch .card-name {
   <div class="help-row"><span class="key">:fx vhs</span><span class="help-desc">VHS + noise</span></div>
   <div class="help-row"><span class="key">:fx chaos</span><span class="help-desc">maximum damage</span></div>
   <div class="help-section-label">LINKS</div>
+  <div class="help-row"><span class="key">:samples</span><span class="help-desc">sample readings</span></div>
   <div class="help-row"><span class="key">:kofi</span><span class="help-desc">support the work</span></div>
   <div class="help-row"><span class="key">:github</span><span class="help-desc">source &amp; projects</span></div>
   <div class="help-close" id="help-close" tabindex="0" role="button" aria-label="Close help">[ close ]</div>
@@ -715,7 +720,7 @@ body.chaos-glitch .card-name {
   var urlParams = new URLSearchParams(window.location.search);
   var paramDate = urlParams.get('date');
   var now = new Date();
-  var todayStr = now.toISOString().slice(0, 10);
+  var todayStr = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
   var viewDate = (paramDate && /^\d{4}-\d{2}-\d{2}$/.test(paramDate)) ? paramDate : todayStr;
   var isArchiveView = viewDate !== todayStr;
 
@@ -941,6 +946,7 @@ body.chaos-glitch .card-name {
     else if (cmd === 'github') window.open('https://github.com/nosleepcassette', '_blank', 'noopener');
     else if (cmd === 'archive') window.location.href = 'archive.html';
     else if (cmd === 'about') window.location.href = 'about.html';
+    else if (cmd === 'samples') window.location.href = 'samples.html';
     else if (cmd === 'today') window.location.href = 'index.html';
     else if (cmd === 'help') { if (helpPanel) helpPanel.hidden = false; }
     else if (cmd.indexOf('theme ') === 0) setTheme(cmd.slice(6).trim());

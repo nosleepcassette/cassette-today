@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-04-27T12:00:00Z</updated>
+  <updated>2026-04-28T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-04-28</id>
+    <title>2026-04-28 — Six of Cups · past: Six of Cups (reversed) · present: Nine of Pentacles · future: Three of Cups (reversed) · Hindrance (否)</title>
+    <link href="https://cassette.help/?date=2026-04-28"/>
+    <updated>2026-04-28T12:00:00Z</updated>
+    <summary>Six of Cups / past: Six of Cups (reversed) · present: Nine of Pentacles · future: Three of Cups (reversed) / Hindrance (否)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-04-27</id>
     <title>2026-04-27 — Knight of Cups · Past: Ace of Wands (reversed) · Present: Page of Pentacles (reversed) · Future: Queen of Wands · Keeping Still</title>
