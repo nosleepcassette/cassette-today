@@ -246,6 +246,21 @@ body.chaos-glitch .card-name {
 .reading-body h3 { color: var(--muted); font-size: 12px; letter-spacing: .15em; text-transform: uppercase; margin: 1rem 0 .3rem; }
 .reading-body ul { padding-left: 1.5ch; margin-bottom: 1rem; }
 .reading-body li { margin-bottom: .3rem; }
+.reading-body .hexagram-art {
+  font-family: 'Courier New', monospace;
+  font-size: clamp(11px, 1.1vw, 14px);
+  line-height: 1.6;
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--glow);
+  white-space: pre;
+  background: var(--glow2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: .75rem 1.25rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  letter-spacing: .02em;
+}
 .slot-pending { color: var(--muted); font-size: .9rem; font-style: italic; padding: .3rem 0; }
 .tier-grid { display: grid; gap: .3rem; margin: .5rem 0 .9rem; }
 .tier-row { display: flex; gap: .7ch; align-items: baseline; font-size: .95rem; }
@@ -795,10 +810,26 @@ body.chaos-glitch .card-name {
 
   function mdToHtml(md) {
     var lines = md.split('\n'), html = [], inList = false, inParagraph = false;
+    var inCode = false, codeBuf = [];
     function closeList() { if (inList) { html.push('</ul>'); inList = false; } }
     function closeParagraph() { if (inParagraph) { html.push('</p>'); inParagraph = false; } }
+    function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
     for (var i = 0; i < lines.length; i++) {
-      var t = lines[i].trim();
+      var raw = lines[i];
+      var t = raw.trim();
+      // ── code fence toggle ──────────────────────────────────────────────────
+      if (t.indexOf('```') === 0) {
+        if (!inCode) {
+          closeList(); closeParagraph();
+          inCode = true; codeBuf = [];
+        } else {
+          html.push('<pre class="hexagram-art">' + esc(codeBuf.join('\n')) + '</pre>');
+          inCode = false; codeBuf = [];
+        }
+        continue;
+      }
+      if (inCode) { codeBuf.push(raw); continue; }
+      // ── normal markdown ────────────────────────────────────────────────────
       if (t === '---') { closeList(); closeParagraph(); html.push('<hr>'); continue; }
       var hm = t.match(/^#{2,3}\s+(.+)/);
       if (hm) { closeList(); closeParagraph(); html.push('<h3>' + inlineFormat(hm[1]) + '</h3>'); continue; }
@@ -812,6 +843,7 @@ body.chaos-glitch .card-name {
       if (!inParagraph) { html.push('<p>' + inlineFormat(t)); inParagraph = true; }
       else html.push('<br>' + inlineFormat(t));
     }
+    if (inCode) html.push('<pre class="hexagram-art">' + esc(codeBuf.join('\n')) + '</pre>');
     closeList(); closeParagraph();
     return html.join('\n');
   }

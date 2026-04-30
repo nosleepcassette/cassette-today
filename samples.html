@@ -1,0 +1,882 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sample readings from NO SLEEP CASSETTE — tarot, I Ching, and oracle report examples by maps.">
+<meta property="og:title" content="NO SLEEP CASSETTE · sample readings">
+<meta property="og:description" content="Example readings — single card, spreads, I Ching, and full oracle reports.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./oracle-report-maps-2026-04-28-public-single.png">
+<meta name="theme-color" content="#05070a">
+<title>NO SLEEP CASSETTE · samples</title>
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%2305070a'/><rect x='10' y='20' width='80' height='60' rx='6' fill='none' stroke='%234bf4ff' stroke-width='4'/><circle cx='35' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><circle cx='65' cy='50' r='12' fill='none' stroke='%234bf4ff' stroke-width='3'/><line x1='47' y1='50' x2='53' y2='50' stroke='%234bf4ff' stroke-width='2'/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #05070a; --fg: #e9feff; --dim: rgba(233,254,255,.65);
+  --accent: #4bf4ff; --muted: rgba(75,244,255,.45);
+  --glow: rgba(75,244,255,.22); --glow2: rgba(75,244,255,.08);
+  --border: rgba(75,244,255,.25);
+  --anag-r: rgba(250,74,51,.62); --anag-c: rgba(71,184,184,.42);
+  --scan: .065; --bar-h: 22px; --font: 'VT323', 'Courier New', monospace;
+}
+:root[data-theme="amber"] {
+  --accent: #ffb000; --muted: rgba(255,176,0,.45);
+  --glow: rgba(255,176,0,.22); --glow2: rgba(255,176,0,.08);
+  --border: rgba(255,176,0,.25); --anag-r: rgba(255,60,0,.5); --anag-c: rgba(200,140,0,.4);
+}
+:root[data-theme="green"] {
+  --accent: #39ff14; --muted: rgba(57,255,20,.45);
+  --glow: rgba(57,255,20,.22); --glow2: rgba(57,255,20,.08);
+  --border: rgba(57,255,20,.25); --anag-r: rgba(0,200,60,.5); --anag-c: rgba(100,255,50,.4);
+}
+:root[data-theme="trans"] {
+  --accent: #f5a9b8; --muted: rgba(245,169,184,.45);
+  --glow: rgba(245,169,184,.22); --glow2: rgba(245,169,184,.08);
+  --border: rgba(245,169,184,.3); --anag-r: rgba(91,207,250,.5); --anag-c: rgba(245,169,184,.4);
+}
+:root[data-theme="lesbian"] {
+  --accent: #FF9A56;
+  --muted: rgba(213,45,0,.60);
+  --glow: rgba(255,154,86,.20);
+  --glow2: rgba(255,154,86,.07);
+  --border: rgba(255,154,86,.28);
+  --anag-r: rgba(213,45,0,.58);
+  --anag-c: rgba(161,0,98,.42);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { height: 100%; background: var(--bg); }
+body {
+  font-family: var(--font); font-size: 18px; line-height: 1.5;
+  color: var(--fg); height: 100%; overflow: hidden;
+  background:
+    radial-gradient(1100px 700px at 38% 28%, var(--glow), transparent 62%),
+    radial-gradient(800px 500px at 72% 72%, rgba(75,244,255,.05), transparent 58%),
+    var(--bg);
+  transition: background .4s;
+}
+body::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 200;
+  background: repeating-linear-gradient(to bottom,
+    transparent 0px, transparent 3px,
+    rgba(0,0,0,var(--scan)) 3px, rgba(0,0,0,var(--scan)) 4px);
+  transition: opacity .4s;
+}
+:root[data-fx="0"] { --scan: 0; }
+:root[data-fx="1"] { --scan: .03; }
+:root[data-fx="2"] { --scan: .065; }
+:root[data-fx="3"] { --scan: .10; }
+:root[data-fx="4"] { --scan: .16; }
+:root[data-fx="0"] body::before { opacity: 0; }
+.crt-vignette {
+  position: fixed; inset: 0; pointer-events: none; z-index: 199;
+  background: radial-gradient(ellipse at center,
+    transparent 60%, rgba(0,0,0,.30) 80%, rgba(0,0,0,.70) 100%);
+  opacity: 0; transition: opacity .4s;
+}
+:root[data-fx="2"] .crt-vignette,
+:root[data-fx="3"] .crt-vignette,
+:root[data-fx="4"] .crt-vignette { opacity: 1; }
+@keyframes flicker { 0%,19%,21%,23%,25%,100% { opacity:1; } 20%,22%,24% { opacity:.97; } }
+@keyframes flicker-heavy { 0%,10%,12%,40%,42%,70%,72%,100% { opacity:1; } 11%,41%,71% { opacity:.93; } 50% { opacity:.98; } }
+:root[data-fx="3"] body { animation: flicker 9s infinite; }
+:root[data-fx="4"] body { animation: flicker-heavy 6s infinite; }
+.tui-bar {
+  position: fixed; left: 0; right: 0; height: var(--bar-h);
+  background: rgba(5,7,10,.94); display: flex; align-items: center;
+  gap: .8ch; padding: 0 1ch; font-size: 13px; z-index: 100;
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  user-select: none;
+}
+.tui-top { top: 0; border-bottom: 1px solid var(--border); }
+.tui-bottom { bottom: 0; border-top: 1px solid var(--border); }
+.tui-mode { color: var(--bg); background: var(--accent); padding: 0 .6ch; font-size: 11px; letter-spacing: .1em; line-height: var(--bar-h); flex-shrink: 0; text-shadow: none; }
+.tui-title { color: var(--dim); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; letter-spacing: .04em; font-size: 13px; }
+.tui-nav { display: flex; gap: 1.2ch; flex-shrink: 0; align-items: center; }
+.tui-nav a { color: var(--dim); text-decoration: none; font-size: 12px; letter-spacing: .08em; transition: color .12s; }
+.tui-nav a:hover, .tui-nav a:focus-visible { color: var(--accent); outline: none; }
+.tui-nav a.active { color: var(--accent); }
+.tui-nav .nav-sep { color: var(--border); font-size: 10px; }
+.tui-leds { display: flex; gap: .5ch; flex-shrink: 0; align-items: center; font-size: 9px; }
+.led { line-height: 1; }
+.led-rec { color: #ff3333; animation: led-pulse 1.4s ease-in-out infinite; }
+.led-pwr { color: #33ff55; animation: led-pulse 3.1s ease-in-out infinite .6s; }
+.led-live { color: var(--accent); animation: led-pulse 2.3s ease-in-out infinite 1.2s; }
+@keyframes led-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+.status-mode { color: var(--accent); font-size: 12px; letter-spacing: .1em; flex-shrink: 0; }
+.status-reel { color: var(--muted); font-size: 11px; flex-shrink: 0; letter-spacing: -.01em; }
+.status-site { flex: 1; text-align: center; color: var(--dim); font-size: 12px; letter-spacing: .04em; }
+.status-hint { color: rgba(233,254,255,.30); font-size: 11px; flex-shrink: 0; }
+.tui-main {
+  position: fixed; top: var(--bar-h); bottom: var(--bar-h);
+  left: 0; right: 0; overflow-y: auto; overflow-x: hidden;
+  padding: 1rem 2ch 2rem; -webkit-overflow-scrolling: touch;
+}
+.tui-main:focus { outline: none; }
+.tui-main::-webkit-scrollbar { width: 3px; }
+.tui-main::-webkit-scrollbar-track { background: transparent; }
+.tui-main::-webkit-scrollbar-thumb { background: var(--border); }
+.inner { max-width: 72ch; margin: 0 auto; }
+.tui-rule { color: var(--border); font-size: 13px; white-space: pre; overflow: hidden; line-height: 1.2; margin: .5rem 0; user-select: none; letter-spacing: -.01em; }
+.section-label { color: var(--muted); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; margin: .7rem 0 .3rem; }
+.blink { color: var(--accent); animation: blink .85s step-end infinite; }
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+.sep { color: var(--border); }
+
+/* ── SAMPLE-SPECIFIC ────────────────────────────────────────────────────────── */
+
+/* Type badge — appears top-left of each sample card */
+.sample-type {
+  display: inline-block; font-size: 10px; letter-spacing: .15em;
+  text-transform: uppercase; color: var(--bg); background: var(--muted);
+  padding: 0 .5ch; margin-bottom: .4rem; line-height: 1.6;
+}
+
+/* Meta line: date + tier + system */
+.sample-meta {
+  font-size: 11px; color: var(--dim); letter-spacing: .05em;
+  margin-bottom: .7rem; display: flex; gap: 1ch; flex-wrap: wrap;
+}
+.sample-meta .sm-date { color: var(--muted); }
+.sample-meta .sm-sep  { color: var(--border); }
+.sample-meta .sm-tier { color: var(--dim); }
+
+/* Reading text block */
+.sample-body {
+  font-size: .95rem; line-height: 1.75; color: var(--fg);
+  border-left: 2px solid var(--border); padding-left: 1.2ch;
+  margin-bottom: .5rem;
+}
+.sample-body p { margin-bottom: .8rem; }
+.sample-body p:last-child { margin-bottom: 0; }
+.sample-body strong { color: var(--accent); }
+.sample-body em { color: var(--dim); font-style: normal; }
+
+/* Position labels in multi-card spreads */
+.pos-label { color: var(--muted); font-size: .82rem; text-transform: uppercase; letter-spacing: .1em; }
+.card-label { color: var(--accent); }
+.card-kw { color: var(--dim); font-size: .83rem; font-style: italic; }
+
+/* Hexagram display */
+.hex-block {
+  font-family: 'Courier New', monospace; font-size: .82rem;
+  color: var(--muted); letter-spacing: .06em; margin-bottom: .4rem;
+  line-height: 1.5;
+}
+.hex-num { color: var(--accent); font-size: 1.3rem; }
+.hex-name { color: var(--fg); font-size: 1rem; }
+.hex-cn { color: var(--muted); font-size: .85rem; }
+
+/* "Expand" toggle for longer samples */
+.sample-expand {
+  background: none; border: none; cursor: pointer;
+  color: var(--muted); font-family: var(--font); font-size: .82rem;
+  letter-spacing: .08em; padding: 0; margin-top: .3rem;
+  transition: color .12s;
+}
+.sample-expand:hover, .sample-expand:focus-visible { color: var(--accent); outline: none; }
+
+/* Oracle Report PNG showcase */
+.report-showcase {
+  border: 1px solid var(--border);
+  background: rgba(5,7,10,.7);
+  margin: .5rem 0 .9rem;
+  overflow: hidden;
+}
+.report-showcase-header {
+  display: flex; gap: 1ch; align-items: center; justify-content: space-between;
+  padding: .3rem .8ch;
+  border-bottom: 1px solid rgba(75,244,255,.12);
+  background: rgba(75,244,255,.04);
+}
+.report-showcase-title { color: var(--accent); font-size: .88rem; letter-spacing: .06em; }
+.report-showcase-meta { color: var(--dim); font-size: .78rem; }
+.report-showcase-link { color: var(--muted); font-size: .78rem; text-decoration: none; letter-spacing: .06em; transition: color .12s; }
+.report-showcase-link:hover { color: var(--accent); }
+.report-img-wrap {
+  max-height: 480px; overflow-y: scroll; overflow-x: hidden;
+  cursor: ns-resize;
+  scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+.report-img-wrap::-webkit-scrollbar { width: 3px; }
+.report-img-wrap::-webkit-scrollbar-thumb { background: var(--border); }
+.report-img-wrap img {
+  width: 100%; display: block;
+  image-rendering: auto;
+}
+.report-img-caption {
+  padding: .3rem .8ch; font-size: .76rem; color: var(--dim);
+  border-top: 1px solid rgba(75,244,255,.08);
+  display: flex; gap: 1ch; align-items: center; justify-content: space-between;
+}
+
+/* Oracle section cards */
+.report-section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: .6rem;
+  margin: .5rem 0 1rem;
+}
+.report-section-card {
+  border: 1px solid var(--border);
+  background: rgba(5,7,10,.7);
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color .15s, box-shadow .15s;
+}
+.report-section-card:hover { border-color: var(--accent); box-shadow: 0 0 10px var(--glow); }
+.report-section-badge {
+  display: flex; gap: .7ch; align-items: center; justify-content: space-between;
+  padding: .25rem .7ch;
+  background: rgba(75,244,255,.04);
+  border-bottom: 1px solid rgba(75,244,255,.10);
+}
+.report-section-num { color: var(--accent); font-size: .78rem; letter-spacing: .12em; }
+.report-section-name { color: var(--dim); font-size: .72rem; letter-spacing: .06em; flex: 1; text-align: right; }
+.report-section-card img {
+  width: 100%; display: block;
+  image-rendering: auto;
+  transition: opacity .15s;
+}
+.report-section-card:hover img { opacity: .92; }
+.report-section-desc {
+  padding: .25rem .7ch;
+  font-size: .72rem; color: rgba(233,254,255,.4);
+  border-top: 1px solid rgba(75,244,255,.06);
+  line-height: 1.4;
+}
+
+/* Prompt breakdown toggle */
+.prompt-toggle {
+  background: none; border: 1px solid var(--border);
+  color: var(--muted); font-family: var(--font); font-size: .82rem;
+  letter-spacing: .08em; padding: .3rem 1ch; cursor: pointer;
+  margin-bottom: .5rem; width: 100%;
+  text-align: left; transition: border-color .12s, color .12s;
+}
+.prompt-toggle:hover, .prompt-toggle:focus-visible { color: var(--accent); border-color: var(--accent); outline: none; }
+.prompt-body {
+  border: 1px solid rgba(75,244,255,.15);
+  background: rgba(5,7,10,.6);
+  padding: .5rem .8ch;
+  margin-bottom: .8rem;
+  font-size: .8rem; color: var(--dim); line-height: 1.7;
+}
+.prompt-body[hidden] { display: none; }
+.prompt-body h4 { color: var(--accent); font-size: .82rem; letter-spacing: .06em; margin: .6rem 0 .2rem; }
+.prompt-body h4:first-child { margin-top: 0; }
+.prompt-body ul { padding-left: 1.4ch; margin: 0; }
+.prompt-body li { margin-bottom: .15rem; }
+.prompt-body .part-num { color: var(--muted); }
+
+/* "More samples" placeholder card */
+.sample-placeholder {
+  border: 1px dashed rgba(75,244,255,.15);
+  padding: .6rem .9ch;
+  color: rgba(233,254,255,.3);
+  font-size: .85rem; letter-spacing: .06em;
+  text-align: center;
+  margin-bottom: .6rem;
+}
+
+/* CTA */
+.kofi-btn {
+  display: inline-block; color: var(--accent); text-decoration: none;
+  border: 1px solid var(--border); padding: .3rem 1.4ch; font-size: 1rem;
+  letter-spacing: .05em; margin: .3rem 0 .5rem;
+  transition: border-color .15s, box-shadow .15s;
+}
+.kofi-btn::before { content: '→ '; }
+.kofi-btn:hover, .kofi-btn:focus-visible { border-color: var(--accent); box-shadow: 0 0 16px var(--glow); outline: none; }
+.intake-note { color: var(--dim); font-size: .78rem; line-height: 1.5; }
+
+/* Footer */
+.tui-footer {
+  margin-top: .9rem; padding-top: .5rem;
+  border-top: 1px solid rgba(75,244,255,.10);
+  display: flex; gap: 1ch; align-items: center;
+  font-size: .82rem; color: var(--dim); flex-wrap: wrap;
+}
+.tui-footer a { color: var(--muted); text-decoration: none; transition: color .12s; }
+.tui-footer a:hover, .tui-footer a:focus-visible { color: var(--accent); outline: none; }
+
+/* ── CMD / HELP (re-used from other pages) ─────────────────────────────────── */
+.cmd-overlay {
+  position: fixed; bottom: var(--bar-h); left: 0; right: 0;
+  background: rgba(5,7,10,.97); border-top: 1px solid var(--border);
+  padding: 2px 1ch; font-size: 16px; color: var(--fg); z-index: 150;
+  display: flex; align-items: center;
+}
+.cmd-overlay[hidden] { display: none; }
+.cmd-colon { color: var(--accent); margin-right: .2ch; }
+.help-overlay {
+  position: fixed; top: var(--bar-h); right: 0;
+  width: min(300px, 96vw);
+  background: rgba(5,7,10,.98);
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 0; font-size: 13px; z-index: 150;
+  max-height: calc(100vh - var(--bar-h) * 2);
+  overflow-y: auto;
+}
+.help-overlay[hidden] { display: none; }
+.help-head { background: var(--accent); color: var(--bg); font-size: 11px; letter-spacing: .12em; padding: .25rem 1ch; text-shadow: none; user-select: none; }
+.help-section-label { color: var(--border); font-size: 10px; letter-spacing: .1em; padding: .35rem 1ch .1rem; text-transform: uppercase; user-select: none; border-top: 1px solid rgba(255,255,255,.04); margin-top: .2rem; }
+.help-section-label:first-of-type { border-top: none; margin-top: 0; }
+.help-row { display: flex; gap: 0; padding: .12rem 1ch; color: var(--dim); font-size: 12px; align-items: baseline; }
+.help-row:hover { background: rgba(255,255,255,.03); }
+.key { color: var(--accent); min-width: 19ch; flex-shrink: 0; font-size: 12px; letter-spacing: .03em; }
+.help-desc { color: var(--dim); font-size: 12px; }
+.help-close { color: var(--muted); font-size: 11px; letter-spacing: .08em; padding: .4rem 1ch; cursor: pointer; text-align: right; border-top: 1px solid rgba(255,255,255,.05); transition: color .12s; }
+.help-close:hover, .help-close:focus-visible { color: var(--accent); outline: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  body::before { display: none; }
+  .led, .blink { animation: none !important; opacity: 1; }
+}
+@media (max-width: 480px) {
+  .status-hint { display: none; }
+  .tui-title { display: none; }
+  .report-img-wrap { max-height: 320px; }
+  .report-section-grid { grid-template-columns: 1fr 1fr; gap: .4rem; }
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="noise-canvas" style="position:fixed;inset:0;z-index:198;pointer-events:none;opacity:0;transition:opacity .5s" aria-hidden="true"></canvas>
+<div class="crt-vignette" aria-hidden="true"></div>
+
+<!-- TOP BAR -->
+<div class="tui-bar tui-top" role="banner">
+  <span class="tui-mode">SAMPLES</span>
+  <span class="tui-title">NO SLEEP CASSETTE · sample readings</span>
+  <nav class="tui-nav" aria-label="Site navigation">
+    <a href="index.html">today</a>
+    <span class="nav-sep">·</span>
+    <a href="archive.html">archive</a>
+    <span class="nav-sep">·</span>
+    <a href="samples.html" class="active" aria-current="page">samples</a>
+    <span class="nav-sep">·</span>
+    <a href="about.html">about</a>
+  </nav>
+  <span class="tui-leds" aria-label="Status indicators" aria-hidden="true">
+    <span class="led led-rec" title="REC">●</span>
+    <span class="led led-pwr" title="PWR">●</span>
+    <span class="led led-live" title="LIVE">●</span>
+  </span>
+</div>
+
+<!-- BOTTOM STATUS BAR -->
+<div class="tui-bar tui-bottom" role="status" aria-label="Status bar">
+  <span class="status-mode">[SAMPLES]</span>
+  <span class="status-reel" id="status-reel" aria-hidden="true">⣿⣿⣿⣿⣿</span>
+  <span class="status-site">cassette.help</span>
+  <span class="status-hint">? help · : cmd</span>
+</div>
+
+<!-- CMD OVERLAY -->
+<div class="cmd-overlay" id="cmd-overlay" hidden role="dialog" aria-label="Command input">
+  <span class="cmd-colon">:</span><span id="cmd-text"></span><span class="blink">▋</span>
+</div>
+
+<!-- HELP PANEL -->
+<div class="help-overlay" id="help-overlay" hidden role="dialog" aria-label="Keyboard shortcuts">
+  <div class="help-head">KEYBOARD SHORTCUTS</div>
+  <div class="help-section-label">NAVIGATION</div>
+  <div class="help-row"><span class="key">g t</span><span class="help-desc">go to today</span></div>
+  <div class="help-row"><span class="key">g a</span><span class="help-desc">go to archive</span></div>
+  <div class="help-row"><span class="key">g s</span><span class="help-desc">go to samples</span></div>
+  <div class="help-row"><span class="key">g b</span><span class="help-desc">go to about</span></div>
+  <div class="help-section-label">THEME</div>
+  <div class="help-row"><span class="key">t</span><span class="help-desc">cycle theme</span></div>
+  <div class="help-row"><span class="key">:theme amber</span><span class="help-desc">amber</span></div>
+  <div class="help-row"><span class="key">:theme green</span><span class="help-desc">green</span></div>
+  <div class="help-row"><span class="key">:theme trans</span><span class="help-desc">trans pride</span></div>
+  <div class="help-row"><span class="key">:theme lesbian</span><span class="help-desc">lesbian pride</span></div>
+  <div class="help-section-label">EFFECTS</div>
+  <div class="help-row"><span class="key">:fx 0–4</span><span class="help-desc">scanline intensity</span></div>
+  <div class="help-section-label">LINKS</div>
+  <div class="help-row"><span class="key">:kofi</span><span class="help-desc">book a reading</span></div>
+  <div class="help-section-label">HELP</div>
+  <div class="help-row"><span class="key">?</span><span class="help-desc">toggle this panel</span></div>
+  <div class="help-row"><span class="key">Esc</span><span class="help-desc">close</span></div>
+  <div class="help-close" tabindex="0" id="help-close" role="button" aria-label="Close help panel">[ close ]</div>
+</div>
+
+<!-- MAIN CONTENT -->
+<main class="tui-main" id="main" tabindex="0" aria-label="Sample readings">
+<div class="inner">
+
+  <div class="section-label">SIGNAL ARCHIVE · SAMPLE READINGS</div>
+  <div class="tui-rule" aria-hidden="true">════════════════════════════════════════════════════════════════════════</div>
+
+  <p style="font-size:.9rem;color:var(--dim);line-height:1.6;margin-bottom:.9rem;">
+    what a reading actually looks like. these are real outputs — different formats,
+    different depths, different questions. the oracle report is the full stack.
+    everything else is a layer of it.
+  </p>
+
+  <!-- ── ORACLE REPORT (rendered PNG) ───────────────────────────────────────── -->
+  <div class="section-label">ORACLE REPORT · rendered output · $25 tier</div>
+
+  <p style="font-size:.9rem;color:var(--dim);line-height:1.6;margin-bottom:.7rem;">
+    the full stack. natal architecture, two tarot spreads, I Ching full cast with
+    changing lines, current transits, monthly + yearly forecast, and a synthesis section
+    where all five systems converge. 5–8 pages, rendered as a typeset document.
+    below are the seven sections from a live reading — maps · april 28 2026.
+  </p>
+
+  <div class="report-section-grid">
+
+    <div class="report-section-card" onclick="window.open('./oracle-report-maps-2026-04-28-public-mapsvoice-the-oracle-report-maps.png','_blank')">
+      <div class="report-section-badge">
+        <span class="report-section-num">COVER</span>
+        <span class="report-section-name">title page</span>
+      </div>
+      <img src="./oracle-report-maps-2026-04-28-public-mapsvoice-the-oracle-report-maps.png"
+           alt="Oracle report cover — title page" loading="lazy">
+      <div class="report-section-desc">the oracle report · maps · april 28 2026</div>
+    </div>
+
+    <div class="report-section-card" onclick="window.open('./oracle-report-maps-2026-04-28-public-mapsvoice-intro.png','_blank')">
+      <div class="report-section-badge">
+        <span class="report-section-num">INTRO</span>
+        <span class="report-section-name">framing</span>
+      </div>
+      <img src="./oracle-report-maps-2026-04-28-public-mapsvoice-intro.png"
+           alt="Oracle report intro — framing section" loading="lazy">
+      <div class="report-section-desc">how to read this document and what each system tracks</div>
+    </div>
+
+    <div class="report-section-card" onclick="window.open('./oracle-report-maps-2026-04-28-public-mapsvoice-who-you-are-natal-architecture.png','_blank')">
+      <div class="report-section-badge">
+        <span class="report-section-num">PART 1</span>
+        <span class="report-section-name">natal architecture</span>
+      </div>
+      <img src="./oracle-report-maps-2026-04-28-public-mapsvoice-who-you-are-natal-architecture.png"
+           alt="Natal architecture section" loading="lazy">
+      <div class="report-section-desc">five pillars · full placement table · every aspect · chart synthesis</div>
+    </div>
+
+    <div class="report-section-card" onclick="window.open('./oracle-report-maps-2026-04-28-public-mapsvoice-what-the-cards-say-tarot.png','_blank')">
+      <div class="report-section-badge">
+        <span class="report-section-num">PART 2</span>
+        <span class="report-section-name">tarot</span>
+      </div>
+      <img src="./oracle-report-maps-2026-04-28-public-mapsvoice-what-the-cards-say-tarot.png"
+           alt="Tarot section — career spread and Celtic Cross" loading="lazy">
+      <div class="report-section-desc">career spread (6 cards) + celtic cross (10 cards) · full position interpretation · synthesis</div>
+    </div>
+
+    <div class="report-section-card" onclick="window.open('./oracle-report-maps-2026-04-28-public-mapsvoice-what-the-oracle-tracks-i-ching.png','_blank')">
+      <div class="report-section-badge">
+        <span class="report-section-num">PART 3</span>
+        <span class="report-section-name">I Ching</span>
+      </div>
+      <img src="./oracle-report-maps-2026-04-28-public-mapsvoice-what-the-oracle-tracks-i-ching.png"
+           alt="I Ching section — full cast with changing lines" loading="lazy">
+      <div class="report-section-desc">primary hexagram · changing lines · relating hexagram · monthly casts · arc synthesis</div>
+    </div>
+
+    <div class="report-section-card" onclick="window.open('./oracle-report-maps-2026-04-28-public-mapsvoice-what-the-sky-is-doing-astrologic.png','_blank')">
+      <div class="report-section-badge">
+        <span class="report-section-num">PART 4</span>
+        <span class="report-section-name">astrological forecast</span>
+      </div>
+      <img src="./oracle-report-maps-2026-04-28-public-mapsvoice-what-the-sky-is-doing-astrologic.png"
+           alt="Astrological forecast section" loading="lazy">
+      <div class="report-section-desc">current transits with power ratings · monthly horizon · yearly overview · action windows</div>
+    </div>
+
+    <div class="report-section-card" onclick="window.open('./oracle-report-maps-2026-04-28-public-mapsvoice-the-full-synthesis.png','_blank')">
+      <div class="report-section-badge">
+        <span class="report-section-num">PART 5</span>
+        <span class="report-section-name">the full synthesis</span>
+      </div>
+      <img src="./oracle-report-maps-2026-04-28-public-mapsvoice-the-full-synthesis.png"
+           alt="Full synthesis — where all five systems converge" loading="lazy">
+      <div class="report-section-desc">where natal chart, transits, tarot, and I Ching converge into a single read</div>
+    </div>
+
+  </div>
+
+  <button class="prompt-toggle" id="prompt-toggle" onclick="togglePrompt()" aria-expanded="false">
+    ▸ how this is built — the oracle report prompt system
+  </button>
+  <div class="prompt-body" id="prompt-body" hidden>
+    <p>the oracle report is generated by a structured multi-system prompt that runs
+    five divination and astrological systems in sequence, then synthesizes them.
+    each section has its own voice and depth requirements — synthesis is the most
+    important, not listing.</p>
+
+    <h4>PART 1 — who you are (natal architecture)</h4>
+    <ul>
+      <li>natal essentials: sun, moon, ascendant, venus, mars — each substantively interpreted</li>
+      <li>full natal table: every placement with degree/sign/house/Rx status</li>
+      <li>every aspect with gift + shadow, not just "X square Y = tension"</li>
+      <li>chart synthesis: weaves aspects into actual architecture</li>
+    </ul>
+
+    <h4>PART 2 — saturn's architecture</h4>
+    <ul>
+      <li>first saturn return: what was asked, what happened</li>
+      <li>current saturn activations: what's pressing now</li>
+      <li>second saturn return: the long arc</li>
+      <li>the gift inside the pressure: what saturn gives, not just what it demands</li>
+    </ul>
+
+    <h4>PART 3 — what the cards say (tarot)</h4>
+    <ul>
+      <li>career spread (6 cards): full interpretation per position in chart context</li>
+      <li>celtic cross (10 cards): full interpretation per position in chart context</li>
+      <li>tarot synthesis: where spreads agree, where they contradict — both reported</li>
+    </ul>
+
+    <h4>PART 4 — what the oracle tracks (I Ching)</h4>
+    <ul>
+      <li>full cast: primary hexagram, changing lines (individually named and quoted), relating hexagram</li>
+      <li>monthly I Ching: 5 forward casts with synthesis</li>
+      <li>retrospective: pulls from prior consultation data</li>
+      <li>arc synthesis: what the sequence across throws reveals</li>
+    </ul>
+
+    <h4>PART 5 — what the sky is doing (forecast)</h4>
+    <ul>
+      <li>current transit snapshot: top transits with astrolog power ratings</li>
+      <li>monthly horizon: action windows, rest periods, key dates</li>
+      <li>yearly overview: quarterly breakdown, pivotal transits</li>
+    </ul>
+
+    <h4>PART 6 — the full synthesis</h4>
+    <ul>
+      <li>hardest section to generate — architecture over inventory</li>
+      <li>contradiction allowed: if natal and transits disagree with tarot, say so</li>
+      <li>two versions: public (anonymized) + private (full context)</li>
+    </ul>
+
+    <p style="margin-top:.5rem;font-size:.75rem;color:rgba(233,254,255,.3);">
+      data sources: astrolog (natal + transits), augury (tarot draws + I Ching casts),
+      existing forecast data. rendered via augury's PDF/PNG pipeline.
+      prompt: <code style="color:var(--muted)">augury/prompts/oracle-report-meta-prompt.md</code>
+    </p>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- ── SINGLE CARD ─────────────────────────────────────────────────────────── -->
+  <div class="section-label">single card · $5 tier</div>
+
+  <div style="margin-bottom:.3rem;">
+    <span class="sample-type">single card</span>
+    <div class="sample-meta">
+      <span class="sm-date">april 28, 2026</span>
+      <span class="sm-sep">·</span>
+      <span class="sm-tier">daily public reading</span>
+    </div>
+  </div>
+
+  <div class="sample-body">
+    <p>
+      <span class="card-label">Six of Cups</span><br>
+      <span class="card-kw">nostalgia, kindness, innocence, reunion, memories</span>
+    </p>
+    <p>
+      The Six of Cups is about sweetness — the kind that comes from something real
+      that already happened. Reunion, memory, a gesture that costs nothing but means
+      everything. It's one of the warmer cards in the deck, but it isn't simple:
+      there's an element of looking backward here, sometimes in service of the present,
+      sometimes as an escape from it. The question the card is always asking is which
+      one this is for you.
+    </p>
+    <p>
+      Six of Cups, Sun in Taurus, Moon in Libra: this is a very specific combination.
+      The card is reaching backward, toward something warm. The sun wants things to be
+      real and solid and not overly complicated. The moon wants the relationship to feel
+      right. If there's a person from your past in your mind today — or a version of
+      yourself from an earlier time — the sky is creating an unusually good moment to
+      actually do something about it. Not dramatically. Not with a speech. Just a
+      message, or a conversation, or even just an honest acknowledgment to yourself
+      about what that thing meant.
+    </p>
+    <p style="color:var(--dim);font-size:.82rem;">
+      Mercury in Aries in the 2nd says you know what it's worth. You've been
+      calculating it. Stop calculating and say the thing.
+    </p>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- ── THREE CARD ─────────────────────────────────────────────────────────── -->
+  <div class="section-label">three-card spread · $5–12 tier</div>
+
+  <div style="margin-bottom:.3rem;">
+    <span class="sample-type">three card · past / present / future</span>
+    <div class="sample-meta">
+      <span class="sm-date">april 28, 2026</span>
+      <span class="sm-sep">·</span>
+      <span class="sm-tier">daily public reading</span>
+    </div>
+  </div>
+
+  <div class="sample-body">
+    <p>
+      <span class="pos-label">past</span>&nbsp;
+      <span class="card-label">Six of Cups (reversed)</span>
+      <span class="card-kw"> — clinging, rose-tinted memory, immaturity</span>
+    </p>
+    <p>
+      <span class="pos-label">present</span>&nbsp;
+      <span class="card-label">Nine of Pentacles</span>
+      <span class="card-kw"> — independence, refinement, self-sufficiency</span>
+    </p>
+    <p>
+      <span class="pos-label">future</span>&nbsp;
+      <span class="card-label">Three of Cups (reversed)</span>
+      <span class="card-kw"> — isolation, overindulgence, celebration curdling</span>
+    </p>
+    <p>
+      The present card holds the weight here. Nine of Pentacles is where the energy
+      lives — and Sun in Taurus is amplifying it. You've built something real. You
+      have what you need, or close to it. The problem is the reversed Six of Cups in
+      the past: whatever you were holding onto, or softening in memory, has been
+      quietly shaping the ground you're standing on.
+    </p>
+    <p>
+      The future position asks a direct question: is the independence you're building
+      toward pulling you into genuine self-sufficiency — or into isolation? The Three
+      of Cups reversed doesn't mean you lose the connection. It means you stop feeding
+      it. Moon in Libra in the 7th knows the difference.
+    </p>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- ── I CHING ─────────────────────────────────────────────────────────────── -->
+  <div class="section-label">I Ching cast · $5–12 tier</div>
+
+  <div style="margin-bottom:.3rem;">
+    <span class="sample-type">I Ching · full cast with changing lines</span>
+    <div class="sample-meta">
+      <span class="sm-date">april 28, 2026</span>
+      <span class="sm-sep">·</span>
+      <span class="sm-tier">synthesis reading</span>
+    </div>
+  </div>
+
+  <div class="sample-body">
+    <div class="hex-block">
+      <span class="hex-num">䷅</span>&nbsp;
+      <span class="hex-name">Hexagram 6 — Contention (訟)</span><br>
+      <span style="color:var(--border)">Heaven over Water · one changing line at 4</span>
+    </div>
+    <p>
+      Heaven moves upward. Water moves downward. Two directions, one container —
+      that's the structure of today. Not conflict in the sense of a fight, but
+      Contention in the structural sense: two sincere things pulling opposite ways.
+    </p>
+    <p>
+      The judgment says: you are sincere, and you are being obstructed. A cautious
+      halt halfway brings good fortune. Going through to the end brings misfortune.
+      This is not the moment to win. This is the moment to notice you don't need to.
+    </p>
+    <p>
+      Line 4 is the specific instruction: <em>one cannot engage in conflict. one turns
+      back and submits to fate, changes one's attitude, and finds peace in
+      perseverance.</em> The word is perseverance, not surrender. You're not giving up —
+      you're changing the direction of the force.
+    </p>
+    <p>
+      This hexagram moves to Dispersing (渙, 59) — wind over water, dissolution of
+      rigid structures, the thaw. What's being contended today is already beginning
+      to scatter. Let it.
+    </p>
+    <p>
+      Underneath the tarot's earth and pentacles, the I Ching is showing you the
+      atmospheric pressure: something in you is pushing against something external
+      with equal and opposing force. The Queen of Swords knows this is happening.
+      The Seven of Pentacles is waiting it out. The Knight of Pentacles will be the
+      one who shows up after.
+    </p>
+  </div>
+
+  <div class="tui-rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────</div>
+
+  <!-- ── PLACEHOLDERS ────────────────────────────────────────────────────────── -->
+  <div class="section-label">more on the way</div>
+
+  <div class="sample-placeholder">celtic cross standalone · $12 tier · example coming soon</div>
+  <div class="sample-placeholder">natal essentials · $12 tier · example coming soon</div>
+
+  <div class="tui-rule" aria-hidden="true">════════════════════════════════════════════════════════════════════════</div>
+
+  <!-- ── CTA ─────────────────────────────────────────────────────────────────── -->
+  <div class="section-label">book yours</div>
+
+  <p style="font-size:.9rem;color:var(--dim);line-height:1.6;margin-bottom:.5rem;">
+    readings are done same day. include birth date + time + place for anything
+    with astrology. personal readings are not the daily public format — they're
+    written directly to you, with your chart.
+  </p>
+
+  <a class="kofi-btn" href="https://ko-fi.com/nosleepcassette" target="_blank" rel="noopener">ko-fi.com/nosleepcassette</a>
+
+  <div class="intake-note" style="margin-top:.3rem;">
+    $5 single card &nbsp;·&nbsp; $12 deep dive &nbsp;·&nbsp; $25 oracle report &nbsp;·&nbsp;
+    see <a href="about.html" style="color:var(--muted)">about</a> for full options
+  </div>
+
+  <footer class="tui-footer">
+    <a href="index.html">today</a>
+    <span class="sep">·</span>
+    <a href="archive.html">archive</a>
+    <span class="sep">·</span>
+    <a href="about.html">about</a>
+    <span class="sep">·</span>
+    <a href="feed.xml">rss</a>
+  </footer>
+
+</div>
+</main>
+
+<script>
+(function() {
+  'use strict';
+
+  // ── THEME / FX PERSISTENCE ───────────────────────────────────────────────────
+  var THEMES = ['amber','green','trans','lesbian'];
+  var root = document.documentElement;
+
+  function togglePrompt() {
+    var btn = document.getElementById('prompt-toggle');
+    var body = document.getElementById('prompt-body');
+    var open = !body.hidden;
+    body.hidden = open;
+    btn.setAttribute('aria-expanded', String(!open));
+    btn.textContent = (open ? '▸' : '▾') + ' how this is built — the oracle report prompt system';
+  }
+
+  function applyTheme(t) {
+    root.setAttribute('data-theme', t);
+    localStorage.setItem('theme', t);
+  }
+  function applyFx(n) {
+    root.setAttribute('data-fx', String(n));
+    localStorage.setItem('fx', String(n));
+  }
+
+  var savedTheme = localStorage.getItem('theme') || '';
+  if (savedTheme) applyTheme(savedTheme);
+  var savedFx = localStorage.getItem('fx');
+  applyFx(savedFx !== null ? parseInt(savedFx, 10) : 2);
+
+  // ── NOISE CANVAS ─────────────────────────────────────────────────────────────
+  var nc = document.getElementById('noise-canvas');
+  function resizeNoise() {
+    nc.width = window.innerWidth; nc.height = window.innerHeight;
+  }
+  resizeNoise();
+  window.addEventListener('resize', resizeNoise);
+
+  function shouldShowNoise() {
+    var fx = parseInt(root.getAttribute('data-fx') || '2', 10);
+    return fx >= 3;
+  }
+  function drawNoise() {
+    if (!shouldShowNoise()) { nc.style.opacity = '0'; requestAnimationFrame(drawNoise); return; }
+    nc.style.opacity = '0.03';
+    var ctx = nc.getContext('2d');
+    var id = ctx.createImageData(nc.width, nc.height);
+    var d = id.data;
+    for (var i = 0; i < d.length; i += 4) {
+      var v = (Math.random() * 255) | 0;
+      d[i] = d[i+1] = d[i+2] = v; d[i+3] = 255;
+    }
+    ctx.putImageData(id, 0, 0);
+    requestAnimationFrame(drawNoise);
+  }
+  drawNoise();
+
+  // ── REEL ANIMATION ────────────────────────────────────────────────────────────
+  var REEL = ['⣿⣿⣿⣿⣿','⣾⣿⣿⣿⣿','⣽⣿⣿⣿⣿','⣻⣿⣿⣿⣿','⢿⣿⣿⣿⣿','⡿⣿⣿⣿⣿',
+              '⣿⣾⣿⣿⣿','⣿⣽⣿⣿⣿','⣿⣻⣿⣿⣿','⣿⢿⣿⣿⣿','⣿⡿⣿⣿⣿'];
+  var ri = 0, reelEl = document.getElementById('status-reel');
+  setInterval(function() {
+    if (reelEl) { reelEl.textContent = REEL[ri % REEL.length]; ri++; }
+  }, 220);
+
+  // ── KEYBOARD COMMANDS ────────────────────────────────────────────────────────
+  var helpEl = document.getElementById('help-overlay');
+  var cmdEl  = document.getElementById('cmd-overlay');
+  var cmdTxt = document.getElementById('cmd-text');
+  var helpClose = document.getElementById('help-close');
+  var cmdMode = false, cmdBuf = '', gMode = false;
+
+  function showHelp(v) {
+    helpEl.hidden = !v;
+    if (v) helpEl.focus();
+  }
+  function showCmd(v) {
+    cmdEl.hidden = !v;
+    if (!v) { cmdBuf = ''; cmdTxt.textContent = ''; }
+    cmdMode = v;
+  }
+
+  function execCmd(c) {
+    c = c.trim().toLowerCase();
+    if (c === 'kofi') { window.open('https://ko-fi.com/nosleepcassette','_blank'); return; }
+    if (c === 'github') { window.open('https://github.com/nosleepcassette','_blank'); return; }
+    var tm = c.match(/^theme\s+(\w+)$/);
+    if (tm) { applyTheme(tm[1]); return; }
+    var fm = c.match(/^fx\s+([0-4])$/);
+    if (fm) { applyFx(parseInt(fm[1], 10)); return; }
+  }
+
+  if (helpClose) helpClose.addEventListener('click', function() { showHelp(false); });
+  if (helpClose) helpClose.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showHelp(false); }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+
+    if (cmdMode) {
+      if (e.key === 'Escape') { showCmd(false); return; }
+      if (e.key === 'Enter') { execCmd(cmdBuf); showCmd(false); return; }
+      if (e.key === 'Backspace') { cmdBuf = cmdBuf.slice(0,-1); cmdTxt.textContent = cmdBuf; return; }
+      if (e.key.length === 1) { cmdBuf += e.key; cmdTxt.textContent = cmdBuf; return; }
+      return;
+    }
+
+    if (e.key === 'Escape') { showHelp(false); gMode = false; return; }
+    if (e.key === '?') { showHelp(!helpEl || helpEl.hidden === false ? (showHelp(false),false) : (showHelp(true),true)); return; }
+    if (e.key === ':') { showCmd(true); return; }
+
+    if (e.key === 't' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+      var cur = root.getAttribute('data-theme') || '';
+      var idx = THEMES.indexOf(cur);
+      applyTheme(THEMES[(idx + 1) % THEMES.length]);
+      return;
+    }
+
+    if (e.key === 'g') { gMode = true; return; }
+    if (gMode) {
+      gMode = false;
+      if (e.key === 't') { window.location.href = 'index.html'; return; }
+      if (e.key === 'a') { window.location.href = 'archive.html'; return; }
+      if (e.key === 's') { window.location.href = 'samples.html'; return; }
+      if (e.key === 'b') { window.location.href = 'about.html'; return; }
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
