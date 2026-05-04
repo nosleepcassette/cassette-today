@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T18:52:28Z",
+  "updated": "2026-05-04T18:52:34Z",
   "dates": {
     "2026-05-04": {
       "single-card": "Seven of Cups",
@@ -8,7 +8,8 @@
     },
     "2026-05-02": {
       "single-card": "Two of Wands",
-      "three-card": "past: Page of Cups · present: Ace of Cups (reversed) · future: Page of Pentacles"
+      "three-card": "past: Page of Cups · present: Ace of Cups (reversed) · future: Page of Pentacles",
+      "iching-integration": "Abundance (豐)"
     },
     "2026-05-01": {
       "single-card": "Two of Swords",
