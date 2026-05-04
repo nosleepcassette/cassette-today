@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T18:51:09Z",
+  "updated": "2026-05-04T18:51:14Z",
   "dates": {
     "2026-05-04": {
       "single-card": "Seven of Cups",
@@ -8,7 +8,8 @@
     },
     "2026-05-01": {
       "single-card": "Two of Swords",
-      "three-card": "past: King of Swords · present: Seven of Swords (reversed) · future: The Hanged Man (reversed)"
+      "three-card": "past: King of Swords · present: Seven of Swords (reversed) · future: The Hanged Man (reversed)",
+      "iching-integration": "Advance (泰)"
     },
     "2026-04-30": {
       "single-card": "Death",
