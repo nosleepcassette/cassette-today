@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T18:54:03Z",
+  "updated": "2026-05-04T18:54:20Z",
   "dates": {
     "2026-05-04": {
       "single-card": "Seven of Cups",
@@ -7,7 +7,8 @@
       "iching-integration": "Responding (坤)"
     },
     "2026-05-03": {
-      "single-card": "King of Pentacles"
+      "single-card": "King of Pentacles",
+      "three-card": "past: The Chariot (reversed) · present: Three of Wands (reversed) · future: Death"
     },
     "2026-05-02": {
       "single-card": "Two of Wands",
