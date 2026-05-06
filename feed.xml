@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-05-05T12:00:00Z</updated>
+  <updated>2026-05-06T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-05-06</id>
+    <title>2026-05-06 — Ten of Swords</title>
+    <link href="https://cassette.help/?date=2026-05-06"/>
+    <updated>2026-05-06T12:00:00Z</updated>
+    <summary>Ten of Swords</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-05-05</id>
     <title>2026-05-05 — Retreat (遯) · Ace of Pentacles · past: Knight of Wands (reversed) · present: Ten of Cups · future: Nine of Cups</title>
