@@ -1,9 +1,10 @@
 {
-  "updated": "2026-05-06T16:00:03Z",
+  "updated": "2026-05-06T19:00:02Z",
   "dates": {
     "2026-05-06": {
       "single-card": "Ten of Swords",
-      "three-card": "past: Nine of Cups (reversed) · present: Eight of Pentacles · future: King of Swords (reversed)"
+      "three-card": "past: Nine of Cups (reversed) · present: Eight of Pentacles · future: King of Swords (reversed)",
+      "iching-integration": "Innermost Sincerity (中孚)"
     },
     "2026-05-05": {
       "single-card": "Ace of Pentacles",
