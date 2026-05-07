@@ -1,55 +1,131 @@
 {
-  "updated": "2026-05-06T19:00:02Z",
+  "updated": "2026-05-07T14:00:03Z",
   "dates": {
+    "2026-05-07": {
+      "single-card": "Three of Wands (reversed)",
+      "tags": [
+        "Three of Wands (reversed)"
+      ]
+    },
     "2026-05-06": {
       "single-card": "Ten of Swords",
       "three-card": "past: Nine of Cups (reversed) · present: Eight of Pentacles · future: King of Swords (reversed)",
-      "iching-integration": "Innermost Sincerity (中孚)"
+      "iching-integration": "Innermost Sincerity (中孚)",
+      "tags": [
+        "Ten of Swords",
+        "Nine of Cups (reversed)",
+        "Eight of Pentacles",
+        "King of Swords (reversed)",
+        "Innermost Sincerity"
+      ]
     },
     "2026-05-05": {
       "single-card": "Ace of Pentacles",
       "three-card": "past: Knight of Wands (reversed) · present: Ten of Cups · future: Nine of Cups",
-      "iching-integration": "Retreat (遯)"
+      "iching-integration": "Retreat (遯)",
+      "tags": [
+        "Ace of Pentacles",
+        "Knight of Wands (reversed)",
+        "Ten of Cups",
+        "Nine of Cups",
+        "Retreat"
+      ]
     },
     "2026-05-04": {
       "single-card": "Seven of Cups",
       "three-card": "past: The Empress · present: Four of Cups · future: Ace of Swords",
-      "iching-integration": "Responding (坤)"
+      "iching-integration": "Responding (坤)",
+      "tags": [
+        "Seven of Cups",
+        "The Empress",
+        "Four of Cups",
+        "Ace of Swords",
+        "Responding"
+      ]
     },
     "2026-05-03": {
       "single-card": "King of Pentacles",
       "three-card": "past: The Chariot (reversed) · present: Three of Wands (reversed) · future: Death",
-      "iching-integration": "Keeping Still (艮)"
+      "iching-integration": "Keeping Still (艮)",
+      "tags": [
+        "King of Pentacles",
+        "The Chariot (reversed)",
+        "Three of Wands (reversed)",
+        "Death",
+        "Keeping Still"
+      ]
     },
     "2026-05-02": {
       "single-card": "Two of Wands",
       "three-card": "past: Page of Cups · present: Ace of Cups (reversed) · future: Page of Pentacles",
-      "iching-integration": "Abundance (豐)"
+      "iching-integration": "Abundance (豐)",
+      "tags": [
+        "Two of Wands",
+        "Page of Cups",
+        "Ace of Cups (reversed)",
+        "Page of Pentacles",
+        "Abundance"
+      ]
     },
     "2026-05-01": {
       "single-card": "Two of Swords",
       "three-card": "past: King of Swords · present: Seven of Swords (reversed) · future: The Hanged Man (reversed)",
-      "iching-integration": "Advance (泰)"
+      "iching-integration": "Advance (泰)",
+      "tags": [
+        "Two of Swords",
+        "King of Swords",
+        "Seven of Swords (reversed)",
+        "The Hanged Man (reversed)",
+        "Advance"
+      ]
     },
     "2026-04-30": {
       "single-card": "Death",
       "three-card": "past: Five of Swords (reversed) · present: Page of Cups (reversed) · future: Three of Pentacles",
-      "iching-integration": "Humbleness (謙)"
+      "iching-integration": "Humbleness (謙)",
+      "tags": [
+        "Death",
+        "Five of Swords (reversed)",
+        "Page of Cups (reversed)",
+        "Three of Pentacles",
+        "Humbleness"
+      ]
     },
     "2026-04-29": {
       "single-card": "Judgement",
       "three-card": "past: The Magician · present: Three of Cups · future: King of Pentacles",
-      "iching-integration": "Humility (謙)"
+      "iching-integration": "Humility (謙)",
+      "tags": [
+        "Judgement",
+        "The Magician",
+        "Three of Cups",
+        "King of Pentacles",
+        "Humility"
+      ]
     },
     "2026-04-28": {
       "single-card": "Six of Cups",
       "three-card": "past: Six of Cups (reversed) · present: Nine of Pentacles · future: Three of Cups (reversed)",
-      "iching-integration": "Hindrance (否)"
+      "iching-integration": "Hindrance (否)",
+      "tags": [
+        "Six of Cups",
+        "Six of Cups (reversed)",
+        "Nine of Pentacles",
+        "Three of Cups (reversed)",
+        "Hindrance"
+      ]
     },
     "2026-04-27": {
       "single-card": "Knight of Cups",
       "three-card": "Past: Ace of Wands (reversed) · Present: Page of Pentacles (reversed) · Future: Queen of Wands",
-      "iching-integration": "Keeping Still"
+      "iching-integration": "Keeping Still",
+      "tags": [
+        "Knight of Cups",
+        "Ace of Wands (reversed)",
+        "Page of Pentacles (reversed)",
+        "Queen of Wands",
+        "Keeping Still"
+      ]
     }
   }
 }
