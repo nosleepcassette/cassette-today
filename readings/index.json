@@ -1,15 +1,17 @@
 {
-  "updated": "2026-05-07T20:36:49Z",
+  "updated": "2026-05-07T20:59:53Z",
   "dates": {
     "2026-05-07": {
       "single-card": "Three of Wands (reversed)",
-      "three-card": "past: Wheel of Fortune · present: Six of Swords · future: The Moon",
+      "three-card": "Past: Wheel of Fortune · Present: Six of Swords · Future: The Moon · Sun in Taurus · Moon in Capricorn",
       "iching-integration": "Increasing (益)",
       "tags": [
         "Three of Wands (reversed)",
         "Wheel of Fortune",
         "Six of Swords",
         "The Moon",
+        "Sun in Taurus",
+        "Moon in Capricorn",
         "Increasing"
       ]
     },

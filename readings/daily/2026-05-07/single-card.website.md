@@ -1,32 +1,34 @@
 ## the card
 
-**Three of Wands (reversed)**
-*delays, obstacles, frustration, stalled growth, lack of foresight*
+**Three of Wands (reversed)** *delays, obstacles, frustration, stalled growth, lack of foresight*
 
-Reversed, the expected momentum meets delay, poor coordination, or an outlook that was not broad enough. Progress is possible, but timing and planning may need revision.
+you've been waiting on something that was supposed to have moved by now. a ship that should've returned, a plan that should've launched, a "yes" that's still sitting in someone's outbox. the three of wands upright is the card of having sent your ships out and watching the horizon with confidence — reversed, you're watching the horizon and the horizon is watching you back, unmoved.
+
+this isn't about whether you did the work. you probably did. the reversed three of wands shows up when the timing is wrong, or when something upstream hasn't resolved yet and you can't see it from where you're standing. the frustration is real and it's not a character flaw — it's information. something was launched before its infrastructure was finished, or you're leaning on a timeline someone else made that was never realistic to begin with.
+
+the lack of foresight in the keywords isn't about you being shortsighted. it's about the plan itself having a blind spot you couldn't have known about until you were already standing in it. the question now isn't "how do I force this forward" — it's "what was I assuming would just work itself out?"
 
 ## the sky
 
-**Sun in Taurus** (11th house) — practical, often skeptical and stubborn, and loves serenity and inner peace. Most often this manifests in the area of life dealing with the future, life goals, and association with friends and groups.
+**Sun in Taurus** (11th house) — your public circle, your alliances, your hopes-for-the-future zone is lit up by the most stubborn fixed earth sign there is. what you want from your community right now is real, tangible, deliverable — not more meetings about meetings.
 
-**Moon in Capricorn** (7th house) — industrious, practical, disciplined, and works for solitude and personal integrity. Most often this manifests in the area of life dealing with personal relationships and intimacy.
+**Moon in Capricorn** (7th house) — your emotional weather is running through the house of one-on-ones, and capricorn doesn't do casual. you're feeling serious about partnerships today, maybe too serious. the person across from you might be feeling scrutinized even if you're just trying to be thorough.
 
-**Mercury in Taurus** (11th house) — very practical, often skeptical and stubborn, and loves serenity and inner peace. Most often this manifests in the area of life dealing with the future, life goals, and association with friends and groups.
+**Mercury in Taurus** (11th house) — your thinking is slow, deliberate, and fixed on the same terrain as the sun. communication in group contexts is stubborn today — not hostile, just... unmoving. nobody's changing their mind at this meeting.
 
 ## what it means together
 
-Three of Wands (reversed) under a sky with sun in taurus (11th house) is specific. this isn't a generic "card of the day" — it's a card responding to an actual astrological moment. the question isn't what the card means in a vacuum. it's what the card means *right now*, with this sky, in this house.
+the sky is telling you the same thing the card is: the ground you're standing on is fixed earth and it is not going anywhere. sun and mercury both in taurus in the 11th — the house of collective hopes — means the social layer of whatever you're waiting on is locked in place. someone in your network, your group, your collaborative sphere is the bottleneck. not maliciously. they just haven't moved yet because taurus doesn't move until it's good and ready.
+
+the moon in capricorn in the 7th adds a layer of emotional gravity to your partnerships right when the thing you're waiting on probably involves at least one other person. you might be carrying more weight in a relationship than is sustainable — or you might be demanding someone carry weight they haven't agreed to.
+
+the three of wands reversed under this sky is a "not yet" that wants you to sit with it instead of running another lap. the delay isn't punishment. it's the infrastructure still curing. poke it and it collapses; let it set and it holds.
 
 ### the thread
 
-*recent readings this week:
-  2026-05-06: Ten of Swords, Sun in Taurus / I Ching: Innermost Sincerity (中孚)
-  2026-05-05: Ace of Pentacles, Sun in Taurus / I Ching: Retreat (遯)
-  2026-05-04: Seven of Cups, Sun in Taurus / I Ching: Responding (坤)
-  2026-05-03: King of Pentacles, Sun in Taurus / I Ching: Keeping Still (艮)
-  2026-05-02: Two of Wands, Sun in Taurus / I Ching: Abundance (豐)
-earlier this month: Judgement, Six of Cups, Knight of Cups*
+*recent readings this week: two of swords / advance — two of wands / abundance — king of pentacles / keeping still — seven of cups / responding — ace of pentacles / retreat — ten of swords / innermost sincerity*
 
+*earlier: death, judgement, six of cups, knight of cups*
 
 ---
 
