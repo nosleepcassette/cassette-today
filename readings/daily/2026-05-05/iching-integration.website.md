@@ -38,10 +38,15 @@ Changing lines transform hexagram 33 into hexagram 37. Read Household as the des
 
 ## synthesis
 
-The cards today — Ace of Pentacles and past: Knight of Wands (reversed) — showed the surface. Hexagram 33, Retreat, is the structural layer underneath. The I Ching doesn't contradict the tarot — it contextualizes it. The cards show the shape of the day. The hexagram shows the pattern the day is part of, the posture it's asking for, the arc it belongs to.
+The tarot today: Ace of Pentacles as the single card (the seed, the tangible offering, the first real thing), and a three-card spread that runs Knight of Wands reversed → Ten of Cups → Nine of Cups. The knight charged and misfired. The ten of cups is genuine communal belonging. The nine of cups is personal satisfaction. The ace of pentacles says there's something real on offer — but the spread says you have to get past the recklessness in the past position to actually receive it.
 
-The movement from hexagram 33 toward Household is where the day is going. Read the relating hexagram not as a separate reading but as the resolution — the state that opens after today's changing lines complete their motion.
+Hexagram 33, Retreat, is the structural layer, and it's a harder teaching than the tarot's warmth suggests. Retreat doesn't mean defeat. It means strategic withdrawal — pulling back from a position that can't be held, preserving force for a time when it can be deployed effectively. The judgment says success. The image says: keep the inferior at a distance, not angrily, but with reserve. This is the hexagram of the person who knows when to step back, and who does it without drama.
 
+The knight of wands reversed is exactly what the hexagram is describing. The charge that went wrong. The impulse that couldn't sustain itself. The knight's energy was real but misdirected, and the I Ching says: stop trying to make the misdirection work. Retreat. Regroup. The ten and nine of cups on the other side say the regrouping is worth it — the belonging and the satisfaction are real, but they're only reachable from the position of having actually withdrawn from what wasn't working.
+
+Lines 1 and 4 are changing. Line 1 is the bottom line — "at the tail. Persistence brings misfortune." This is the person who's still lingering at the edge of the retreat, not fully committed to pulling back. The misfortune isn't in the retreat itself; it's in the half-retreat, the inability to let go cleanly. Line 4 is "voluntary retreat. The superior man brings about good fortune to the inferior man." This is the retreat done properly — not fleeing, but intentionally choosing the position from which you can actually operate. The difference between the two lines is the difference between the knight of wands reversed (line 1 — can't stop charging) and the ace of pentacles (line 4 — positioned correctly, ready to receive).
+
+The relating hexagram is 37, Household. Retreat arrives at home. The withdrawal isn't into nothing — it's into the structure that sustains you. The family, the foundation, the place where you actually belong. The ten of cups in the tarot is hexagram 37 in the oracle: the same energy, different language. The emotional belonging you're reaching for requires the strategic withdrawal first. You don't get the household by charging at it. You get it by retreating into it.
 
 ### the thread
 

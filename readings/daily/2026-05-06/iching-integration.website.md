@@ -39,10 +39,17 @@ Changing lines transform hexagram 61 into hexagram 20. Read Watching as the dest
 
 ## synthesis
 
-The cards today — Ten of Swords and past: Nine of Cups (reversed) — showed the surface. Hexagram 61, Innermost Sincerity, is the structural layer underneath. The I Ching doesn't contradict the tarot — it contextualizes it. The cards show the shape of the day. The hexagram shows the pattern the day is part of, the posture it's asking for, the arc it belongs to.
+The tarot today: Ten of Swords as the single card (the bottom, the collapse, the worst already happened), and a three-card spread that runs Nine of Cups reversed → Eight of Pentacles → King of Swords reversed. The nine of cups reversed is the satisfaction that wasn't — the wish that came true and landed wrong. The eight of pentacles is the work that starts from the empty place. The king of swords reversed is the warning: don't let the skill harden into tyranny. The ten of swords says you're at the end. The eight of pentacles says you're at the beginning. Both are true.
 
-The movement from hexagram 61 toward Watching is where the day is going. Read the relating hexagram not as a separate reading but as the resolution — the state that opens after today's changing lines complete their motion.
+Hexagram 61, Innermost Sincerity, is the most quietly radical hexagram to receive at the bottom. The ten of swords says everything external has collapsed. The hexagram says the thing that survives the collapse is the thing that was always true underneath — not the structures, not the positions, not the performance. The inner truth. The germ of life inside the hollow egg.
 
+The image is wind over lake. The wind stirs the surface of the water, making the invisible visible. The judgment says pigs and fishes — the hardest things to move, the most stubborn creatures, and even they respond to inner truth. This isn't about persuasion or force. It's about the kind of sincerity that makes things respond because they can feel what's real.
+
+Lines 1 and 2 are changing. Line 1 is "preparedness brings good fortune. If there are hidden motives, it is disquieting." The bottom line is a warning about the ten of swords context: if you're starting over from the wreckage, start clean. Hidden agendas, unacknowledged motives, the stuff you're still carrying from the collapse — they'll poison the restart. Line 2 is "the crane calls in the shade. Its young answers it. I have a good goblet. I will share it with you." This is the line of genuine connection, the call and response that happens when the inner truth is actually speaking. The crane doesn't perform the call. It makes it because it's real, and the young answers because it recognizes what's true.
+
+The relating hexagram is 20, Watching. Innermost Sincerity arrives at contemplation. The truth you find at the bottom — the sincerity that survives the ten of swords — it doesn't immediately become action. It becomes watching. Observation. The capacity to see clearly what's actually there, now that the false has been stripped away. The king of swords reversed in the tarot's future position is the risk: turning clarity into control. The relating hexagram is the alternative: turning clarity into witness.
+
+The combined read: you've hit bottom. The sincerity that remains when everything else has fallen is the only thing that was ever real. Share it (line 2). Don't weaponize it (the king of swords warning). Let it become the foundation for seeing clearly (hexagram 20) rather than the excuse for commanding (king of swords reversed). The collapse was the clearing. The sincerity is the seed. The watching is what comes next.
 
 ### the thread
 

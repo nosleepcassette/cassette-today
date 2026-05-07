@@ -36,10 +36,15 @@ Changing lines transform hexagram 11 into hexagram 46. Read Growing Upward as th
 
 ## synthesis
 
-The cards today — Two of Swords and past: King of Swords — showed the surface. Hexagram 11, Advance, is the structural layer underneath. The I Ching doesn't contradict the tarot — it contextualizes it. The cards show the shape of the day. The hexagram shows the pattern the day is part of, the posture it's asking for, the arc it belongs to.
+The tarot today was saturated with swords: Two of Swords as the single card, King of Swords in the past position, Seven of Swords reversed in the present, Hanged Man reversed in the future. The mental field is locked. The Two of Swords refuses to decide. The King of Swords already decided and is holding the line. The Seven of Swords reversed says the line is about to break — the self-deception is surfacing. The whole spread is a mind at war with its own information.
 
-The movement from hexagram 11 toward Growing Upward is where the day is going. Read the relating hexagram not as a separate reading but as the resolution — the state that opens after today's changing lines complete their motion.
+Hexagram 11, Advance, is what's underneath that war. Heaven below and earth above — the two great forces actually meeting, actually in communion, for the first time in days. The I Ching has tracked a clear arc this week: Keeping Still (52), then Standstill (12), then Humility (15), then Humbleness (15 again, different rendering), and now Peace (11). The blockage that defined the first half of the week has broken open. The forces are flowing.
 
+Line 1 is changing — the bottom line of the Creative trigram, the first stirring of heaven's energy from below. This is the most nascent form of the new movement. It's not the breakthrough yet. It's the moment the ground shifts under your feet and you realize the stalemate is over, even though you haven't taken a step.
+
+The relating hexagram is 46, Growing Upward. That's the direction: not a charge forward, but a gradual ascent. The breakthrough that comes from sustained effort pushing through resistance, not from a single dramatic act. The tarot's swords want a clean cut. The I Ching says the cut isn't clean — it's organic. The advance happens slowly, from below, like a shoot pressing through soil.
+
+Today's ask: stop waiting for the decisive moment. The advance has already started. The ground shifted at line 1. What looks like a standoff in the tarot is already in motion in the oracle. Trust the movement you can't see yet.
 
 ### the thread
 

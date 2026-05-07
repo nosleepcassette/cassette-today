@@ -44,10 +44,15 @@ Changing lines transform hexagram 52 into hexagram 56. Read Travelling as the de
 
 ## synthesis
 
-The cards today — King of Pentacles and past: The Chariot (reversed) — showed the surface. Hexagram 52, Keeping Still, is the structural layer underneath. The I Ching doesn't contradict the tarot — it contextualizes it. The cards show the shape of the day. The hexagram shows the pattern the day is part of, the posture it's asking for, the arc it belongs to.
+The tarot today: King of Pentacles as the single card, and a three-card spread that runs Chariot reversed → Three of Wands reversed → Death. The material and the archetypal are colliding. The king of pentacles says stewardship, stability, the long game of tending what's real. The spread says the long game hit a wall — the drive scattered, the expansion stalled, and the only way forward is through something dying.
 
-The movement from hexagram 52 toward Travelling is where the day is going. Read the relating hexagram not as a separate reading but as the resolution — the state that opens after today's changing lines complete their motion.
+Hexagram 52, Keeping Still, is the same hexagram that opened the week on April 27th. The oracle is circling back. The first time, the changing line was line 3 — keeping the hips still, the forced stillness that suffocates the heart, the warning that suppression isn't rest. This time the changing line is line 4 — keeping the torso still, resting in the right way. Line 4 is the correction to line 3's dysfunction. The first reading said: don't force the stillness. This one says: the stillness has become genuine. The body has actually stopped. Not from rigidity. From exhaustion, maybe. From the chariot running out of road.
 
+The relating hexagram is 56, Travelling — the wanderer, the person between homes. Keeping Still moves into Travelling. Stillness doesn't resolve into more stillness. It resolves into departure. The body stops, and then — when it's actually ready, not when it's forcing itself — it moves. The three-card spread's Death card confirms: the ending is real. The travelling hexagram says the ending is a departure, not a destination. You leave. You don't arrive. Not yet.
+
+The whole week in the I Ching: Keeping Still (52) → Standstill (12) → Humility (15) → Humbleness (15) → Advance (11) → Abundance (55) → Keeping Still (52 again). The oracle made a full circle. The movement that started in stillness, went through blockage and stripping and advance and fullness, has returned to stillness — but it's a different stillness. Line 3 was dangerous. Line 4 is restful. The chariot crashed, the wands stalled, death happened, and now the body is actually still because it's actually done, not because it's forcing itself to stop.
+
+Today's ask: let the stillness be real. Don't get up yet. The departure comes after the rest, not instead of it.
 
 ### the thread
 
