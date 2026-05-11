@@ -2,6 +2,64 @@
 
 **The World (past) / King of Cups (reversed) (present) / Eight of Cups (future)**
 
+```
+┌─────────────────┐
+│    .-~~~~~-.    │
+│   .'  o o  '.   │
+│   / o  X  o \\  │
+│   | o / \\ o |  │
+│   |   /o\\   |  │
+│   |  /   \\  |  │
+│   |  \\   /  |  │
+│   |   \\_/   |  │
+│   \ o     o /   │
+│   '.  o o  .'   │
+│      '-._.-'    │
+│    [ ]   [ ]    │
+│       XXI       │
+└─────────────────┘
+```
+
+
+```
+┌─────────────────┐
+│       KING      │
+│                 │
+│      () ()      │
+│       king      │
+│      () ()      │
+│                 │
+│     .-._.-.     │
+│       \_/       │
+│                 │
+│                 │
+│                 │
+│       CUPS      │
+│        14       │
+└─────────────────┘
+```
+
+
+```
+┌─────────────────┐
+│      EIGHT      │
+│                 │
+│      () ()      │
+│      () ()      │
+│      () ()      │
+│      () ()      │
+│                 │
+│     .-._.-.     │
+│       \_/       │
+│                 │
+│                 │
+│       CUPS      │
+│        08       │
+└─────────────────┘
+```
+
+
+
 **The World** — completion, integration, the end of a major cycle. this isn't a small finish. it's the finish that makes sense of everything that came before it. whatever you've been building toward, it's done. or it's about to be. the world doesn't show up to tell you to keep going — it shows up to tell you that you've arrived.
 
 **King of Cups** — emotional mastery, calm authority, the ability to feel deeply without drowning. this is the adult in the room. the person who can hold space for others because they've already done the work of holding space for themselves. if this is you, own it. if it's someone in your life, lean on them today — they're steady.

@@ -38,6 +38,42 @@ def extract_card_name(md_text: str, reading_type: str) -> str:
     return m.group(1).strip() if m else ""
 
 
+def extract_tags(date_entries: dict) -> list:
+    """Extract individual searchable card/hexagram names from a date's readings."""
+    tags = []
+
+    single = date_entries.get("single-card", "")
+    if single:
+        tags.append(single.strip())
+
+    three = date_entries.get("three-card", "")
+    if three:
+        # Format: "past: Nine of Cups (reversed) · present: Eight of Pentacles · future: King of Swords"
+        # Strip position prefixes; keep card name including reversal
+        for part in three.split("·"):
+            part = part.strip()
+            # Remove "past:", "present:", "future:" prefixes (case-insensitive)
+            clean = re.sub(r"^(past|present|future)\s*:\s*", "", part, flags=re.I).strip()
+            if clean:
+                tags.append(clean)
+
+    iching = date_entries.get("iching-integration", "")
+    if iching:
+        # Strip hanzi: "Innermost Sincerity (中孚)" → "Innermost Sincerity"
+        clean = re.sub(r"\s*[\u4e00-\u9fff（）()]+\s*$", "", iching).strip()
+        if clean:
+            tags.append(clean)
+
+    # Dedup while preserving order
+    seen = set()
+    result = []
+    for t in tags:
+        if t.lower() not in seen:
+            seen.add(t.lower())
+            result.append(t)
+    return result
+
+
 def rebuild_manifest() -> dict:
     dates: dict = {}
     reading_types = ["single-card", "three-card", "iching-integration"]
@@ -60,6 +96,8 @@ def rebuild_manifest() -> dict:
             if date_str not in dates:
                 dates[date_str] = {}
             dates[date_str][rtype] = name
+        if date_str in dates:
+            dates[date_str]["tags"] = extract_tags(dates[date_str])
 
     return {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -84,7 +122,7 @@ def rebuild_feed(manifest: dict) -> str:
     ]
     for date_str in dates_sorted:
         d = manifest["dates"][date_str]
-        parts = [v for k, v in sorted(d.items()) if v]
+        parts = [v for k, v in sorted(d.items()) if v and isinstance(v, str)]
         title = date_str + (" — " + " · ".join(parts) if parts else "")
         summary = " / ".join(parts) if parts else "readings for " + date_str
         lines += [

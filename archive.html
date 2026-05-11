@@ -247,7 +247,15 @@ body.chaos-glitch .card-name {
 }
 .date-entry.loading { opacity: .5; cursor: default; }
 .date-key { color: var(--accent); font-size: 13px; letter-spacing: .08em; flex-shrink: 0; min-width: 11ch; }
-.date-cards { color: var(--dim); font-size: .9rem; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.date-cards { color: var(--dim); font-size: .9rem; flex: 1; overflow: hidden; display: flex; flex-wrap: wrap; gap: .3rem; align-items: center; }
+.card-tag {
+  display: inline-block; font-size: 11px; color: var(--accent);
+  border: 1px solid var(--border); padding: 0 .45em;
+  cursor: pointer; white-space: nowrap; letter-spacing: .04em;
+  background: transparent; transition: background .15s, color .15s;
+  line-height: 1.6;
+}
+.card-tag:hover { background: var(--glow2); color: var(--fg); }
 .date-count { color: var(--muted); font-size: 11px; flex-shrink: 0; letter-spacing: .06em; }
 
 /* Reading viewer */
@@ -710,13 +718,41 @@ body.chaos-glitch .card-name {
     row.className = 'date-entry';
     row.setAttribute('role', 'listitem');
     row.setAttribute('data-date', entry.date);
-    var cardLabel = entry.cards ? entry.cards.join(' · ') : 'reading available';
-    row.setAttribute('aria-label', formatDateDisplay(entry.date) + ', ' + entry.count + ' readings');
+    var cardLabel = entry.tags ? entry.tags.join(', ') : (entry.cards ? entry.cards.join(' · ') : 'reading available');
+    row.setAttribute('aria-label', formatDateDisplay(entry.date) + ', ' + entry.count + ' readings, ' + cardLabel);
+
+    var tagsHtml = '';
+    if (entry.tags && entry.tags.length) {
+      tagsHtml = entry.tags.map(function(t) {
+        return '<span class="card-tag" data-tag="' + t.replace(/"/g, '&quot;') + '">' + t + '</span>';
+      }).join('');
+    } else if (entry.cards) {
+      tagsHtml = entry.cards.map(function(c) {
+        return '<span class="card-tag" data-tag="' + c.replace(/"/g, '&quot;') + '">' + c + '</span>';
+      }).join('');
+    }
+
     row.innerHTML =
       '<span class="date-key">' + entry.date + '</span>' +
-      '<span class="date-cards">' + cardLabel + '</span>' +
+      '<span class="date-cards">' + tagsHtml + '</span>' +
       '<span class="date-count">' + entry.count + '/3</span>';
-    row.addEventListener('click', function(e) { e.preventDefault(); openDate(entry.date); });
+
+    row.addEventListener('click', function(e) {
+      // If a tag pill was clicked, filter by it instead of opening the date
+      var tag = e.target.getAttribute && e.target.getAttribute('data-tag');
+      if (tag) {
+        e.preventDefault();
+        if (searchInput) {
+          searchInput.value = tag;
+          renderList(tag);
+          if (searchWrap) searchWrap.style.display = '';
+          searchInput.focus();
+        }
+        return;
+      }
+      e.preventDefault();
+      openDate(entry.date);
+    });
     return row;
   }
 
@@ -767,11 +803,14 @@ body.chaos-glitch .card-name {
         ['single-card', 'three-card', 'iching-integration'].forEach(function(k) {
           if (d[k]) { count++; cards.push(d[k]); }
         });
+        var tags = d.tags || null;
+        var searchParts = [date].concat(tags || cards);
         allEntries.push({
           date: date,
           count: count,
           cards: cards,
-          searchText: (date + ' ' + cards.join(' ')).toLowerCase()
+          tags: tags,
+          searchText: searchParts.join(' ').toLowerCase()
         });
       });
       if (statusEl) statusEl.textContent = allEntries.length + ' day' + (allEntries.length === 1 ? '' : 's') + ' in the archive';
