@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-05-07T12:00:00Z</updated>
+  <updated>2026-05-10T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-05-10</id>
+    <title>2026-05-10 — Seven of Wands</title>
+    <link href="https://cassette.help/?date=2026-05-10"/>
+    <updated>2026-05-10T12:00:00Z</updated>
+    <summary>Seven of Wands</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-05-07</id>
     <title>2026-05-07 — Increasing (益) · Three of Wands (reversed) · Past: Wheel of Fortune · Present: Six of Swords · Future: The Moon · Sun in Taurus · Moon in Capricorn</title>
