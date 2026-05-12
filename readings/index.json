@@ -1,14 +1,16 @@
 {
-  "updated": "2026-05-12T16:00:07Z",
+  "updated": "2026-05-12T19:00:07Z",
   "dates": {
     "2026-05-12": {
       "single-card": "Ace of Wands (reversed)",
       "three-card": "[PAST] Seven of Pentacles · [PRESENT] The Empress · [FUTURE] Ten of Swords",
+      "iching-integration": "Great Accumulation (#26)",
       "tags": [
         "Ace of Wands (reversed)",
         "[PAST] Seven of Pentacles",
         "[PRESENT] The Empress",
-        "[FUTURE] Ten of Swords"
+        "[FUTURE] Ten of Swords",
+        "Great Accumulation (#26"
       ]
     },
     "2026-05-11": {
