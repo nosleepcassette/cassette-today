@@ -1,6 +1,12 @@
 {
-  "updated": "2026-05-12T19:00:07Z",
+  "updated": "2026-05-13T14:00:07Z",
   "dates": {
+    "2026-05-13": {
+      "single-card": "Ace of Swords",
+      "tags": [
+        "Ace of Swords"
+      ]
+    },
     "2026-05-12": {
       "single-card": "Ace of Wands (reversed)",
       "three-card": "[PAST] Seven of Pentacles · [PRESENT] The Empress · [FUTURE] Ten of Swords",
