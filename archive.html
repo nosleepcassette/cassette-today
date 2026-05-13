@@ -290,6 +290,20 @@ body.chaos-glitch .card-name {
 .reading-body ul { padding-left: 1.5ch; margin-bottom: 1rem; }
 .reading-body li { margin-bottom: .3rem; }
 .slot-missing { color: var(--muted); font-size: .85rem; font-style: italic; padding: .2rem 0; }
+.gfm-section {
+  margin: 1.1rem 0 .6rem;
+  padding-top: .7rem;
+  border-top: 1px solid var(--border);
+}
+.gfm-section .section-label { margin-bottom: .6rem; }
+.gfm-wrap {
+  border: 1px solid var(--border);
+  background: rgba(255,176,0,.03);
+  padding: .5rem;
+  box-shadow: 0 0 18px var(--glow2);
+  max-width: 640px;
+}
+.gfm-wrap .gfm-embed { display: block; width: 100%; }
 
 .tui-footer {
   margin-top: .9rem; padding-top: .5rem;
@@ -444,6 +458,14 @@ body.chaos-glitch .card-name {
       <div class="reading-body" id="v-body-iching"></div>
     </section>
   </div>
+
+  <section class="gfm-section" aria-label="Support maps">
+    <div class="section-label">SUPPORT THE TAPE</div>
+    <div class="gfm-wrap">
+      <div class="gfm-embed" data-url="https://www.gofundme.com/f/support-needed-for-unexpected-expenses-brn6h/widget/large?sharesheet=undefined&attribution_id=sl:dc6b46c5-de6d-4f76-bb1e-5a7cd25daabb"></div>
+    </div>
+  </section>
+  <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
 
   <footer class="tui-footer" role="contentinfo">
     <a href="index.html">today</a>
