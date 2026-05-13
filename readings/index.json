@@ -1,13 +1,15 @@
 {
-  "updated": "2026-05-13T16:00:07Z",
+  "updated": "2026-05-13T19:00:06Z",
   "dates": {
     "2026-05-13": {
       "single-card": "Ace of Swords",
       "three-card": "Ace of Swords · The Emperor · Eight of Swords",
+      "iching-integration": "Developing Gradually (#53)",
       "tags": [
         "Ace of Swords",
         "The Emperor",
-        "Eight of Swords"
+        "Eight of Swords",
+        "Developing Gradually (#53"
       ]
     },
     "2026-05-12": {
