@@ -1,10 +1,14 @@
 {
-  "updated": "2026-05-14T14:00:07Z",
+  "updated": "2026-05-14T16:00:05Z",
   "dates": {
     "2026-05-14": {
       "single-card": "Ten of Cups",
+      "three-card": "Past: Strength · Present: Knight of Cups · Future: Nine of Cups",
       "tags": [
-        "Ten of Cups"
+        "Ten of Cups",
+        "Strength",
+        "Knight of Cups",
+        "Nine of Cups"
       ]
     },
     "2026-05-13": {
