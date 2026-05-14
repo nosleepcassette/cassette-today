@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-05-13T12:00:00Z</updated>
+  <updated>2026-05-14T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-05-14</id>
+    <title>2026-05-14 — Ten of Cups</title>
+    <link href="https://cassette.help/?date=2026-05-14"/>
+    <updated>2026-05-14T12:00:00Z</updated>
+    <summary>Ten of Cups</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-05-13</id>
     <title>2026-05-13 — Developing Gradually (#53) · Ace of Swords · Ace of Swords · The Emperor · Eight of Swords</title>
