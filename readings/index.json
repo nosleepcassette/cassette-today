@@ -1,10 +1,14 @@
 {
-  "updated": "2026-05-15T14:00:07Z",
+  "updated": "2026-05-15T16:00:06Z",
   "dates": {
     "2026-05-15": {
       "single-card": "Queen of Pentacles",
+      "three-card": "Page of Cups · Wheel of Fortune · Four of Swords",
       "tags": [
-        "Queen of Pentacles"
+        "Queen of Pentacles",
+        "Page of Cups",
+        "Wheel of Fortune",
+        "Four of Swords"
       ]
     },
     "2026-05-14": {
