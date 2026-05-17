@@ -1,14 +1,16 @@
 {
-  "updated": "2026-05-17T16:00:05Z",
+  "updated": "2026-05-17T19:00:05Z",
   "dates": {
     "2026-05-17": {
       "single-card": "The Empress",
       "three-card": "Three of Pentacles · Knight of Cups · Knight of Wands",
+      "iching-integration": "Childhood (#4)",
       "tags": [
         "The Empress",
         "Three of Pentacles",
         "Knight of Cups",
-        "Knight of Wands"
+        "Knight of Wands",
+        "Childhood (#4"
       ]
     },
     "2026-05-16": {
