@@ -1,6 +1,12 @@
 {
-  "updated": "2026-05-18T19:00:05Z",
+  "updated": "2026-05-19T14:00:07Z",
   "dates": {
+    "2026-05-19": {
+      "single-card": "Seven of Cups",
+      "tags": [
+        "Seven of Cups"
+      ]
+    },
     "2026-05-18": {
       "three-card": "Six of Cups · Eight of Wands · The Tower",
       "iching-integration": "Abundance 豐",
