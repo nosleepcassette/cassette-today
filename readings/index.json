@@ -1,10 +1,14 @@
 {
-  "updated": "2026-05-21T14:00:07Z",
+  "updated": "2026-05-21T16:00:18Z",
   "dates": {
     "2026-05-21": {
       "single-card": "The Chariot (Reversed)",
+      "three-card": "The Hermit · Nine of Pentacles · Justice (reversed)",
       "tags": [
-        "The Chariot (Reversed)"
+        "The Chariot (Reversed)",
+        "The Hermit",
+        "Nine of Pentacles",
+        "Justice (reversed)"
       ]
     },
     "2026-05-19": {
