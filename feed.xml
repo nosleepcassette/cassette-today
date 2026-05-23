@@ -9,10 +9,10 @@
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
   <entry>
     <id>https://cassette.help/?date=2026-05-22</id>
-    <title>2026-05-22 — Queen of Pentacles · Knight of Cups · King of Swords</title>
+    <title>2026-05-22 — Dispersing · Nine of Cups · Queen of Pentacles · Knight of Cups · King of Swords</title>
     <link href="https://cassette.help/?date=2026-05-22"/>
     <updated>2026-05-22T12:00:00Z</updated>
-    <summary>Queen of Pentacles · Knight of Cups · King of Swords</summary>
+    <summary>Dispersing / Nine of Cups / Queen of Pentacles · Knight of Cups · King of Swords</summary>
   </entry>
   <entry>
     <id>https://cassette.help/?date=2026-05-21</id>
@@ -22,11 +22,18 @@
     <summary>Brightness / The Chariot (Reversed) / The Hermit · Nine of Pentacles · Justice (reversed)</summary>
   </entry>
   <entry>
+    <id>https://cassette.help/?date=2026-05-20</id>
+    <title>2026-05-20 — Decreasing · Two of Wands · the past: two of swords · the present: the magician (reversed) · the future: seven of wands (reversed)</title>
+    <link href="https://cassette.help/?date=2026-05-20"/>
+    <updated>2026-05-20T12:00:00Z</updated>
+    <summary>Decreasing / Two of Wands / the past: two of swords · the present: the magician (reversed) · the future: seven of wands (reversed)</summary>
+  </entry>
+  <entry>
     <id>https://cassette.help/?date=2026-05-19</id>
-    <title>2026-05-19 — Proceeding Humbly · Seven of Cups</title>
+    <title>2026-05-19 — Proceeding Humbly · Seven of Cups · Page of Wands · Seven of Cups · Three of Pentacles</title>
     <link href="https://cassette.help/?date=2026-05-19"/>
     <updated>2026-05-19T12:00:00Z</updated>
-    <summary>Proceeding Humbly / Seven of Cups</summary>
+    <summary>Proceeding Humbly / Seven of Cups / Page of Wands · Seven of Cups · Three of Pentacles</summary>
   </entry>
   <entry>
     <id>https://cassette.help/?date=2026-05-18</id>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-05-01"/>
     <updated>2026-05-01T12:00:00Z</updated>
     <summary>Advance (泰) / Two of Swords / past: King of Swords · present: Seven of Swords (reversed) · future: The Hanged Man (reversed)</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-04-30</id>
-    <title>2026-04-30 — Humbleness (謙) · Death · past: Five of Swords (reversed) · present: Page of Cups (reversed) · future: Three of Pentacles</title>
-    <link href="https://cassette.help/?date=2026-04-30"/>
-    <updated>2026-04-30T12:00:00Z</updated>
-    <summary>Humbleness (謙) / Death / past: Five of Swords (reversed) · present: Page of Cups (reversed) · future: Three of Pentacles</summary>
   </entry>
 </feed>
