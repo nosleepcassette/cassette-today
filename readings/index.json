@@ -1,12 +1,14 @@
 {
-  "updated": "2026-05-23T19:00:02Z",
+  "updated": "2026-05-23T22:50:55Z",
   "dates": {
     "2026-05-23": {
       "single-card": "Three of Pentacles",
-      "three-card": "Seven of Wands",
+      "three-card": "King of Cups · Two of Pentacles · Seven of Wands",
       "iching-integration": "Advance",
       "tags": [
         "Three of Pentacles",
+        "King of Cups",
+        "Two of Pentacles",
         "Seven of Wands",
         "Advance"
       ]
