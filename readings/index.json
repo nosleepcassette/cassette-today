@@ -1,12 +1,14 @@
 {
-  "updated": "2026-05-23T16:00:02Z",
+  "updated": "2026-05-23T19:00:02Z",
   "dates": {
     "2026-05-23": {
       "single-card": "Three of Pentacles",
       "three-card": "Seven of Wands",
+      "iching-integration": "Advance",
       "tags": [
         "Three of Pentacles",
-        "Seven of Wands"
+        "Seven of Wands",
+        "Advance"
       ]
     },
     "2026-05-22": {
