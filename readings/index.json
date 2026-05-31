@@ -1,14 +1,16 @@
 {
-  "updated": "2026-05-31T16:00:03Z",
+  "updated": "2026-05-31T19:00:02Z",
   "dates": {
     "2026-05-31": {
       "single-card": "Three of Cups (reversed)",
       "three-card": "Page of Swords · The World reversed · Four of Swords",
+      "iching-integration": "Restricting (#60)",
       "tags": [
         "Three of Cups (reversed)",
         "Page of Swords",
         "The World reversed",
-        "Four of Swords"
+        "Four of Swords",
+        "Restricting (#60"
       ]
     },
     "2026-05-30": {
