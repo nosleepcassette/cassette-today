@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-01T16:00:02Z",
+  "updated": "2026-06-01T19:00:02Z",
   "dates": {
     "2026-06-01": {
       "single-card": "The Magician",
       "three-card": "Three of Cups · Eight of Wands · Page of Pentacles reversed",
+      "iching-integration": "Darkness (#29)",
       "tags": [
         "The Magician",
         "Three of Cups",
         "Eight of Wands",
-        "Page of Pentacles reversed"
+        "Page of Pentacles reversed",
+        "Darkness (#29"
       ]
     },
     "2026-05-31": {
