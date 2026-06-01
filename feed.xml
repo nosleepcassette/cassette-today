@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-05-31T12:00:00Z</updated>
+  <updated>2026-06-01T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-06-01</id>
+    <title>2026-06-01 — The Magician</title>
+    <link href="https://cassette.help/?date=2026-06-01"/>
+    <updated>2026-06-01T12:00:00Z</updated>
+    <summary>The Magician</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-05-31</id>
     <title>2026-05-31 — Restricting (#60) · Three of Cups (reversed) · Page of Swords · The World reversed · Four of Swords</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-05-13"/>
     <updated>2026-05-13T12:00:00Z</updated>
     <summary>Developing Gradually (#53) / Ace of Swords / Ace of Swords · The Emperor · Eight of Swords</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-05-12</id>
-    <title>2026-05-12 — Great Accumulation (#26) · Ace of Wands (reversed) · [PAST] Seven of Pentacles · [PRESENT] The Empress · [FUTURE] Ten of Swords</title>
-    <link href="https://cassette.help/?date=2026-05-12"/>
-    <updated>2026-05-12T12:00:00Z</updated>
-    <summary>Great Accumulation (#26) / Ace of Wands (reversed) / [PAST] Seven of Pentacles · [PRESENT] The Empress · [FUTURE] Ten of Swords</summary>
   </entry>
 </feed>
