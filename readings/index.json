@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-02T14:00:04Z",
+  "updated": "2026-06-02T16:00:02Z",
   "dates": {
     "2026-06-02": {
       "single-card": "The Empress (reversed)",
+      "three-card": "Temperance · Ten of Cups · The Empress",
       "tags": [
-        "The Empress (reversed)"
+        "The Empress (reversed)",
+        "Temperance",
+        "Ten of Cups",
+        "The Empress"
       ]
     },
     "2026-06-01": {
