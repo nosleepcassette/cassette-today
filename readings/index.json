@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-02T16:00:02Z",
+  "updated": "2026-06-02T19:00:05Z",
   "dates": {
     "2026-06-02": {
       "single-card": "The Empress (reversed)",
       "three-card": "Temperance · Ten of Cups · The Empress",
+      "iching-integration": "Humbleness (#15)",
       "tags": [
         "The Empress (reversed)",
         "Temperance",
         "Ten of Cups",
-        "The Empress"
+        "The Empress",
+        "Humbleness (#15"
       ]
     },
     "2026-06-01": {
