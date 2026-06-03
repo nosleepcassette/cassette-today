@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-03T16:00:02Z",
+  "updated": "2026-06-03T19:00:02Z",
   "dates": {
     "2026-06-03": {
       "single-card": "Queen of Pentacles",
       "three-card": "The Chariot · Three of Wands · Wheel of Fortune",
+      "iching-integration": "Multitude (#7)",
       "tags": [
         "Queen of Pentacles",
         "The Chariot",
         "Three of Wands",
-        "Wheel of Fortune"
+        "Wheel of Fortune",
+        "Multitude (#7"
       ]
     },
     "2026-06-02": {
