@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-03T14:00:03Z",
+  "updated": "2026-06-03T16:00:02Z",
   "dates": {
     "2026-06-03": {
       "single-card": "Queen of Pentacles",
+      "three-card": "The Chariot · Three of Wands · Wheel of Fortune",
       "tags": [
-        "Queen of Pentacles"
+        "Queen of Pentacles",
+        "The Chariot",
+        "Three of Wands",
+        "Wheel of Fortune"
       ]
     },
     "2026-06-02": {
