@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-04T16:00:02Z",
+  "updated": "2026-06-04T19:00:02Z",
   "dates": {
     "2026-06-04": {
       "single-card": "The Hierophant",
       "three-card": "Three of Swords (reversed) · Six of Swords · Seven of Pentacles",
+      "iching-integration": "Marrying Maiden (#54)",
       "tags": [
         "The Hierophant",
         "Three of Swords (reversed)",
         "Six of Swords",
-        "Seven of Pentacles"
+        "Seven of Pentacles",
+        "Marrying Maiden (#54"
       ]
     },
     "2026-06-03": {
