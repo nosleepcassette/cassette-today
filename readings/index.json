@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-05T16:00:02Z",
+  "updated": "2026-06-05T19:00:02Z",
   "dates": {
     "2026-06-05": {
       "single-card": "Eight of Wands",
       "three-card": "Five of Cups (reversed) · Queen of Cups (reversed) · Two of Swords (reversed)",
+      "iching-integration": "Delight (#16)",
       "tags": [
         "Eight of Wands",
         "Five of Cups (reversed)",
         "Queen of Cups (reversed)",
-        "Two of Swords (reversed)"
+        "Two of Swords (reversed)",
+        "Delight (#16"
       ]
     },
     "2026-06-04": {
