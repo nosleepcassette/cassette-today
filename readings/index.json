@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-06T14:00:03Z",
+  "updated": "2026-06-06T16:00:03Z",
   "dates": {
     "2026-06-06": {
       "single-card": "Two of Wands, reversed",
+      "three-card": "Page of Cups · Justice · Eight of Cups",
       "tags": [
-        "Two of Wands, reversed"
+        "Two of Wands, reversed",
+        "Page of Cups",
+        "Justice",
+        "Eight of Cups"
       ]
     },
     "2026-06-05": {
