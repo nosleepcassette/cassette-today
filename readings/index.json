@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-08T14:00:03Z",
+  "updated": "2026-06-08T16:00:03Z",
   "dates": {
     "2026-06-08": {
       "single-card": "Nine of Swords",
+      "three-card": "Five of Cups · Five of Wands · Judgement (reversed)",
       "tags": [
-        "Nine of Swords"
+        "Nine of Swords",
+        "Five of Cups",
+        "Five of Wands",
+        "Judgement (reversed)"
       ]
     },
     "2026-06-07": {
