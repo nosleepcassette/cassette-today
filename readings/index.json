@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-09T16:00:03Z",
+  "updated": "2026-06-09T19:00:03Z",
   "dates": {
     "2026-06-09": {
       "single-card": "Queen of Pentacles",
       "three-card": "Ten of Wands · Four of Swords reversed · Strength reversed",
+      "iching-integration": "Taking Action (#51)",
       "tags": [
         "Queen of Pentacles",
         "Ten of Wands",
         "Four of Swords reversed",
-        "Strength reversed"
+        "Strength reversed",
+        "Taking Action (#51"
       ]
     },
     "2026-06-08": {
