@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-09T14:00:04Z",
+  "updated": "2026-06-09T16:00:03Z",
   "dates": {
     "2026-06-09": {
       "single-card": "Queen of Pentacles",
+      "three-card": "Ten of Wands · Four of Swords reversed · Strength reversed",
       "tags": [
-        "Queen of Pentacles"
+        "Queen of Pentacles",
+        "Ten of Wands",
+        "Four of Swords reversed",
+        "Strength reversed"
       ]
     },
     "2026-06-08": {
