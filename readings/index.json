@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-10T16:00:03Z",
+  "updated": "2026-06-10T19:00:03Z",
   "dates": {
     "2026-06-10": {
       "single-card": "The World",
       "three-card": "Ace of Wands · Knight of Pentacles · Nine of Cups",
+      "iching-integration": "Joyful (#58)",
       "tags": [
         "The World",
         "Ace of Wands",
         "Knight of Pentacles",
-        "Nine of Cups"
+        "Nine of Cups",
+        "Joyful (#58"
       ]
     },
     "2026-06-09": {
