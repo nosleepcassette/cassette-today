@@ -1,6 +1,12 @@
 {
-  "updated": "2026-06-09T19:00:03Z",
+  "updated": "2026-06-10T14:00:03Z",
   "dates": {
+    "2026-06-10": {
+      "single-card": "The World",
+      "tags": [
+        "The World"
+      ]
+    },
     "2026-06-09": {
       "single-card": "Queen of Pentacles",
       "three-card": "Ten of Wands · Four of Swords reversed · Strength reversed",
