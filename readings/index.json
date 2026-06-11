@@ -1,16 +1,18 @@
 {
-  "updated": "2026-06-11T16:00:04Z",
+  "updated": "2026-06-11T21:18:00Z",
   "dates": {
     "2026-06-11": {
       "single-card": "The Fool",
       "three-card": "The Hanged Man (reversed) · The Lovers · Four of Swords · Mercury in Cancer (10th house) · Venus in Taurus (8th house)",
+      "iching-integration": "Needing (#5)",
       "tags": [
         "The Fool",
         "The Hanged Man (reversed)",
         "The Lovers",
         "Four of Swords",
         "Mercury in Cancer (10th house)",
-        "Venus in Taurus (8th house)"
+        "Venus in Taurus (8th house)",
+        "Needing (#5"
       ]
     },
     "2026-06-10": {
