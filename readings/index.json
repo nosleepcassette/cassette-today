@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-14T16:00:03Z",
+  "updated": "2026-06-14T19:00:03Z",
   "dates": {
     "2026-06-14": {
       "single-card": "The Chariot",
       "three-card": "The Lovers · Six of Pentacles · Ten of Pentacles",
+      "iching-integration": "Diversity (#38)",
       "tags": [
         "The Chariot",
         "The Lovers",
         "Six of Pentacles",
-        "Ten of Pentacles"
+        "Ten of Pentacles",
+        "Diversity (#38"
       ]
     },
     "2026-06-13": {
