@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-15T16:00:02Z",
+  "updated": "2026-06-15T19:00:03Z",
   "dates": {
     "2026-06-15": {
       "single-card": "Queen of Swords",
       "three-card": "Nine of Cups · Nine of Swords · Temperance",
+      "iching-integration": "Encountering (#44)",
       "tags": [
         "Queen of Swords",
         "Nine of Cups",
         "Nine of Swords",
-        "Temperance"
+        "Temperance",
+        "Encountering (#44"
       ]
     },
     "2026-06-14": {
