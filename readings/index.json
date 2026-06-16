@@ -1,10 +1,16 @@
 {
-  "updated": "2026-06-16T14:00:03Z",
+  "updated": "2026-06-16T16:00:04Z",
   "dates": {
     "2026-06-16": {
       "single-card": "The Fool",
+      "three-card": "The Devil (reversed) · The Star · The Moon (reversed) · Venus in Taurus · Mercury in Gemini",
       "tags": [
-        "The Fool"
+        "The Fool",
+        "The Devil (reversed)",
+        "The Star",
+        "The Moon (reversed)",
+        "Venus in Taurus",
+        "Mercury in Gemini"
       ]
     },
     "2026-06-15": {
