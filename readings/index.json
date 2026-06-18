@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-18T16:00:03Z",
+  "updated": "2026-06-18T19:00:02Z",
   "dates": {
     "2026-06-18": {
       "single-card": "Three of Cups",
       "three-card": "Justice · The Hierophant · Queen of Pentacles",
+      "iching-integration": "Eradicating (#21)",
       "tags": [
         "Three of Cups",
         "Justice",
         "The Hierophant",
-        "Queen of Pentacles"
+        "Queen of Pentacles",
+        "Eradicating (#21"
       ]
     },
     "2026-06-17": {
