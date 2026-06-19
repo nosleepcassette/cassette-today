@@ -1,16 +1,18 @@
 {
-  "updated": "2026-06-19T16:00:04Z",
+  "updated": "2026-06-19T19:00:04Z",
   "dates": {
     "2026-06-19": {
       "single-card": "The Magician",
       "three-card": "Past: Page of Wands (reversed) · Present: Ten of Wands (reversed) · Future: Five of Cups · Mercury in Gemini (10th house) · Venus in Cancer (11th house)",
+      "iching-integration": "Great Accumulation (#26)",
       "tags": [
         "The Magician",
         "Page of Wands (reversed)",
         "Ten of Wands (reversed)",
         "Five of Cups",
         "Mercury in Gemini (10th house)",
-        "Venus in Cancer (11th house)"
+        "Venus in Cancer (11th house)",
+        "Great Accumulation (#26"
       ]
     },
     "2026-06-18": {
