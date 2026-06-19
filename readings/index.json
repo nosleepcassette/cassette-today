@@ -1,6 +1,12 @@
 {
-  "updated": "2026-06-18T19:00:02Z",
+  "updated": "2026-06-19T14:00:03Z",
   "dates": {
+    "2026-06-19": {
+      "single-card": "The Magician",
+      "tags": [
+        "The Magician"
+      ]
+    },
     "2026-06-18": {
       "single-card": "Three of Cups",
       "three-card": "Justice · The Hierophant · Queen of Pentacles",

@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-06-18T12:00:00Z</updated>
+  <updated>2026-06-19T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-06-19</id>
+    <title>2026-06-19 — The Magician</title>
+    <link href="https://cassette.help/?date=2026-06-19"/>
+    <updated>2026-06-19T12:00:00Z</updated>
+    <summary>The Magician</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-06-18</id>
     <title>2026-06-18 — Eradicating (#21) · Three of Cups · Justice · The Hierophant · Queen of Pentacles</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-05-31"/>
     <updated>2026-05-31T12:00:00Z</updated>
     <summary>Restricting (#60) / Three of Cups (reversed) / Page of Swords · The World reversed · Four of Swords</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-05-30</id>
-    <title>2026-05-30 — Travelling (#56) · Nine of Pentacles · Five of Cups (reversed) · Four of Wands (reversed) · Eight of Cups · Saturn Retrograde in Pisces (2nd house) · Mars in Leo (9th house)</title>
-    <link href="https://cassette.help/?date=2026-05-30"/>
-    <updated>2026-05-30T12:00:00Z</updated>
-    <summary>Travelling (#56) / Nine of Pentacles / Five of Cups (reversed) · Four of Wands (reversed) · Eight of Cups · Saturn Retrograde in Pisces (2nd house) · Mars in Leo (9th house)</summary>
   </entry>
 </feed>
