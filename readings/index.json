@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-20T16:00:03Z",
+  "updated": "2026-06-20T19:00:04Z",
   "dates": {
     "2026-06-20": {
       "single-card": "Ace of Swords",
       "three-card": "Three of Swords · King of Wands reversed · Six of Pentacles",
+      "iching-integration": "Union (#8)",
       "tags": [
         "Ace of Swords",
         "Three of Swords",
         "King of Wands reversed",
-        "Six of Pentacles"
+        "Six of Pentacles",
+        "Union (#8"
       ]
     },
     "2026-06-19": {
