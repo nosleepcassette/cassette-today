@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-23T14:00:02Z",
+  "updated": "2026-06-23T16:00:03Z",
   "dates": {
     "2026-06-23": {
       "single-card": "three of cups",
+      "three-card": "The Hanged Man (reversed) · Queen of Swords · Queen of Cups (reversed)",
       "tags": [
-        "three of cups"
+        "three of cups",
+        "The Hanged Man (reversed)",
+        "Queen of Swords",
+        "Queen of Cups (reversed)"
       ]
     },
     "2026-06-22": {
