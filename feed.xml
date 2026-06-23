@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-06-22T12:00:00Z</updated>
+  <updated>2026-06-23T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-06-23</id>
+    <title>2026-06-23 — three of cups</title>
+    <link href="https://cassette.help/?date=2026-06-23"/>
+    <updated>2026-06-23T12:00:00Z</updated>
+    <summary>three of cups</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-06-22</id>
     <title>2026-06-22 — Nine of Pentacles · Temperance (reversed) · Two of Cups (reversed) · The Hanged Man (reversed) · Nine of Pentacles · mars in leo · mercury in cancer</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-06-04"/>
     <updated>2026-06-04T12:00:00Z</updated>
     <summary>Marrying Maiden (#54) / The Hierophant / Three of Swords (reversed) · Six of Swords · Seven of Pentacles</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-06-03</id>
-    <title>2026-06-03 — Multitude (#7) · Queen of Pentacles · The Chariot · Three of Wands · Wheel of Fortune</title>
-    <link href="https://cassette.help/?date=2026-06-03"/>
-    <updated>2026-06-03T12:00:00Z</updated>
-    <summary>Multitude (#7) / Queen of Pentacles / The Chariot · Three of Wands · Wheel of Fortune</summary>
   </entry>
 </feed>
