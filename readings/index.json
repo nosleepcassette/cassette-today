@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-24T16:00:02Z",
+  "updated": "2026-06-24T19:00:03Z",
   "dates": {
     "2026-06-24": {
       "single-card": "The Devil (reversed)",
       "three-card": "Seven of Cups · The World · Seven of Swords",
+      "iching-integration": "Initiating (#1)",
       "tags": [
         "The Devil (reversed)",
         "Seven of Cups",
         "The World",
-        "Seven of Swords"
+        "Seven of Swords",
+        "Initiating (#1"
       ]
     },
     "2026-06-23": {
