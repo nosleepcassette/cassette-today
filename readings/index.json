@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-24T14:00:02Z",
+  "updated": "2026-06-24T16:00:02Z",
   "dates": {
     "2026-06-24": {
       "single-card": "The Devil (reversed)",
+      "three-card": "Seven of Cups · The World · Seven of Swords",
       "tags": [
-        "The Devil (reversed)"
+        "The Devil (reversed)",
+        "Seven of Cups",
+        "The World",
+        "Seven of Swords"
       ]
     },
     "2026-06-23": {
