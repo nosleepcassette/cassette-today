@@ -1,10 +1,14 @@
 {
-  "updated": "2026-06-25T14:00:02Z",
+  "updated": "2026-06-25T16:00:03Z",
   "dates": {
     "2026-06-25": {
       "single-card": "Five of Pentacles",
+      "three-card": "Two of Swords · Queen of Pentacles · Nine of Cups (reversed)",
       "tags": [
-        "Five of Pentacles"
+        "Five of Pentacles",
+        "Two of Swords",
+        "Queen of Pentacles",
+        "Nine of Cups (reversed)"
       ]
     },
     "2026-06-24": {
