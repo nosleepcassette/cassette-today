@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-27T16:00:02Z",
+  "updated": "2026-06-27T19:00:02Z",
   "dates": {
     "2026-06-27": {
       "single-card": "Two of Cups",
       "three-card": "Seven of Wands · Ten of Cups reversed · Eight of Cups",
+      "iching-integration": "Multitude (#7)",
       "tags": [
         "Two of Cups",
         "Seven of Wands",
         "Ten of Cups reversed",
-        "Eight of Cups"
+        "Eight of Cups",
+        "Multitude (#7"
       ]
     },
     "2026-06-25": {
