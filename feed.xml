@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-06-27T12:00:00Z</updated>
+  <updated>2026-06-28T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-06-28</id>
+    <title>2026-06-28 — Four of Cups</title>
+    <link href="https://cassette.help/?date=2026-06-28"/>
+    <updated>2026-06-28T12:00:00Z</updated>
+    <summary>Four of Cups</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-06-27</id>
     <title>2026-06-27 — Multitude (#7) · Two of Cups · Seven of Wands · Ten of Cups reversed · Eight of Cups</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-06-08"/>
     <updated>2026-06-08T12:00:00Z</updated>
     <summary>Watching (#20) / Nine of Swords / Five of Cups · Five of Wands · Judgement (reversed)</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-06-07</id>
-    <title>2026-06-07 — Delight (#16) · Knight of Swords · Two of Cups · Two of Wands · King of Cups</title>
-    <link href="https://cassette.help/?date=2026-06-07"/>
-    <updated>2026-06-07T12:00:00Z</updated>
-    <summary>Delight (#16) / Knight of Swords / Two of Cups · Two of Wands · King of Cups</summary>
   </entry>
 </feed>
