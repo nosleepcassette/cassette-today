@@ -1,14 +1,16 @@
 {
-  "updated": "2026-06-28T16:00:02Z",
+  "updated": "2026-06-28T19:00:02Z",
   "dates": {
     "2026-06-28": {
       "single-card": "Four of Cups",
       "three-card": "Ten of Pentacles · Two of Cups · Nine of Cups",
+      "iching-integration": "Dispersing (#59)",
       "tags": [
         "Four of Cups",
         "Ten of Pentacles",
         "Two of Cups",
-        "Nine of Cups"
+        "Nine of Cups",
+        "Dispersing (#59"
       ]
     },
     "2026-06-27": {
