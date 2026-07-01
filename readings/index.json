@@ -1,6 +1,12 @@
 {
-  "updated": "2026-06-30T19:00:02Z",
+  "updated": "2026-07-01T14:00:02Z",
   "dates": {
+    "2026-07-01": {
+      "single-card": "Page of Wands",
+      "tags": [
+        "Page of Wands"
+      ]
+    },
     "2026-06-30": {
       "three-card": "The Empress · The Star · The Hermit · mercury in cancer · venus in taurus",
       "iching-integration": "Growing Upward (#46)",
