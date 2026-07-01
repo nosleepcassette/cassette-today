@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-01T14:00:02Z",
+  "updated": "2026-07-01T16:00:02Z",
   "dates": {
     "2026-07-01": {
       "single-card": "Page of Wands",
+      "three-card": "Seven of Swords · Knight of Pentacles · Five of Swords",
       "tags": [
-        "Page of Wands"
+        "Page of Wands",
+        "Seven of Swords",
+        "Knight of Pentacles",
+        "Five of Swords"
       ]
     },
     "2026-06-30": {
