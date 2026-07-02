@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-02T16:00:03Z",
+  "updated": "2026-07-02T19:00:02Z",
   "dates": {
     "2026-07-02": {
       "single-card": "Three of Cups",
       "three-card": "Five of Wands · Death (reversed) · The Moon",
+      "iching-integration": "Without Falsehood (#25)",
       "tags": [
         "Three of Cups",
         "Five of Wands",
         "Death (reversed)",
-        "The Moon"
+        "The Moon",
+        "Without Falsehood (#25"
       ]
     },
     "2026-07-01": {
