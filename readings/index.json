@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-02T14:00:02Z",
+  "updated": "2026-07-02T16:00:03Z",
   "dates": {
     "2026-07-02": {
       "single-card": "Three of Cups",
+      "three-card": "Five of Wands · Death (reversed) · The Moon",
       "tags": [
-        "Three of Cups"
+        "Three of Cups",
+        "Five of Wands",
+        "Death (reversed)",
+        "The Moon"
       ]
     },
     "2026-07-01": {
