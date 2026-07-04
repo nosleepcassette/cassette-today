@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-04T16:00:02Z",
+  "updated": "2026-07-04T19:00:03Z",
   "dates": {
     "2026-07-04": {
       "single-card": "the world",
       "three-card": "Ace of Cups (reversed) · Page of Wands (reversed) · Nine of Pentacles",
+      "iching-integration": "Relief",
       "tags": [
         "the world",
         "Ace of Cups (reversed)",
         "Page of Wands (reversed)",
-        "Nine of Pentacles"
+        "Nine of Pentacles",
+        "Relief"
       ]
     },
     "2026-07-03": {
