@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-04T14:00:03Z",
+  "updated": "2026-07-04T16:00:02Z",
   "dates": {
     "2026-07-04": {
       "single-card": "the world",
+      "three-card": "Ace of Cups (reversed) · Page of Wands (reversed) · Nine of Pentacles",
       "tags": [
-        "the world"
+        "the world",
+        "Ace of Cups (reversed)",
+        "Page of Wands (reversed)",
+        "Nine of Pentacles"
       ]
     },
     "2026-07-03": {
