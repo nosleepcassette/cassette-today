@@ -1,6 +1,12 @@
 {
-  "updated": "2026-07-03T19:00:02Z",
+  "updated": "2026-07-04T14:00:03Z",
   "dates": {
+    "2026-07-04": {
+      "single-card": "the world",
+      "tags": [
+        "the world"
+      ]
+    },
     "2026-07-03": {
       "iching-integration": "Darkness (#29)",
       "tags": [
