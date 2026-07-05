@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-05T16:00:02Z",
+  "updated": "2026-07-05T19:00:02Z",
   "dates": {
     "2026-07-05": {
       "single-card": "Five of Cups",
       "three-card": "Queen of Swords · Ten of Pentacles · Ten of Swords",
+      "iching-integration": "Increasing (#42)",
       "tags": [
         "Five of Cups",
         "Queen of Swords",
         "Ten of Pentacles",
-        "Ten of Swords"
+        "Ten of Swords",
+        "Increasing (#42"
       ]
     },
     "2026-07-04": {
