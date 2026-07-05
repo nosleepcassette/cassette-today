@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-05T14:00:02Z",
+  "updated": "2026-07-05T16:00:02Z",
   "dates": {
     "2026-07-05": {
       "single-card": "Five of Cups",
+      "three-card": "Queen of Swords · Ten of Pentacles · Ten of Swords",
       "tags": [
-        "Five of Cups"
+        "Five of Cups",
+        "Queen of Swords",
+        "Ten of Pentacles",
+        "Ten of Swords"
       ]
     },
     "2026-07-04": {
