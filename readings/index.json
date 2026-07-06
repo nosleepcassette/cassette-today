@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-06T16:00:03Z",
+  "updated": "2026-07-06T19:00:02Z",
   "dates": {
     "2026-07-06": {
       "single-card": "The Empress",
       "three-card": "Strength (reversed) · Two of Swords · Queen of Wands",
+      "iching-integration": "Bringing Together (#45)",
       "tags": [
         "The Empress",
         "Strength (reversed)",
         "Two of Swords",
-        "Queen of Wands"
+        "Queen of Wands",
+        "Bringing Together (#45"
       ]
     },
     "2026-07-05": {
