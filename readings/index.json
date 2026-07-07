@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-07T14:00:03Z",
+  "updated": "2026-07-07T16:00:03Z",
   "dates": {
     "2026-07-07": {
       "single-card": "Ace of Pentacles",
+      "three-card": "The Emperor (reversed) · Two of Pentacles · The Star",
       "tags": [
-        "Ace of Pentacles"
+        "Ace of Pentacles",
+        "The Emperor (reversed)",
+        "Two of Pentacles",
+        "The Star"
       ]
     },
     "2026-07-06": {
