@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-07T16:00:03Z",
+  "updated": "2026-07-07T19:00:02Z",
   "dates": {
     "2026-07-07": {
       "single-card": "Ace of Pentacles",
       "three-card": "The Emperor (reversed) · Two of Pentacles · The Star",
+      "iching-integration": "Brightness (#30)",
       "tags": [
         "Ace of Pentacles",
         "The Emperor (reversed)",
         "Two of Pentacles",
-        "The Star"
+        "The Star",
+        "Brightness (#30"
       ]
     },
     "2026-07-06": {
