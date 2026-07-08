@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-08T16:00:03Z",
+  "updated": "2026-07-08T19:00:03Z",
   "dates": {
     "2026-07-08": {
       "single-card": "The Hermit (reversed)",
       "three-card": "Three of Cups (reversed) · Seven of Swords (reversed) · Two of Pentacles (reversed)",
+      "iching-integration": "Diversity (#38)",
       "tags": [
         "The Hermit (reversed)",
         "Three of Cups (reversed)",
         "Seven of Swords (reversed)",
-        "Two of Pentacles (reversed)"
+        "Two of Pentacles (reversed)",
+        "Diversity (#38"
       ]
     },
     "2026-07-07": {
