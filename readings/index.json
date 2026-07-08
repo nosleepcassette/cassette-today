@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-08T14:00:03Z",
+  "updated": "2026-07-08T16:00:03Z",
   "dates": {
     "2026-07-08": {
       "single-card": "The Hermit (reversed)",
+      "three-card": "Three of Cups (reversed) · Seven of Swords (reversed) · Two of Pentacles (reversed)",
       "tags": [
-        "The Hermit (reversed)"
+        "The Hermit (reversed)",
+        "Three of Cups (reversed)",
+        "Seven of Swords (reversed)",
+        "Two of Pentacles (reversed)"
       ]
     },
     "2026-07-07": {
