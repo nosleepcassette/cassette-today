@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-09T16:00:04Z",
+  "updated": "2026-07-09T19:00:03Z",
   "dates": {
     "2026-07-09": {
       "single-card": "Five of Swords",
       "three-card": "The Hermit · Page of Swords · Death",
+      "iching-integration": "Approaching (#19)",
       "tags": [
         "Five of Swords",
         "The Hermit",
         "Page of Swords",
-        "Death"
+        "Death",
+        "Approaching (#19"
       ]
     },
     "2026-07-08": {
