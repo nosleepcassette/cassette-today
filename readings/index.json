@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-10T16:00:03Z",
+  "updated": "2026-07-10T19:00:03Z",
   "dates": {
     "2026-07-10": {
       "single-card": "The Magician",
       "three-card": "The Empress (reversed) · Page of Cups · Page of Wands",
+      "iching-integration": "Establishing The New",
       "tags": [
         "The Magician",
         "The Empress (reversed)",
         "Page of Cups",
-        "Page of Wands"
+        "Page of Wands",
+        "Establishing The New"
       ]
     },
     "2026-07-09": {
