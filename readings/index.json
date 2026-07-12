@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-12T14:00:03Z",
+  "updated": "2026-07-12T16:00:03Z",
   "dates": {
     "2026-07-12": {
       "single-card": "Ace of Pentacles (reversed)",
+      "three-card": "The Devil · Six of Cups · Five of Pentacles",
       "tags": [
-        "Ace of Pentacles (reversed)"
+        "Ace of Pentacles (reversed)",
+        "The Devil",
+        "Six of Cups",
+        "Five of Pentacles"
       ]
     },
     "2026-07-11": {
