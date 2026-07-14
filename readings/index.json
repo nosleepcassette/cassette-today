@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-14T16:00:03Z",
+  "updated": "2026-07-14T19:00:02Z",
   "dates": {
     "2026-07-14": {
       "single-card": "Knight of Cups",
       "three-card": "The Magician (reversed) · Nine of Cups (reversed) · Ten of Swords",
+      "iching-integration": "Great Harvest (#14)",
       "tags": [
         "Knight of Cups",
         "The Magician (reversed)",
         "Nine of Cups (reversed)",
-        "Ten of Swords"
+        "Ten of Swords",
+        "Great Harvest (#14"
       ]
     },
     "2026-07-13": {
