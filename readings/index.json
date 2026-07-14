@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-14T14:00:02Z",
+  "updated": "2026-07-14T16:00:03Z",
   "dates": {
     "2026-07-14": {
       "single-card": "Knight of Cups",
+      "three-card": "The Magician (reversed) · Nine of Cups (reversed) · Ten of Swords",
       "tags": [
-        "Knight of Cups"
+        "Knight of Cups",
+        "The Magician (reversed)",
+        "Nine of Cups (reversed)",
+        "Ten of Swords"
       ]
     },
     "2026-07-13": {
