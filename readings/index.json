@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-15T16:00:02Z",
+  "updated": "2026-07-15T19:00:02Z",
   "dates": {
     "2026-07-15": {
       "single-card": "Knight of Pentacles (reversed)",
       "three-card": "Six of Cups · Two of Cups · Nine of Swords",
+      "iching-integration": "Long Lasting (#32)",
       "tags": [
         "Knight of Pentacles (reversed)",
         "Six of Cups",
         "Two of Cups",
-        "Nine of Swords"
+        "Nine of Swords",
+        "Long Lasting (#32"
       ]
     },
     "2026-07-14": {
