@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-17T16:00:02Z",
+  "updated": "2026-07-17T19:00:04Z",
   "dates": {
     "2026-07-17": {
       "single-card": "Six of Cups",
       "three-card": "Two of Swords · Knight of Swords · The Hanged Man",
+      "iching-integration": "Travelling (#56)",
       "tags": [
         "Six of Cups",
         "Two of Swords",
         "Knight of Swords",
-        "The Hanged Man"
+        "The Hanged Man",
+        "Travelling (#56"
       ]
     },
     "2026-07-16": {
