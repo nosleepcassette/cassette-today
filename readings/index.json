@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-17T14:00:03Z",
+  "updated": "2026-07-17T16:00:02Z",
   "dates": {
     "2026-07-17": {
       "single-card": "Six of Cups",
+      "three-card": "Two of Swords · Knight of Swords · The Hanged Man",
       "tags": [
-        "Six of Cups"
+        "Six of Cups",
+        "Two of Swords",
+        "Knight of Swords",
+        "The Hanged Man"
       ]
     },
     "2026-07-16": {
