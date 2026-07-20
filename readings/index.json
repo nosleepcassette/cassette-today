@@ -1,6 +1,12 @@
 {
-  "updated": "2026-07-18T16:00:03Z",
+  "updated": "2026-07-20T14:00:03Z",
   "dates": {
+    "2026-07-20": {
+      "single-card": "Nine of Swords",
+      "tags": [
+        "Nine of Swords"
+      ]
+    },
     "2026-07-18": {
       "single-card": "Two of Wands (reversed)",
       "three-card": "Ace of Wands (reversed) · Nine of Pentacles (reversed) · Page of Pentacles",
