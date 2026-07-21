@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-07-20T12:00:00Z</updated>
+  <updated>2026-07-21T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-07-21</id>
+    <title>2026-07-21 — Ace of Swords</title>
+    <link href="https://cassette.help/?date=2026-07-21"/>
+    <updated>2026-07-21T12:00:00Z</updated>
+    <summary>Ace of Swords</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-07-20</id>
     <title>2026-07-20 — Travelling (#56) · Nine of Swords · Queen of Pentacles (reversed) · King of Wands · King of Cups (reversed)</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-01"/>
     <updated>2026-07-01T12:00:00Z</updated>
     <summary>Brightness (#30) / Page of Wands / Seven of Swords · Knight of Pentacles · Five of Swords</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-06-30</id>
-    <title>2026-06-30 — Growing Upward (#46) · The Empress · The Star · The Hermit · mercury in cancer · venus in taurus</title>
-    <link href="https://cassette.help/?date=2026-06-30"/>
-    <updated>2026-06-30T12:00:00Z</updated>
-    <summary>Growing Upward (#46) / The Empress · The Star · The Hermit · mercury in cancer · venus in taurus</summary>
   </entry>
 </feed>
