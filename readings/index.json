@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-21T16:00:02Z",
+  "updated": "2026-07-21T19:00:02Z",
   "dates": {
     "2026-07-21": {
       "single-card": "Ace of Swords",
       "three-card": "Knight of Cups · Queen of Pentacles, reversed · Queen of Cups, reversed",
+      "iching-integration": "Dispersing (#59)",
       "tags": [
         "Ace of Swords",
         "Knight of Cups",
         "Queen of Pentacles, reversed",
-        "Queen of Cups, reversed"
+        "Queen of Cups, reversed",
+        "Dispersing (#59"
       ]
     },
     "2026-07-20": {
