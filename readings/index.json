@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-22T16:00:02Z",
+  "updated": "2026-07-22T19:00:03Z",
   "dates": {
     "2026-07-22": {
       "single-card": "The Devil",
       "three-card": "Page of Cups · The Moon · Eight of Wands",
+      "iching-integration": "Retreat (#33)",
       "tags": [
         "The Devil",
         "Page of Cups",
         "The Moon",
-        "Eight of Wands"
+        "Eight of Wands",
+        "Retreat (#33"
       ]
     },
     "2026-07-21": {
