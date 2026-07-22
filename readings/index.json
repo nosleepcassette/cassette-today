@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-22T14:00:02Z",
+  "updated": "2026-07-22T16:00:02Z",
   "dates": {
     "2026-07-22": {
       "single-card": "The Devil",
+      "three-card": "Page of Cups · The Moon · Eight of Wands",
       "tags": [
-        "The Devil"
+        "The Devil",
+        "Page of Cups",
+        "The Moon",
+        "Eight of Wands"
       ]
     },
     "2026-07-21": {
