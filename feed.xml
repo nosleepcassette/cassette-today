@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-07-22T12:00:00Z</updated>
+  <updated>2026-07-23T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-07-23</id>
+    <title>2026-07-23 — Two of Cups</title>
+    <link href="https://cassette.help/?date=2026-07-23"/>
+    <updated>2026-07-23T12:00:00Z</updated>
+    <summary>Two of Cups</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-07-22</id>
     <title>2026-07-22 — Retreat (#33) · The Devil · Page of Cups · The Moon · Eight of Wands</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-03"/>
     <updated>2026-07-03T12:00:00Z</updated>
     <summary>Darkness (#29)</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-07-02</id>
-    <title>2026-07-02 — Without Falsehood (#25) · Three of Cups · Five of Wands · Death (reversed) · The Moon</title>
-    <link href="https://cassette.help/?date=2026-07-02"/>
-    <updated>2026-07-02T12:00:00Z</updated>
-    <summary>Without Falsehood (#25) / Three of Cups / Five of Wands · Death (reversed) · The Moon</summary>
   </entry>
 </feed>
