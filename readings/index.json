@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-24T16:00:02Z",
+  "updated": "2026-07-24T19:00:02Z",
   "dates": {
     "2026-07-24": {
       "single-card": "Ace of Pentacles",
       "three-card": "The Devil · Six of Wands · Ten of Pentacles",
+      "iching-integration": "Proceeding Forward (#35)",
       "tags": [
         "Ace of Pentacles",
         "The Devil",
         "Six of Wands",
-        "Ten of Pentacles"
+        "Ten of Pentacles",
+        "Proceeding Forward (#35"
       ]
     },
     "2026-07-23": {
