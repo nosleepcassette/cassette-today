@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-25T16:00:03Z",
+  "updated": "2026-07-25T19:00:03Z",
   "dates": {
     "2026-07-25": {
       "single-card": "Knight of Swords (reversed)",
       "three-card": "The Fool (reversed) · Knight of Pentacles (reversed) · Knight of Cups",
+      "iching-integration": "Marrying Maiden",
       "tags": [
         "Knight of Swords (reversed)",
         "The Fool (reversed)",
         "Knight of Pentacles (reversed)",
-        "Knight of Cups"
+        "Knight of Cups",
+        "Marrying Maiden"
       ]
     },
     "2026-07-24": {
