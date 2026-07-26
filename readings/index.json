@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-26T16:00:03Z",
+  "updated": "2026-07-26T19:00:02Z",
   "dates": {
     "2026-07-26": {
       "single-card": "The Moon (reversed)",
       "three-card": "Two of Pentacles (reversed) · Page of Swords (reversed) · Page of Pentacles (reversed)",
+      "iching-integration": "Brightness (#30)",
       "tags": [
         "The Moon (reversed)",
         "Two of Pentacles (reversed)",
         "Page of Swords (reversed)",
-        "Page of Pentacles (reversed)"
+        "Page of Pentacles (reversed)",
+        "Brightness (#30"
       ]
     },
     "2026-07-25": {
