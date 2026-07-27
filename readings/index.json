@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-27T14:00:03Z",
+  "updated": "2026-07-27T16:00:02Z",
   "dates": {
     "2026-07-27": {
       "single-card": "The World (reversed)",
+      "three-card": "The World · The Magician · Page of Wands",
       "tags": [
-        "The World (reversed)"
+        "The World (reversed)",
+        "The World",
+        "The Magician",
+        "Page of Wands"
       ]
     },
     "2026-07-26": {
