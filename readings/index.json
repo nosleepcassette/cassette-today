@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-28T14:00:07Z",
+  "updated": "2026-07-28T16:00:10Z",
   "dates": {
     "2026-07-28": {
       "single-card": "Queen of Wands (reversed)",
+      "three-card": "Three of Cups · Five of Wands · Two of Pentacles",
       "tags": [
-        "Queen of Wands (reversed)"
+        "Queen of Wands (reversed)",
+        "Three of Cups",
+        "Five of Wands",
+        "Two of Pentacles"
       ]
     },
     "2026-07-27": {
