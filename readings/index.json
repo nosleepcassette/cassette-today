@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-28T16:00:10Z",
+  "updated": "2026-07-28T19:00:12Z",
   "dates": {
     "2026-07-28": {
       "single-card": "Queen of Wands (reversed)",
       "three-card": "Three of Cups · Five of Wands · Two of Pentacles",
+      "iching-integration": "Already Fulfilled (#63)",
       "tags": [
         "Queen of Wands (reversed)",
         "Three of Cups",
         "Five of Wands",
-        "Two of Pentacles"
+        "Two of Pentacles",
+        "Already Fulfilled (#63"
       ]
     },
     "2026-07-27": {
