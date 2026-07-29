@@ -1,10 +1,14 @@
 {
-  "updated": "2026-07-29T14:00:02Z",
+  "updated": "2026-07-29T16:00:03Z",
   "dates": {
     "2026-07-29": {
       "single-card": "Page of Swords",
+      "three-card": "Nine of Pentacles · The Lovers · Five of Pentacles",
       "tags": [
-        "Page of Swords"
+        "Page of Swords",
+        "Nine of Pentacles",
+        "The Lovers",
+        "Five of Pentacles"
       ]
     },
     "2026-07-28": {
