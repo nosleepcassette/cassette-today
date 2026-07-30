@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-30T16:00:05Z",
+  "updated": "2026-07-30T19:00:07Z",
   "dates": {
     "2026-07-30": {
       "single-card": "Strength (reversed)",
       "three-card": "Three of Swords · Five of Swords, reversed · Ace of Cups",
+      "iching-integration": "Following",
       "tags": [
         "Strength (reversed)",
         "Three of Swords",
         "Five of Swords, reversed",
-        "Ace of Cups"
+        "Ace of Cups",
+        "Following"
       ]
     },
     "2026-07-29": {
