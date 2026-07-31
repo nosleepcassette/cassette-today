@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-31T16:00:50Z",
+  "updated": "2026-07-31T19:00:08Z",
   "dates": {
     "2026-07-31": {
       "single-card": "The Emperor",
       "three-card": "Justice · King of Pentacles · Five of Swords",
+      "iching-integration": "Replenishing (#48)",
       "tags": [
         "The Emperor",
         "Justice",
         "King of Pentacles",
-        "Five of Swords"
+        "Five of Swords",
+        "Replenishing (#48"
       ]
     },
     "2026-07-30": {
