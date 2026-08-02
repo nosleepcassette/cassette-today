@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-02T18:59:55Z",
+  "updated": "2026-08-03T00:11:31Z",
   "dates": {
     "2026-08-02": {
       "single-card": "The Tower (reversed)",
       "three-card": "Knight of Wands · Queen of Pentacles · Four of Cups reversed",
+      "iching-integration": "Great Accumulation",
       "tags": [
         "The Tower (reversed)",
         "Knight of Wands",
         "Queen of Pentacles",
-        "Four of Cups reversed"
+        "Four of Cups reversed",
+        "Great Accumulation"
       ]
     },
     "2026-08-01": {
