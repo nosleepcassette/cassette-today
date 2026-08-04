@@ -1,10 +1,13 @@
 {
-  "updated": "2026-08-04T14:00:53Z",
+  "updated": "2026-08-04T19:00:01Z",
   "dates": {
     "2026-08-04": {
       "single-card": "Six of Wands",
+      "three-card": "Six of Wands · Seven of Cups · Nine of Wands",
       "tags": [
-        "Six of Wands"
+        "Six of Wands",
+        "Seven of Cups",
+        "Nine of Wands"
       ]
     },
     "2026-08-03": {
