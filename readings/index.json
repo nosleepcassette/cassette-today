@@ -1,13 +1,15 @@
 {
-  "updated": "2026-08-04T19:00:01Z",
+  "updated": "2026-08-05T00:29:47Z",
   "dates": {
     "2026-08-04": {
       "single-card": "Six of Wands",
       "three-card": "Six of Wands · Seven of Cups · Nine of Wands",
+      "iching-integration": "Great Harvest (#14)",
       "tags": [
         "Six of Wands",
         "Seven of Cups",
-        "Nine of Wands"
+        "Nine of Wands",
+        "Great Harvest (#14"
       ]
     },
     "2026-08-03": {
