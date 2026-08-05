@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-05T16:00:05Z",
+  "updated": "2026-08-06T00:12:31Z",
   "dates": {
     "2026-08-05": {
       "single-card": "Queen of Wands",
       "three-card": "The Emperor (reversed) · Four of Cups · The Hanged Man",
+      "iching-integration": "Brightness (#30)",
       "tags": [
         "Queen of Wands",
         "The Emperor (reversed)",
         "Four of Cups",
-        "The Hanged Man"
+        "The Hanged Man",
+        "Brightness (#30"
       ]
     },
     "2026-08-04": {
