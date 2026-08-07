@@ -1,10 +1,14 @@
 {
-  "updated": "2026-08-07T14:00:03Z",
+  "updated": "2026-08-07T16:00:03Z",
   "dates": {
     "2026-08-07": {
       "single-card": "The Empress",
+      "three-card": "Seven of Swords (reversed) · Seven of Wands · Nine of Wands",
       "tags": [
-        "The Empress"
+        "The Empress",
+        "Seven of Swords (reversed)",
+        "Seven of Wands",
+        "Nine of Wands"
       ]
     },
     "2026-08-06": {
