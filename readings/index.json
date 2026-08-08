@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-08T16:00:04Z",
+  "updated": "2026-08-08T22:14:08Z",
   "dates": {
     "2026-08-08": {
       "single-card": "Ace of Cups",
       "three-card": "Temperance · King of Swords · Four of Swords (reversed)",
+      "iching-integration": "Keeping Still",
       "tags": [
         "Ace of Cups",
         "Temperance",
         "King of Swords",
-        "Four of Swords (reversed)"
+        "Four of Swords (reversed)",
+        "Keeping Still"
       ]
     },
     "2026-08-07": {
