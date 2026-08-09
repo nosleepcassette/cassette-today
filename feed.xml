@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-08T12:00:00Z</updated>
+  <updated>2026-08-09T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-09</id>
+    <title>2026-08-09 — Ace of Cups</title>
+    <link href="https://cassette.help/?date=2026-08-09"/>
+    <updated>2026-08-09T12:00:00Z</updated>
+    <summary>Ace of Cups</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-08</id>
     <title>2026-08-08 — Keeping Still · Ace of Cups · Temperance · King of Swords · Four of Swords (reversed)</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-21"/>
     <updated>2026-07-21T12:00:00Z</updated>
     <summary>Dispersing (#59) / Ace of Swords / Knight of Cups · Queen of Pentacles, reversed · Queen of Cups, reversed</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-07-20</id>
-    <title>2026-07-20 — Travelling (#56) · Nine of Swords · Queen of Pentacles (reversed) · King of Wands · King of Cups (reversed)</title>
-    <link href="https://cassette.help/?date=2026-07-20"/>
-    <updated>2026-07-20T12:00:00Z</updated>
-    <summary>Travelling (#56) / Nine of Swords / Queen of Pentacles (reversed) · King of Wands · King of Cups (reversed)</summary>
   </entry>
 </feed>
