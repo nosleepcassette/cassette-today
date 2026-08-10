@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-09T12:00:00Z</updated>
+  <updated>2026-08-10T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-10</id>
+    <title>2026-08-10 — Five of Pentacles (reversed)</title>
+    <link href="https://cassette.help/?date=2026-08-10"/>
+    <updated>2026-08-10T12:00:00Z</updated>
+    <summary>Five of Pentacles (reversed)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-09</id>
     <title>2026-08-09 — Six of Swords · Ace of Cups · Six of Swords · Queen of Pentacles · Ten of Wands (reversed)</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-22"/>
     <updated>2026-07-22T12:00:00Z</updated>
     <summary>Retreat (#33) / The Devil / Page of Cups · The Moon · Eight of Wands</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-07-21</id>
-    <title>2026-07-21 — Dispersing (#59) · Ace of Swords · Knight of Cups · Queen of Pentacles, reversed · Queen of Cups, reversed</title>
-    <link href="https://cassette.help/?date=2026-07-21"/>
-    <updated>2026-07-21T12:00:00Z</updated>
-    <summary>Dispersing (#59) / Ace of Swords / Knight of Cups · Queen of Pentacles, reversed · Queen of Cups, reversed</summary>
   </entry>
 </feed>
