@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-11T16:00:06Z",
+  "updated": "2026-08-11T19:00:08Z",
   "dates": {
     "2026-08-11": {
       "single-card": "The Hierophant (reversed)",
       "three-card": "The Chariot (reversed) · The Hierophant · The High Priestess",
+      "iching-integration": "Encountering (#44)",
       "tags": [
         "The Hierophant (reversed)",
         "The Chariot (reversed)",
         "The Hierophant",
-        "The High Priestess"
+        "The High Priestess",
+        "Encountering (#44"
       ]
     },
     "2026-08-10": {
