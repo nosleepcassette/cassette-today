@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-10T12:00:00Z</updated>
+  <updated>2026-08-11T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-11</id>
+    <title>2026-08-11 — The Hierophant (reversed)</title>
+    <link href="https://cassette.help/?date=2026-08-11"/>
+    <updated>2026-08-11T12:00:00Z</updated>
+    <summary>The Hierophant (reversed)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-10</id>
     <title>2026-08-10 — Humbleness (#15) · Five of Pentacles (reversed) · Seven of Pentacles · Ten of Wands (reversed) · The Lovers</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-23"/>
     <updated>2026-07-23T12:00:00Z</updated>
     <summary>Initiating (#1) / Two of Cups / sun in leo (5th house)</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-07-22</id>
-    <title>2026-07-22 — Retreat (#33) · The Devil · Page of Cups · The Moon · Eight of Wands</title>
-    <link href="https://cassette.help/?date=2026-07-22"/>
-    <updated>2026-07-22T12:00:00Z</updated>
-    <summary>Retreat (#33) / The Devil / Page of Cups · The Moon · Eight of Wands</summary>
   </entry>
 </feed>
