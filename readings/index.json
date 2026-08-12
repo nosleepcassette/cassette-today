@@ -1,6 +1,12 @@
 {
-  "updated": "2026-08-11T19:00:08Z",
+  "updated": "2026-08-12T14:00:07Z",
   "dates": {
+    "2026-08-12": {
+      "single-card": "The Fool",
+      "tags": [
+        "The Fool"
+      ]
+    },
     "2026-08-11": {
       "single-card": "The Hierophant (reversed)",
       "three-card": "The Chariot (reversed) · The Hierophant · The High Priestess",
