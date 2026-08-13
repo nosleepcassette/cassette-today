@@ -1,10 +1,13 @@
 {
-  "updated": "2026-08-13T14:00:07Z",
+  "updated": "2026-08-13T16:00:12Z",
   "dates": {
     "2026-08-13": {
       "single-card": "The Moon",
+      "three-card": "The Moon · Six of Cups · Six of Wands (reversed)",
       "tags": [
-        "The Moon"
+        "The Moon",
+        "Six of Cups",
+        "Six of Wands (reversed)"
       ]
     },
     "2026-08-12": {
