@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-14T16:00:05Z",
+  "updated": "2026-08-14T19:00:07Z",
   "dates": {
     "2026-08-14": {
       "single-card": "The World (reversed)",
       "three-card": "Ace of Swords (reversed) · Ten of Swords (reversed) · Six of Swords",
+      "iching-integration": "Retreat",
       "tags": [
         "The World (reversed)",
         "Ace of Swords (reversed)",
         "Ten of Swords (reversed)",
-        "Six of Swords"
+        "Six of Swords",
+        "Retreat"
       ]
     },
     "2026-08-13": {
