@@ -1,10 +1,14 @@
 {
-  "updated": "2026-08-14T14:00:06Z",
+  "updated": "2026-08-14T16:00:05Z",
   "dates": {
     "2026-08-14": {
       "single-card": "The World (reversed)",
+      "three-card": "Ace of Swords (reversed) · Ten of Swords (reversed) · Six of Swords",
       "tags": [
-        "The World (reversed)"
+        "The World (reversed)",
+        "Ace of Swords (reversed)",
+        "Ten of Swords (reversed)",
+        "Six of Swords"
       ]
     },
     "2026-08-13": {
