@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-15T16:00:04Z",
+  "updated": "2026-08-15T19:00:18Z",
   "dates": {
     "2026-08-15": {
       "single-card": "Page of Wands",
       "three-card": "Five of Cups (reversed) · The Chariot (reversed) · Three of Wands",
+      "iching-integration": "Seeking Harmony",
       "tags": [
         "Page of Wands",
         "Five of Cups (reversed)",
         "The Chariot (reversed)",
-        "Three of Wands"
+        "Three of Wands",
+        "Seeking Harmony"
       ]
     },
     "2026-08-14": {
