@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-16T16:00:05Z",
+  "updated": "2026-08-16T19:00:06Z",
   "dates": {
     "2026-08-16": {
       "single-card": "Five of Pentacles",
       "three-card": "Queen of Wands · Seven of Wands · Knight of Cups",
+      "iching-integration": "Remedying (#18)",
       "tags": [
         "Five of Pentacles",
         "Queen of Wands",
         "Seven of Wands",
-        "Knight of Cups"
+        "Knight of Cups",
+        "Remedying (#18"
       ]
     },
     "2026-08-15": {
