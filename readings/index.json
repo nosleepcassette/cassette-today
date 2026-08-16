@@ -1,10 +1,14 @@
 {
-  "updated": "2026-08-16T14:00:05Z",
+  "updated": "2026-08-16T16:00:05Z",
   "dates": {
     "2026-08-16": {
       "single-card": "Five of Pentacles",
+      "three-card": "Queen of Wands · Seven of Wands · Knight of Cups",
       "tags": [
-        "Five of Pentacles"
+        "Five of Pentacles",
+        "Queen of Wands",
+        "Seven of Wands",
+        "Knight of Cups"
       ]
     },
     "2026-08-15": {
