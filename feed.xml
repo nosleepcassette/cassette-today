@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-15T12:00:00Z</updated>
+  <updated>2026-08-16T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-16</id>
+    <title>2026-08-16 — Five of Pentacles</title>
+    <link href="https://cassette.help/?date=2026-08-16"/>
+    <updated>2026-08-16T12:00:00Z</updated>
+    <summary>Five of Pentacles</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-15</id>
     <title>2026-08-15 — Seeking Harmony · Page of Wands · Five of Cups (reversed) · The Chariot (reversed) · Three of Wands</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-28"/>
     <updated>2026-07-28T12:00:00Z</updated>
     <summary>Already Fulfilled (#63) / Queen of Wands (reversed) / Three of Cups · Five of Wands · Two of Pentacles</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-07-27</id>
-    <title>2026-07-27 — The World (reversed) · The World · The Magician · Page of Wands</title>
-    <link href="https://cassette.help/?date=2026-07-27"/>
-    <updated>2026-07-27T12:00:00Z</updated>
-    <summary>The World (reversed) / The World · The Magician · Page of Wands</summary>
   </entry>
 </feed>
