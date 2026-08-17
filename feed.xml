@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-16T12:00:00Z</updated>
+  <updated>2026-08-17T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-17</id>
+    <title>2026-08-17 — Two of Swords Reversed</title>
+    <link href="https://cassette.help/?date=2026-08-17"/>
+    <updated>2026-08-17T12:00:00Z</updated>
+    <summary>Two of Swords Reversed</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-16</id>
     <title>2026-08-16 — Remedying (#18) · Five of Pentacles · Queen of Wands · Seven of Wands · Knight of Cups</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-29"/>
     <updated>2026-07-29T12:00:00Z</updated>
     <summary>Restricting (#60) / Page of Swords / Nine of Pentacles · The Lovers · Five of Pentacles</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-07-28</id>
-    <title>2026-07-28 — Already Fulfilled (#63) · Queen of Wands (reversed) · Three of Cups · Five of Wands · Two of Pentacles</title>
-    <link href="https://cassette.help/?date=2026-07-28"/>
-    <updated>2026-07-28T12:00:00Z</updated>
-    <summary>Already Fulfilled (#63) / Queen of Wands (reversed) / Three of Cups · Five of Wands · Two of Pentacles</summary>
   </entry>
 </feed>
