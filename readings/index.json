@@ -1,10 +1,14 @@
 {
-  "updated": "2026-08-17T14:00:09Z",
+  "updated": "2026-08-17T16:00:09Z",
   "dates": {
     "2026-08-17": {
       "single-card": "Two of Swords Reversed",
+      "three-card": "The Hanged Man · Knight of Cups · Knight of Wands (reversed)",
       "tags": [
-        "Two of Swords Reversed"
+        "Two of Swords Reversed",
+        "The Hanged Man",
+        "Knight of Cups",
+        "Knight of Wands (reversed)"
       ]
     },
     "2026-08-16": {
