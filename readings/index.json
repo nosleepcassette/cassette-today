@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-17T16:00:09Z",
+  "updated": "2026-08-17T19:00:13Z",
   "dates": {
     "2026-08-17": {
       "single-card": "Two of Swords Reversed",
       "three-card": "The Hanged Man · Knight of Cups · Knight of Wands (reversed)",
+      "iching-integration": "Diversity",
       "tags": [
         "Two of Swords Reversed",
         "The Hanged Man",
         "Knight of Cups",
-        "Knight of Wands (reversed)"
+        "Knight of Wands (reversed)",
+        "Diversity"
       ]
     },
     "2026-08-16": {
