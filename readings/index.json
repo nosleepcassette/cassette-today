@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-18T16:00:06Z",
+  "updated": "2026-08-18T19:00:14Z",
   "dates": {
     "2026-08-18": {
       "single-card": "Two of Cups",
       "three-card": "The Fool (reversed) · The High Priestess · Page of Swords",
+      "iching-integration": "Long Lasting (#32)",
       "tags": [
         "Two of Cups",
         "The Fool (reversed)",
         "The High Priestess",
-        "Page of Swords"
+        "Page of Swords",
+        "Long Lasting (#32"
       ]
     },
     "2026-08-17": {
