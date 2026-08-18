@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-17T12:00:00Z</updated>
+  <updated>2026-08-18T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-18</id>
+    <title>2026-08-18 — Two of Cups</title>
+    <link href="https://cassette.help/?date=2026-08-18"/>
+    <updated>2026-08-18T12:00:00Z</updated>
+    <summary>Two of Cups</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-17</id>
     <title>2026-08-17 — Diversity · Two of Swords Reversed · The Hanged Man · Knight of Cups · Knight of Wands (reversed)</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-07-30"/>
     <updated>2026-07-30T12:00:00Z</updated>
     <summary>Following / Strength (reversed) / Three of Swords · Five of Swords, reversed · Ace of Cups</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-07-29</id>
-    <title>2026-07-29 — Restricting (#60) · Page of Swords · Nine of Pentacles · The Lovers · Five of Pentacles</title>
-    <link href="https://cassette.help/?date=2026-07-29"/>
-    <updated>2026-07-29T12:00:00Z</updated>
-    <summary>Restricting (#60) / Page of Swords / Nine of Pentacles · The Lovers · Five of Pentacles</summary>
   </entry>
 </feed>
