@@ -1,10 +1,14 @@
 {
-  "updated": "2026-08-18T14:00:05Z",
+  "updated": "2026-08-18T16:00:06Z",
   "dates": {
     "2026-08-18": {
       "single-card": "Two of Cups",
+      "three-card": "The Fool (reversed) · The High Priestess · Page of Swords",
       "tags": [
-        "Two of Cups"
+        "Two of Cups",
+        "The Fool (reversed)",
+        "The High Priestess",
+        "Page of Swords"
       ]
     },
     "2026-08-17": {
