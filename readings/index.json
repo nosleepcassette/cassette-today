@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-22T16:00:05Z",
+  "updated": "2026-08-22T19:00:08Z",
   "dates": {
     "2026-08-22": {
       "single-card": "Four of Pentacles",
       "three-card": "Eight of Pentacles (reversed), Eight of Swords, Nine of Wands · Moon in Virgo · Saturn in Aquarius (12th house)",
+      "iching-integration": "Beginning (#3)",
       "tags": [
         "Four of Pentacles",
         "Eight of Pentacles (reversed), Eight of Swords, Nine of Wands",
         "Moon in Virgo",
-        "Saturn in Aquarius (12th house)"
+        "Saturn in Aquarius (12th house)",
+        "Beginning (#3"
       ]
     },
     "2026-08-21": {
