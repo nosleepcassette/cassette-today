@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-23T16:00:06Z",
+  "updated": "2026-08-23T19:00:13Z",
   "dates": {
     "2026-08-23": {
       "single-card": "The World",
       "three-card": "King of Pentacles · Ace of Pentacles · Nine of Pentacles",
+      "iching-integration": "Contention (#6)",
       "tags": [
         "The World",
         "King of Pentacles",
         "Ace of Pentacles",
-        "Nine of Pentacles"
+        "Nine of Pentacles",
+        "Contention (#6"
       ]
     },
     "2026-08-22": {
