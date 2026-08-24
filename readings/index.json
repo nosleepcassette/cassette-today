@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-24T16:00:05Z",
+  "updated": "2026-08-24T19:00:12Z",
   "dates": {
     "2026-08-24": {
       "single-card": "Seven of Wands",
       "three-card": "King of Cups · Four of Pentacles · Page of Swords",
+      "iching-integration": "Without Falsehood (#25)",
       "tags": [
         "Seven of Wands",
         "King of Cups",
         "Four of Pentacles",
-        "Page of Swords"
+        "Page of Swords",
+        "Without Falsehood (#25"
       ]
     },
     "2026-08-23": {
