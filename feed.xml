@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-23T12:00:00Z</updated>
+  <updated>2026-08-24T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-24</id>
+    <title>2026-08-24 — Seven of Wands</title>
+    <link href="https://cassette.help/?date=2026-08-24"/>
+    <updated>2026-08-24T12:00:00Z</updated>
+    <summary>Seven of Wands</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-23</id>
     <title>2026-08-23 — Contention (#6) · The World · King of Pentacles · Ace of Pentacles · Nine of Pentacles</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-08-05"/>
     <updated>2026-08-05T12:00:00Z</updated>
     <summary>Brightness (#30) / Queen of Wands / The Emperor (reversed) · Four of Cups · The Hanged Man</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-08-04</id>
-    <title>2026-08-04 — Great Harvest (#14) · Six of Wands · Six of Wands · Seven of Cups · Nine of Wands</title>
-    <link href="https://cassette.help/?date=2026-08-04"/>
-    <updated>2026-08-04T12:00:00Z</updated>
-    <summary>Great Harvest (#14) / Six of Wands / Six of Wands · Seven of Cups · Nine of Wands</summary>
   </entry>
 </feed>
