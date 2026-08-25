@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-25T18:59:56Z",
+  "updated": "2026-08-25T19:00:13Z",
   "dates": {
     "2026-08-25": {
       "single-card": "Three of Wands",
       "three-card": "Ace of Swords (reversed) · Seven of Swords · Page of Wands",
+      "iching-integration": "Replenishing (#48)",
       "tags": [
         "Three of Wands",
         "Ace of Swords (reversed)",
         "Seven of Swords",
-        "Page of Wands"
+        "Page of Wands",
+        "Replenishing (#48"
       ]
     },
     "2026-08-24": {
