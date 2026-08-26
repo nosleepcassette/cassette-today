@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-26T18:59:57Z",
+  "updated": "2026-08-26T20:59:37Z",
   "dates": {
     "2026-08-26": {
       "single-card": "Nine of Pentacles (reversed)",
       "three-card": "Six of Pentacles (reversed) · Five of Cups · Six of Wands",
+      "iching-integration": "Brightness (#30)",
       "tags": [
         "Nine of Pentacles (reversed)",
         "Six of Pentacles (reversed)",
         "Five of Cups",
-        "Six of Wands"
+        "Six of Wands",
+        "Brightness (#30"
       ]
     },
     "2026-08-25": {
