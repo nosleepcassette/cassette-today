@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-27T16:00:38Z",
+  "updated": "2026-08-27T19:13:53Z",
   "dates": {
     "2026-08-27": {
       "single-card": "The Magician Reversed",
       "three-card": "The Moon (reversed) · King of Wands · Queen of Pentacles",
+      "iching-integration": "Long Lasting (#32)",
       "tags": [
         "The Magician Reversed",
         "The Moon (reversed)",
         "King of Wands",
-        "Queen of Pentacles"
+        "Queen of Pentacles",
+        "Long Lasting (#32"
       ]
     },
     "2026-08-26": {
