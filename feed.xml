@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-26T12:00:00Z</updated>
+  <updated>2026-08-27T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-27</id>
+    <title>2026-08-27 — The Magician Reversed</title>
+    <link href="https://cassette.help/?date=2026-08-27"/>
+    <updated>2026-08-27T12:00:00Z</updated>
+    <summary>The Magician Reversed</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-26</id>
     <title>2026-08-26 — Brightness (#30) · Nine of Pentacles (reversed) · Six of Pentacles (reversed) · Five of Cups · Six of Wands</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-08-08"/>
     <updated>2026-08-08T12:00:00Z</updated>
     <summary>Keeping Still / Ace of Cups / Temperance · King of Swords · Four of Swords (reversed)</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-08-07</id>
-    <title>2026-08-07 — Proceeding Humbly · The Empress · Seven of Swords (reversed) · Seven of Wands · Nine of Wands</title>
-    <link href="https://cassette.help/?date=2026-08-07"/>
-    <updated>2026-08-07T12:00:00Z</updated>
-    <summary>Proceeding Humbly / The Empress / Seven of Swords (reversed) · Seven of Wands · Nine of Wands</summary>
   </entry>
 </feed>
