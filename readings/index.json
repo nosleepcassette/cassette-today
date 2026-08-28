@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-28T16:11:12Z",
+  "updated": "2026-08-28T19:00:11Z",
   "dates": {
     "2026-08-28": {
       "single-card": "The Hermit",
       "three-card": "Three of Wands · King of Cups · Page of Pentacles",
+      "iching-integration": "Eliminating (#43)",
       "tags": [
         "The Hermit",
         "Three of Wands",
         "King of Cups",
-        "Page of Pentacles"
+        "Page of Pentacles",
+        "Eliminating (#43"
       ]
     },
     "2026-08-27": {
