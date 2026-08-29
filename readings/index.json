@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-29T16:00:24Z",
+  "updated": "2026-08-29T19:00:46Z",
   "dates": {
     "2026-08-29": {
       "single-card": "The Fool (reversed)",
       "three-card": "Seven of Cups · Eight of Cups · Knight of Pentacles",
+      "iching-integration": "Relief (#40)",
       "tags": [
         "The Fool (reversed)",
         "Seven of Cups",
         "Eight of Cups",
-        "Knight of Pentacles"
+        "Knight of Pentacles",
+        "Relief (#40"
       ]
     },
     "2026-08-28": {
