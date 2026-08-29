@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-28T12:00:00Z</updated>
+  <updated>2026-08-29T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-29</id>
+    <title>2026-08-29 — The Fool (reversed)</title>
+    <link href="https://cassette.help/?date=2026-08-29"/>
+    <updated>2026-08-29T12:00:00Z</updated>
+    <summary>The Fool (reversed)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-28</id>
     <title>2026-08-28 — Eliminating (#43) · The Hermit · Three of Wands · King of Cups · Page of Pentacles</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-08-10"/>
     <updated>2026-08-10T12:00:00Z</updated>
     <summary>Humbleness (#15) / Five of Pentacles (reversed) / Seven of Pentacles · Ten of Wands (reversed) · The Lovers</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-08-09</id>
-    <title>2026-08-09 — Six of Swords · Ace of Cups · Six of Swords · Queen of Pentacles · Ten of Wands (reversed)</title>
-    <link href="https://cassette.help/?date=2026-08-09"/>
-    <updated>2026-08-09T12:00:00Z</updated>
-    <summary>Six of Swords / Ace of Cups / Six of Swords · Queen of Pentacles · Ten of Wands (reversed)</summary>
   </entry>
 </feed>
