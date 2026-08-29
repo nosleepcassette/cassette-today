@@ -1,10 +1,14 @@
 {
-  "updated": "2026-08-29T14:00:09Z",
+  "updated": "2026-08-29T16:00:24Z",
   "dates": {
     "2026-08-29": {
       "single-card": "The Fool (reversed)",
+      "three-card": "Seven of Cups · Eight of Cups · Knight of Pentacles",
       "tags": [
-        "The Fool (reversed)"
+        "The Fool (reversed)",
+        "Seven of Cups",
+        "Eight of Cups",
+        "Knight of Pentacles"
       ]
     },
     "2026-08-28": {
