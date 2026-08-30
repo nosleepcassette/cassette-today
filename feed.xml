@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-08-29T12:00:00Z</updated>
+  <updated>2026-08-30T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-08-30</id>
+    <title>2026-08-30 — Seven of Pentacles (reversed)</title>
+    <link href="https://cassette.help/?date=2026-08-30"/>
+    <updated>2026-08-30T12:00:00Z</updated>
+    <summary>Seven of Pentacles (reversed)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-08-29</id>
     <title>2026-08-29 — Relief (#40) · The Fool (reversed) · Seven of Cups · Eight of Cups · Knight of Pentacles</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-08-11"/>
     <updated>2026-08-11T12:00:00Z</updated>
     <summary>Encountering (#44) / The Hierophant (reversed) / The Chariot (reversed) · The Hierophant · The High Priestess</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-08-10</id>
-    <title>2026-08-10 — Humbleness (#15) · Five of Pentacles (reversed) · Seven of Pentacles · Ten of Wands (reversed) · The Lovers</title>
-    <link href="https://cassette.help/?date=2026-08-10"/>
-    <updated>2026-08-10T12:00:00Z</updated>
-    <summary>Humbleness (#15) / Five of Pentacles (reversed) / Seven of Pentacles · Ten of Wands (reversed) · The Lovers</summary>
   </entry>
 </feed>
