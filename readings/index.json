@@ -1,10 +1,14 @@
 {
-  "updated": "2026-08-31T14:00:08Z",
+  "updated": "2026-08-31T16:00:09Z",
   "dates": {
     "2026-08-31": {
       "single-card": "King of Pentacles (reversed)",
+      "three-card": "Eight of Swords · The Fool (reversed) · Eight of Wands (reversed)",
       "tags": [
-        "King of Pentacles (reversed)"
+        "King of Pentacles (reversed)",
+        "Eight of Swords",
+        "The Fool (reversed)",
+        "Eight of Wands (reversed)"
       ]
     },
     "2026-08-30": {
