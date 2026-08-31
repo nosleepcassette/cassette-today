@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-31T16:00:09Z",
+  "updated": "2026-08-31T19:00:20Z",
   "dates": {
     "2026-08-31": {
       "single-card": "King of Pentacles (reversed)",
       "three-card": "Eight of Swords · The Fool (reversed) · Eight of Wands (reversed)",
+      "iching-integration": "Delight",
       "tags": [
         "King of Pentacles (reversed)",
         "Eight of Swords",
         "The Fool (reversed)",
-        "Eight of Wands (reversed)"
+        "Eight of Wands (reversed)",
+        "Delight"
       ]
     },
     "2026-08-30": {
