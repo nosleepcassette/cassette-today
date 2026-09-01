@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-01T14:00:06Z",
+  "updated": "2026-09-01T16:23:54Z",
   "dates": {
     "2026-09-01": {
       "single-card": "Wheel of Fortune",
+      "three-card": "Seven of Swords (reversed) · The High Priestess · King of Wands",
       "tags": [
-        "Wheel of Fortune"
+        "Wheel of Fortune",
+        "Seven of Swords (reversed)",
+        "The High Priestess",
+        "King of Wands"
       ]
     },
     "2026-08-31": {
