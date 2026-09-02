@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-02T16:00:06Z",
+  "updated": "2026-09-02T19:00:13Z",
   "dates": {
     "2026-09-02": {
       "single-card": "Strength",
       "three-card": "The Hierophant · Page of Swords · Three of Cups (reversed)",
+      "iching-integration": "Joyful",
       "tags": [
         "Strength",
         "The Hierophant",
         "Page of Swords",
-        "Three of Cups (reversed)"
+        "Three of Cups (reversed)",
+        "Joyful"
       ]
     },
     "2026-09-01": {
