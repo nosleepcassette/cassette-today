@@ -1,6 +1,12 @@
 {
-  "updated": "2026-09-03T16:00:10Z",
+  "updated": "2026-09-04T14:00:04Z",
   "dates": {
+    "2026-09-04": {
+      "single-card": "The Moon",
+      "tags": [
+        "The Moon"
+      ]
+    },
     "2026-09-03": {
       "single-card": "The Tower",
       "three-card": "The Sun · Five of Cups (reversed) · Queen of Swords (reversed)",

@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-09-03T12:00:00Z</updated>
+  <updated>2026-09-04T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-09-04</id>
+    <title>2026-09-04 — The Moon</title>
+    <link href="https://cassette.help/?date=2026-09-04"/>
+    <updated>2026-09-04T12:00:00Z</updated>
+    <summary>The Moon</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-09-03</id>
     <title>2026-09-03 — The Tower · The Sun · Five of Cups (reversed) · Queen of Swords (reversed)</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-08-16"/>
     <updated>2026-08-16T12:00:00Z</updated>
     <summary>Remedying (#18) / Five of Pentacles / Queen of Wands · Seven of Wands · Knight of Cups</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-08-15</id>
-    <title>2026-08-15 — Seeking Harmony · Page of Wands · Five of Cups (reversed) · The Chariot (reversed) · Three of Wands</title>
-    <link href="https://cassette.help/?date=2026-08-15"/>
-    <updated>2026-08-15T12:00:00Z</updated>
-    <summary>Seeking Harmony / Page of Wands / Five of Cups (reversed) · The Chariot (reversed) · Three of Wands</summary>
   </entry>
 </feed>
