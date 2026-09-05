@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-05T16:00:07Z",
+  "updated": "2026-09-05T19:00:09Z",
   "dates": {
     "2026-09-05": {
       "single-card": "Wheel of Fortune",
       "three-card": "Wheel of Fortune (reversed) · Eight of Cups · Knight of Wands (reversed)",
+      "iching-integration": "Joyful (#58)",
       "tags": [
         "Wheel of Fortune",
         "Wheel of Fortune (reversed)",
         "Eight of Cups",
-        "Knight of Wands (reversed)"
+        "Knight of Wands (reversed)",
+        "Joyful (#58"
       ]
     },
     "2026-09-04": {
