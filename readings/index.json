@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-05T15:11:22Z",
+  "updated": "2026-09-05T16:00:07Z",
   "dates": {
     "2026-09-05": {
       "single-card": "Wheel of Fortune",
+      "three-card": "Wheel of Fortune (reversed) · Eight of Cups · Knight of Wands (reversed)",
       "tags": [
-        "Wheel of Fortune"
+        "Wheel of Fortune",
+        "Wheel of Fortune (reversed)",
+        "Eight of Cups",
+        "Knight of Wands (reversed)"
       ]
     },
     "2026-09-04": {
