@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-08T16:00:03Z",
+  "updated": "2026-09-08T19:00:02Z",
   "dates": {
     "2026-09-08": {
       "single-card": "The Lovers (Reversed)",
       "three-card": "Justice · Three of Cups · Page of Pentacles",
+      "iching-integration": "Great Exceeding (#28)",
       "tags": [
         "The Lovers (Reversed)",
         "Justice",
         "Three of Cups",
-        "Page of Pentacles"
+        "Page of Pentacles",
+        "Great Exceeding (#28"
       ]
     },
     "2026-09-07": {
