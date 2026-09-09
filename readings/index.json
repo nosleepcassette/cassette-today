@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-09T18:59:55Z",
+  "updated": "2026-09-10T03:00:00Z",
   "dates": {
     "2026-09-09": {
       "single-card": "The Empress",
       "three-card": "Mercury in Virgo · Moon in Capricorn · Mars in Libra",
+      "iching-integration": "Great Harvest",
       "tags": [
         "The Empress",
         "Mercury in Virgo",
         "Moon in Capricorn",
-        "Mars in Libra"
+        "Mars in Libra",
+        "Great Harvest"
       ]
     },
     "2026-09-08": {
