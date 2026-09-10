@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-10T16:00:02Z",
+  "updated": "2026-09-10T19:00:03Z",
   "dates": {
     "2026-09-10": {
       "single-card": "The Magician (reversed)",
       "three-card": "King of Pentacles · King of Cups · Four of Swords",
+      "iching-integration": "Remedying",
       "tags": [
         "The Magician (reversed)",
         "King of Pentacles",
         "King of Cups",
-        "Four of Swords"
+        "Four of Swords",
+        "Remedying"
       ]
     },
     "2026-09-09": {
