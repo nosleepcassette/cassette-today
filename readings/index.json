@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-11T14:00:04Z",
+  "updated": "2026-09-11T16:00:06Z",
   "dates": {
     "2026-09-11": {
       "single-card": "Page of Swords (reversed)",
+      "three-card": "King of Wands (reversed) · The Fool · Strength",
       "tags": [
-        "Page of Swords (reversed)"
+        "Page of Swords (reversed)",
+        "King of Wands (reversed)",
+        "The Fool",
+        "Strength"
       ]
     },
     "2026-09-10": {
