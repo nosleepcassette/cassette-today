@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-09-10T12:00:00Z</updated>
+  <updated>2026-09-11T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-09-11</id>
+    <title>2026-09-11 — Page of Swords (reversed)</title>
+    <link href="https://cassette.help/?date=2026-09-11"/>
+    <updated>2026-09-11T12:00:00Z</updated>
+    <summary>Page of Swords (reversed)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-09-10</id>
     <title>2026-09-10 — Remedying · The Magician (reversed) · King of Pentacles · King of Cups · Four of Swords</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-08-23"/>
     <updated>2026-08-23T12:00:00Z</updated>
     <summary>Contention (#6) / The World / King of Pentacles · Ace of Pentacles · Nine of Pentacles</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-08-22</id>
-    <title>2026-08-22 — Beginning (#3) · Four of Pentacles · Eight of Pentacles (reversed), Eight of Swords, Nine of Wands · Moon in Virgo · Saturn in Aquarius (12th house)</title>
-    <link href="https://cassette.help/?date=2026-08-22"/>
-    <updated>2026-08-22T12:00:00Z</updated>
-    <summary>Beginning (#3) / Four of Pentacles / Eight of Pentacles (reversed), Eight of Swords, Nine of Wands · Moon in Virgo · Saturn in Aquarius (12th house)</summary>
   </entry>
 </feed>
