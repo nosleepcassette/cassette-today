@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-09-11T12:00:00Z</updated>
+  <updated>2026-09-12T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-09-12</id>
+    <title>2026-09-12 — Ten of Wands</title>
+    <link href="https://cassette.help/?date=2026-09-12"/>
+    <updated>2026-09-12T12:00:00Z</updated>
+    <summary>Ten of Wands</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-09-11</id>
     <title>2026-09-11 — Long Lasting (#32) · Page of Swords (reversed) · King of Wands (reversed) · The Fool · Strength</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-08-24"/>
     <updated>2026-08-24T12:00:00Z</updated>
     <summary>Without Falsehood (#25) / Seven of Wands / King of Cups · Four of Pentacles · Page of Swords</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-08-23</id>
-    <title>2026-08-23 — Contention (#6) · The World · King of Pentacles · Ace of Pentacles · Nine of Pentacles</title>
-    <link href="https://cassette.help/?date=2026-08-23"/>
-    <updated>2026-08-23T12:00:00Z</updated>
-    <summary>Contention (#6) / The World / King of Pentacles · Ace of Pentacles · Nine of Pentacles</summary>
   </entry>
 </feed>
