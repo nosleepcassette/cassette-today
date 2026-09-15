@@ -1,10 +1,13 @@
 {
-  "updated": "2026-09-15T14:00:39Z",
+  "updated": "2026-09-15T16:15:50Z",
   "dates": {
     "2026-09-15": {
       "single-card": "Ten of Pentacles",
+      "three-card": "Ten of Pentacles · The Chariot (reversed) · Seven of Wands",
       "tags": [
-        "Ten of Pentacles"
+        "Ten of Pentacles",
+        "The Chariot (reversed)",
+        "Seven of Wands"
       ]
     },
     "2026-09-14": {
