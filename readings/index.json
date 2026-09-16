@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-16T16:01:33Z",
+  "updated": "2026-09-16T20:51:43Z",
   "dates": {
     "2026-09-16": {
       "single-card": "King of Pentacles",
       "three-card": "Ten of Swords · The Moon · Six of Pentacles",
+      "iching-integration": "Great Accumulation (#26)",
       "tags": [
         "King of Pentacles",
         "Ten of Swords",
         "The Moon",
-        "Six of Pentacles"
+        "Six of Pentacles",
+        "Great Accumulation (#26"
       ]
     },
     "2026-09-15": {
