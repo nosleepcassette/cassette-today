@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-17T19:00:00Z",
+  "updated": "2026-09-17T19:01:16Z",
   "dates": {
     "2026-09-17": {
       "single-card": "Five of Pentacles",
       "three-card": "Two of Pentacles (reversed) · Page of Swords · The Sun",
+      "iching-integration": "Eradicating (噬嗑)",
       "tags": [
         "Five of Pentacles",
         "Two of Pentacles (reversed)",
         "Page of Swords",
-        "The Sun"
+        "The Sun",
+        "Eradicating"
       ]
     },
     "2026-09-16": {
