@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-19T16:02:02Z",
+  "updated": "2026-09-19T19:01:23Z",
   "dates": {
     "2026-09-19": {
       "single-card": "Wheel of Fortune Reversed",
       "three-card": "Eight of Cups · Four of Swords (reversed) · The Fool",
+      "iching-integration": "Little Exceeding (#62)",
       "tags": [
         "Wheel of Fortune Reversed",
         "Eight of Cups",
         "Four of Swords (reversed)",
-        "The Fool"
+        "The Fool",
+        "Little Exceeding (#62"
       ]
     },
     "2026-09-18": {
