@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-20T16:00:05Z",
+  "updated": "2026-09-20T19:00:09Z",
   "dates": {
     "2026-09-20": {
       "single-card": "Eight of Pentacles",
       "three-card": "Knight of Wands (reversed) · Five of Pentacles · The Hermit",
+      "iching-integration": "Beginning",
       "tags": [
         "Eight of Pentacles",
         "Knight of Wands (reversed)",
         "Five of Pentacles",
-        "The Hermit"
+        "The Hermit",
+        "Beginning"
       ]
     },
     "2026-09-19": {
