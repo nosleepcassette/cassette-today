@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-09-20T12:00:00Z</updated>
+  <updated>2026-09-21T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-09-21</id>
+    <title>2026-09-21 — The Hanged Man · Four of Swords · Two of Wands (reversed)</title>
+    <link href="https://cassette.help/?date=2026-09-21"/>
+    <updated>2026-09-21T12:00:00Z</updated>
+    <summary>The Hanged Man · Four of Swords · Two of Wands (reversed)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-09-20</id>
     <title>2026-09-20 — Beginning · Eight of Pentacles · Knight of Wands (reversed) · Five of Pentacles · The Hermit</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-09-02"/>
     <updated>2026-09-02T12:00:00Z</updated>
     <summary>Joyful / Strength / The Hierophant · Page of Swords · Three of Cups (reversed)</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-09-01</id>
-    <title>2026-09-01 — Wheel of Fortune · Seven of Swords (reversed) · The High Priestess · King of Wands</title>
-    <link href="https://cassette.help/?date=2026-09-01"/>
-    <updated>2026-09-01T12:00:00Z</updated>
-    <summary>Wheel of Fortune / Seven of Swords (reversed) · The High Priestess · King of Wands</summary>
   </entry>
 </feed>
