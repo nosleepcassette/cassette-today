@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-09-21T12:00:00Z</updated>
+  <updated>2026-09-22T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-09-22</id>
+    <title>2026-09-22 — Judgement (reversed) · Ace of Swords · Ace of Cups</title>
+    <link href="https://cassette.help/?date=2026-09-22"/>
+    <updated>2026-09-22T12:00:00Z</updated>
+    <summary>Judgement (reversed) · Ace of Swords · Ace of Cups</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-09-21</id>
     <title>2026-09-21 — Proceeding Humbly · The Hanged Man · Four of Swords · Two of Wands (reversed)</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-09-03"/>
     <updated>2026-09-03T12:00:00Z</updated>
     <summary>The Tower / The Sun · Five of Cups (reversed) · Queen of Swords (reversed)</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-09-02</id>
-    <title>2026-09-02 — Joyful · Strength · The Hierophant · Page of Swords · Three of Cups (reversed)</title>
-    <link href="https://cassette.help/?date=2026-09-02"/>
-    <updated>2026-09-02T12:00:00Z</updated>
-    <summary>Joyful / Strength / The Hierophant · Page of Swords · Three of Cups (reversed)</summary>
   </entry>
 </feed>
