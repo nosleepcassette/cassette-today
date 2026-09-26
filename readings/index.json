@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-26T16:00:03Z",
+  "updated": "2026-09-26T19:00:03Z",
   "dates": {
     "2026-09-26": {
       "single-card": "Four of Wands",
       "three-card": "Five of Wands (reversed) · Three of Swords · Ten of Wands",
+      "iching-integration": "Nourishing",
       "tags": [
         "Four of Wands",
         "Five of Wands (reversed)",
         "Three of Swords",
-        "Ten of Wands"
+        "Ten of Wands",
+        "Nourishing"
       ]
     },
     "2026-09-23": {
