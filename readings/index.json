@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-27T14:00:04Z",
+  "updated": "2026-09-27T16:00:05Z",
   "dates": {
     "2026-09-27": {
       "single-card": "Temperance",
+      "three-card": "Past: King of Cups (reversed) · Present: King of Wands · Future: The Magician",
       "tags": [
-        "Temperance"
+        "Temperance",
+        "King of Cups (reversed)",
+        "King of Wands",
+        "The Magician"
       ]
     },
     "2026-09-26": {
