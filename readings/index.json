@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-27T16:00:05Z",
+  "updated": "2026-09-27T19:00:05Z",
   "dates": {
     "2026-09-27": {
       "single-card": "Temperance",
       "three-card": "Past: King of Cups (reversed) · Present: King of Wands · Future: The Magician",
+      "iching-integration": "Seeking Harmony (#13)",
       "tags": [
         "Temperance",
         "King of Cups (reversed)",
         "King of Wands",
-        "The Magician"
+        "The Magician",
+        "Seeking Harmony (#13"
       ]
     },
     "2026-09-26": {
