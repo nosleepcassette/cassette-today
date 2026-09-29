@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-29T14:00:05Z",
+  "updated": "2026-09-29T16:00:04Z",
   "dates": {
     "2026-09-29": {
       "single-card": "Eight of Pentacles (reversed)",
+      "three-card": "Past: Ten of Swords · Present: Three of Swords · Future: Two of Cups",
       "tags": [
-        "Eight of Pentacles (reversed)"
+        "Eight of Pentacles (reversed)",
+        "Ten of Swords",
+        "Three of Swords",
+        "Two of Cups"
       ]
     },
     "2026-09-28": {
