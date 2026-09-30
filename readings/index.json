@@ -1,10 +1,14 @@
 {
-  "updated": "2026-09-30T14:00:05Z",
+  "updated": "2026-09-30T16:00:04Z",
   "dates": {
     "2026-09-30": {
       "single-card": "Six of Cups (reversed)",
+      "three-card": "Six of Swords · The Star (reversed) · Knight of Wands (reversed)",
       "tags": [
-        "Six of Cups (reversed)"
+        "Six of Cups (reversed)",
+        "Six of Swords",
+        "The Star (reversed)",
+        "Knight of Wands (reversed)"
       ]
     },
     "2026-09-29": {
