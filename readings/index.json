@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-30T16:00:04Z",
+  "updated": "2026-09-30T19:00:05Z",
   "dates": {
     "2026-09-30": {
       "single-card": "Six of Cups (reversed)",
       "three-card": "Six of Swords · The Star (reversed) · Knight of Wands (reversed)",
+      "iching-integration": "Fulfillment",
       "tags": [
         "Six of Cups (reversed)",
         "Six of Swords",
         "The Star (reversed)",
-        "Knight of Wands (reversed)"
+        "Knight of Wands (reversed)",
+        "Fulfillment"
       ]
     },
     "2026-09-29": {
