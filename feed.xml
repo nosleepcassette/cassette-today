@@ -4,9 +4,16 @@
   <link href="https://cassette.help/"/>
   <link rel="self" type="application/atom+xml" href="https://cassette.help/feed.xml"/>
   <id>https://cassette.help/</id>
-  <updated>2026-09-29T12:00:00Z</updated>
+  <updated>2026-09-30T12:00:00Z</updated>
   <author><name>maps</name><email>bitch@cassette.help</email></author>
   <subtitle>daily tarot · I Ching · astrology by maps</subtitle>
+  <entry>
+    <id>https://cassette.help/?date=2026-09-30</id>
+    <title>2026-09-30 — Six of Cups (reversed)</title>
+    <link href="https://cassette.help/?date=2026-09-30"/>
+    <updated>2026-09-30T12:00:00Z</updated>
+    <summary>Six of Cups (reversed)</summary>
+  </entry>
   <entry>
     <id>https://cassette.help/?date=2026-09-29</id>
     <title>2026-09-29 — Growing Upward (#46) · Eight of Pentacles (reversed) · Past: Ten of Swords · Present: Three of Swords · Future: Two of Cups</title>
@@ -139,12 +146,5 @@
     <link href="https://cassette.help/?date=2026-09-09"/>
     <updated>2026-09-09T12:00:00Z</updated>
     <summary>Great Harvest / The Empress / Mercury in Virgo · Moon in Capricorn · Mars in Libra</summary>
-  </entry>
-  <entry>
-    <id>https://cassette.help/?date=2026-09-08</id>
-    <title>2026-09-08 — Great Exceeding (#28) · The Lovers (Reversed) · Justice · Three of Cups · Page of Pentacles</title>
-    <link href="https://cassette.help/?date=2026-09-08"/>
-    <updated>2026-09-08T12:00:00Z</updated>
-    <summary>Great Exceeding (#28) / The Lovers (Reversed) / Justice · Three of Cups · Page of Pentacles</summary>
   </entry>
 </feed>
