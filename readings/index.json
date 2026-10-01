@@ -1,14 +1,16 @@
 {
-  "updated": "2026-10-01T16:00:05Z",
+  "updated": "2026-10-01T19:00:05Z",
   "dates": {
     "2026-10-01": {
       "single-card": "Three of Cups",
       "three-card": "Three of Wands (reversed) · Ten of Pentacles · Page of Pentacles",
+      "iching-integration": "Following (#17)",
       "tags": [
         "Three of Cups",
         "Three of Wands (reversed)",
         "Ten of Pentacles",
-        "Page of Pentacles"
+        "Page of Pentacles",
+        "Following (#17"
       ]
     },
     "2026-09-30": {
