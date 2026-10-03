@@ -1,14 +1,16 @@
 {
-  "updated": "2026-10-03T16:00:08Z",
+  "updated": "2026-10-03T19:00:11Z",
   "dates": {
     "2026-10-03": {
       "single-card": "The Lovers",
       "three-card": "The Chariot (reversed) · King of Cups · The High Priestess",
+      "iching-integration": "Long Lasting (#32)",
       "tags": [
         "The Lovers",
         "The Chariot (reversed)",
         "King of Cups",
-        "The High Priestess"
+        "The High Priestess",
+        "Long Lasting (#32"
       ]
     },
     "2026-10-02": {
