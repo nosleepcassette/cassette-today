@@ -1,15 +1,16 @@
 {
-  "updated": "2026-10-04T15:59:55Z",
+  "updated": "2026-10-04T16:00:06Z",
   "dates": {
     "2026-10-04": {
       "single-card": "Three of Cups (reversed)",
       "tags": [
         "Three of Cups (reversed)"
-      ]
+      ],
+      "three-card": "King of Wands \u00b7 Ace of Cups \u00b7 The Fool"
     },
     "2026-10-03": {
       "single-card": "The Lovers",
-      "three-card": "The Chariot (reversed) · King of Cups · The High Priestess",
+      "three-card": "The Chariot (reversed) \u00b7 King of Cups \u00b7 The High Priestess",
       "iching-integration": "Long Lasting (#32)",
       "tags": [
         "The Lovers",
@@ -27,7 +28,7 @@
     },
     "2026-10-01": {
       "single-card": "Three of Cups",
-      "three-card": "Three of Wands (reversed) · Ten of Pentacles · Page of Pentacles",
+      "three-card": "Three of Wands (reversed) \u00b7 Ten of Pentacles \u00b7 Page of Pentacles",
       "iching-integration": "Following (#17)",
       "tags": [
         "Three of Cups",
@@ -39,7 +40,7 @@
     },
     "2026-09-30": {
       "single-card": "Six of Cups (reversed)",
-      "three-card": "Six of Swords · The Star (reversed) · Knight of Wands (reversed)",
+      "three-card": "Six of Swords \u00b7 The Star (reversed) \u00b7 Knight of Wands (reversed)",
       "iching-integration": "Fulfillment",
       "tags": [
         "Six of Cups (reversed)",
@@ -51,7 +52,7 @@
     },
     "2026-09-29": {
       "single-card": "Eight of Pentacles (reversed)",
-      "three-card": "Past: Ten of Swords · Present: Three of Swords · Future: Two of Cups",
+      "three-card": "Past: Ten of Swords \u00b7 Present: Three of Swords \u00b7 Future: Two of Cups",
       "iching-integration": "Growing Upward (#46)",
       "tags": [
         "Eight of Pentacles (reversed)",
@@ -62,7 +63,7 @@
       ]
     },
     "2026-09-28": {
-      "three-card": "Seven of Wands · Four of Pentacles · Ace of Pentacles (reversed)",
+      "three-card": "Seven of Wands \u00b7 Four of Pentacles \u00b7 Ace of Pentacles (reversed)",
       "tags": [
         "Seven of Wands",
         "Four of Pentacles",
@@ -71,7 +72,7 @@
     },
     "2026-09-27": {
       "single-card": "Temperance",
-      "three-card": "Past: King of Cups (reversed) · Present: King of Wands · Future: The Magician",
+      "three-card": "Past: King of Cups (reversed) \u00b7 Present: King of Wands \u00b7 Future: The Magician",
       "iching-integration": "Seeking Harmony (#13)",
       "tags": [
         "Temperance",
@@ -83,7 +84,7 @@
     },
     "2026-09-26": {
       "single-card": "Four of Wands",
-      "three-card": "Five of Wands (reversed) · Three of Swords · Ten of Wands",
+      "three-card": "Five of Wands (reversed) \u00b7 Three of Swords \u00b7 Ten of Wands",
       "iching-integration": "Nourishing",
       "tags": [
         "Four of Wands",
@@ -95,7 +96,7 @@
     },
     "2026-09-23": {
       "single-card": "Three of Pentacles Reversed",
-      "three-card": "[PAST] Queen of Pentacles (reversed) · [PRESENT] Nine of Pentacles (reversed) · [FUTURE] Seven of Pentacles",
+      "three-card": "[PAST] Queen of Pentacles (reversed) \u00b7 [PRESENT] Nine of Pentacles (reversed) \u00b7 [FUTURE] Seven of Pentacles",
       "iching-integration": "Turning Back",
       "tags": [
         "Three of Pentacles Reversed",
@@ -106,7 +107,7 @@
       ]
     },
     "2026-09-22": {
-      "three-card": "Judgement (reversed) · Ace of Swords · Ace of Cups",
+      "three-card": "Judgement (reversed) \u00b7 Ace of Swords \u00b7 Ace of Cups",
       "iching-integration": "Joyful (#58)",
       "tags": [
         "Judgement (reversed)",
@@ -116,7 +117,7 @@
       ]
     },
     "2026-09-21": {
-      "three-card": "The Hanged Man · Four of Swords · Two of Wands (reversed)",
+      "three-card": "The Hanged Man \u00b7 Four of Swords \u00b7 Two of Wands (reversed)",
       "iching-integration": "Proceeding Humbly",
       "tags": [
         "The Hanged Man",
@@ -127,7 +128,7 @@
     },
     "2026-09-20": {
       "single-card": "Eight of Pentacles",
-      "three-card": "Knight of Wands (reversed) · Five of Pentacles · The Hermit",
+      "three-card": "Knight of Wands (reversed) \u00b7 Five of Pentacles \u00b7 The Hermit",
       "iching-integration": "Beginning",
       "tags": [
         "Eight of Pentacles",
@@ -139,7 +140,7 @@
     },
     "2026-09-19": {
       "single-card": "Wheel of Fortune Reversed",
-      "three-card": "Eight of Cups · Four of Swords (reversed) · The Fool",
+      "three-card": "Eight of Cups \u00b7 Four of Swords (reversed) \u00b7 The Fool",
       "iching-integration": "Little Exceeding (#62)",
       "tags": [
         "Wheel of Fortune Reversed",
@@ -150,7 +151,7 @@
       ]
     },
     "2026-09-18": {
-      "three-card": "Temperance · Judgement · Five of Cups (reversed)",
+      "three-card": "Temperance \u00b7 Judgement \u00b7 Five of Cups (reversed)",
       "tags": [
         "Temperance",
         "Judgement",
@@ -159,8 +160,8 @@
     },
     "2026-09-17": {
       "single-card": "Five of Pentacles",
-      "three-card": "Two of Pentacles (reversed) · Page of Swords · The Sun",
-      "iching-integration": "Eradicating (噬嗑)",
+      "three-card": "Two of Pentacles (reversed) \u00b7 Page of Swords \u00b7 The Sun",
+      "iching-integration": "Eradicating (\u566c\u55d1)",
       "tags": [
         "Five of Pentacles",
         "Two of Pentacles (reversed)",
@@ -171,7 +172,7 @@
     },
     "2026-09-16": {
       "single-card": "King of Pentacles",
-      "three-card": "Ten of Swords · The Moon · Six of Pentacles",
+      "three-card": "Ten of Swords \u00b7 The Moon \u00b7 Six of Pentacles",
       "iching-integration": "Great Accumulation (#26)",
       "tags": [
         "King of Pentacles",
@@ -183,7 +184,7 @@
     },
     "2026-09-15": {
       "single-card": "Ten of Pentacles",
-      "three-card": "Ten of Pentacles · The Chariot (reversed) · Seven of Wands",
+      "three-card": "Ten of Pentacles \u00b7 The Chariot (reversed) \u00b7 Seven of Wands",
       "iching-integration": "Little Exceeding",
       "tags": [
         "Ten of Pentacles",
@@ -194,7 +195,7 @@
     },
     "2026-09-14": {
       "single-card": "King of Wands (reversed)",
-      "three-card": "The Sun · Eight of Swords · Wheel of Fortune (reversed)",
+      "three-card": "The Sun \u00b7 Eight of Swords \u00b7 Wheel of Fortune (reversed)",
       "tags": [
         "King of Wands (reversed)",
         "The Sun",
@@ -204,7 +205,7 @@
     },
     "2026-09-13": {
       "single-card": "The Lovers (reversed)",
-      "three-card": "Temperance · Four of Wands · Page of Wands",
+      "three-card": "Temperance \u00b7 Four of Wands \u00b7 Page of Wands",
       "iching-integration": "Hindrance",
       "tags": [
         "The Lovers (reversed)",
@@ -216,7 +217,7 @@
     },
     "2026-09-12": {
       "single-card": "Ten of Wands",
-      "three-card": "The Star (reversed) · Knight of Cups (reversed) · Page of Pentacles (reversed)",
+      "three-card": "The Star (reversed) \u00b7 Knight of Cups (reversed) \u00b7 Page of Pentacles (reversed)",
       "iching-integration": "Brightness",
       "tags": [
         "Ten of Wands",
@@ -228,7 +229,7 @@
     },
     "2026-09-11": {
       "single-card": "Page of Swords (reversed)",
-      "three-card": "King of Wands (reversed) · The Fool · Strength",
+      "three-card": "King of Wands (reversed) \u00b7 The Fool \u00b7 Strength",
       "iching-integration": "Long Lasting (#32)",
       "tags": [
         "Page of Swords (reversed)",
@@ -240,7 +241,7 @@
     },
     "2026-09-10": {
       "single-card": "The Magician (reversed)",
-      "three-card": "King of Pentacles · King of Cups · Four of Swords",
+      "three-card": "King of Pentacles \u00b7 King of Cups \u00b7 Four of Swords",
       "iching-integration": "Remedying",
       "tags": [
         "The Magician (reversed)",
@@ -252,7 +253,7 @@
     },
     "2026-09-09": {
       "single-card": "The Empress",
-      "three-card": "Mercury in Virgo · Moon in Capricorn · Mars in Libra",
+      "three-card": "Mercury in Virgo \u00b7 Moon in Capricorn \u00b7 Mars in Libra",
       "iching-integration": "Great Harvest",
       "tags": [
         "The Empress",
@@ -264,7 +265,7 @@
     },
     "2026-09-08": {
       "single-card": "The Lovers (Reversed)",
-      "three-card": "Justice · Three of Cups · Page of Pentacles",
+      "three-card": "Justice \u00b7 Three of Cups \u00b7 Page of Pentacles",
       "iching-integration": "Great Exceeding (#28)",
       "tags": [
         "The Lovers (Reversed)",
@@ -276,7 +277,7 @@
     },
     "2026-09-07": {
       "single-card": "Nine of Swords",
-      "three-card": "Ten of Wands · The High Priestess (reversed) · The Sun",
+      "three-card": "Ten of Wands \u00b7 The High Priestess (reversed) \u00b7 The Sun",
       "iching-integration": "Proceeding Humbly",
       "tags": [
         "Nine of Swords",
@@ -288,7 +289,7 @@
     },
     "2026-09-06": {
       "single-card": "Seven of Pentacles",
-      "three-card": "The Lovers (reversed) · Judgement · The Hanged Man (reversed)",
+      "three-card": "The Lovers (reversed) \u00b7 Judgement \u00b7 The Hanged Man (reversed)",
       "iching-integration": "Bringing Together",
       "tags": [
         "Seven of Pentacles",
@@ -300,7 +301,7 @@
     },
     "2026-09-05": {
       "single-card": "Wheel of Fortune",
-      "three-card": "Wheel of Fortune (reversed) · Eight of Cups · Knight of Wands (reversed)",
+      "three-card": "Wheel of Fortune (reversed) \u00b7 Eight of Cups \u00b7 Knight of Wands (reversed)",
       "iching-integration": "Joyful (#58)",
       "tags": [
         "Wheel of Fortune",
@@ -312,7 +313,7 @@
     },
     "2026-09-04": {
       "single-card": "The Moon",
-      "three-card": "The Hanged Man (reversed) · Seven of Pentacles · Ace of Wands (reversed)",
+      "three-card": "The Hanged Man (reversed) \u00b7 Seven of Pentacles \u00b7 Ace of Wands (reversed)",
       "iching-integration": "The Hanged Man",
       "tags": [
         "The Moon",
@@ -324,7 +325,7 @@
     },
     "2026-09-03": {
       "single-card": "The Tower",
-      "three-card": "The Sun · Five of Cups (reversed) · Queen of Swords (reversed)",
+      "three-card": "The Sun \u00b7 Five of Cups (reversed) \u00b7 Queen of Swords (reversed)",
       "tags": [
         "The Tower",
         "The Sun",
@@ -334,7 +335,7 @@
     },
     "2026-09-02": {
       "single-card": "Strength",
-      "three-card": "The Hierophant · Page of Swords · Three of Cups (reversed)",
+      "three-card": "The Hierophant \u00b7 Page of Swords \u00b7 Three of Cups (reversed)",
       "iching-integration": "Joyful",
       "tags": [
         "Strength",
@@ -346,7 +347,7 @@
     },
     "2026-09-01": {
       "single-card": "Wheel of Fortune",
-      "three-card": "Seven of Swords (reversed) · The High Priestess · King of Wands",
+      "three-card": "Seven of Swords (reversed) \u00b7 The High Priestess \u00b7 King of Wands",
       "tags": [
         "Wheel of Fortune",
         "Seven of Swords (reversed)",
@@ -356,7 +357,7 @@
     },
     "2026-08-31": {
       "single-card": "King of Pentacles (reversed)",
-      "three-card": "Eight of Swords · The Fool (reversed) · Eight of Wands (reversed)",
+      "three-card": "Eight of Swords \u00b7 The Fool (reversed) \u00b7 Eight of Wands (reversed)",
       "iching-integration": "Delight",
       "tags": [
         "King of Pentacles (reversed)",
@@ -368,7 +369,7 @@
     },
     "2026-08-30": {
       "single-card": "Seven of Pentacles (reversed)",
-      "three-card": "Queen of Swords · Queen of Cups · King of Wands",
+      "three-card": "Queen of Swords \u00b7 Queen of Cups \u00b7 King of Wands",
       "iching-integration": "Marrying Maiden (#54)",
       "tags": [
         "Seven of Pentacles (reversed)",
@@ -380,7 +381,7 @@
     },
     "2026-08-29": {
       "single-card": "The Fool (reversed)",
-      "three-card": "Seven of Cups · Eight of Cups · Knight of Pentacles",
+      "three-card": "Seven of Cups \u00b7 Eight of Cups \u00b7 Knight of Pentacles",
       "iching-integration": "Relief (#40)",
       "tags": [
         "The Fool (reversed)",
@@ -392,7 +393,7 @@
     },
     "2026-08-28": {
       "single-card": "The Hermit",
-      "three-card": "Three of Wands · King of Cups · Page of Pentacles",
+      "three-card": "Three of Wands \u00b7 King of Cups \u00b7 Page of Pentacles",
       "iching-integration": "Eliminating (#43)",
       "tags": [
         "The Hermit",
@@ -404,7 +405,7 @@
     },
     "2026-08-27": {
       "single-card": "The Magician Reversed",
-      "three-card": "The Moon (reversed) · King of Wands · Queen of Pentacles",
+      "three-card": "The Moon (reversed) \u00b7 King of Wands \u00b7 Queen of Pentacles",
       "iching-integration": "Long Lasting (#32)",
       "tags": [
         "The Magician Reversed",
@@ -416,7 +417,7 @@
     },
     "2026-08-26": {
       "single-card": "Nine of Pentacles (reversed)",
-      "three-card": "Six of Pentacles (reversed) · Five of Cups · Six of Wands",
+      "three-card": "Six of Pentacles (reversed) \u00b7 Five of Cups \u00b7 Six of Wands",
       "iching-integration": "Brightness (#30)",
       "tags": [
         "Nine of Pentacles (reversed)",
@@ -428,7 +429,7 @@
     },
     "2026-08-25": {
       "single-card": "Three of Wands",
-      "three-card": "Ace of Swords (reversed) · Seven of Swords · Page of Wands",
+      "three-card": "Ace of Swords (reversed) \u00b7 Seven of Swords \u00b7 Page of Wands",
       "iching-integration": "Replenishing (#48)",
       "tags": [
         "Three of Wands",
@@ -440,7 +441,7 @@
     },
     "2026-08-24": {
       "single-card": "Seven of Wands",
-      "three-card": "King of Cups · Four of Pentacles · Page of Swords",
+      "three-card": "King of Cups \u00b7 Four of Pentacles \u00b7 Page of Swords",
       "iching-integration": "Without Falsehood (#25)",
       "tags": [
         "Seven of Wands",
@@ -452,7 +453,7 @@
     },
     "2026-08-23": {
       "single-card": "The World",
-      "three-card": "King of Pentacles · Ace of Pentacles · Nine of Pentacles",
+      "three-card": "King of Pentacles \u00b7 Ace of Pentacles \u00b7 Nine of Pentacles",
       "iching-integration": "Contention (#6)",
       "tags": [
         "The World",
@@ -464,7 +465,7 @@
     },
     "2026-08-22": {
       "single-card": "Four of Pentacles",
-      "three-card": "Eight of Pentacles (reversed), Eight of Swords, Nine of Wands · Moon in Virgo · Saturn in Aquarius (12th house)",
+      "three-card": "Eight of Pentacles (reversed), Eight of Swords, Nine of Wands \u00b7 Moon in Virgo \u00b7 Saturn in Aquarius (12th house)",
       "iching-integration": "Beginning (#3)",
       "tags": [
         "Four of Pentacles",
@@ -476,7 +477,7 @@
     },
     "2026-08-21": {
       "single-card": "The Devil",
-      "three-card": "The Moon · Two of Pentacles (reversed) · Five of Pentacles",
+      "three-card": "The Moon \u00b7 Two of Pentacles (reversed) \u00b7 Five of Pentacles",
       "tags": [
         "The Devil",
         "The Moon",
@@ -498,7 +499,7 @@
     },
     "2026-08-18": {
       "single-card": "Two of Cups",
-      "three-card": "The Fool (reversed) · The High Priestess · Page of Swords",
+      "three-card": "The Fool (reversed) \u00b7 The High Priestess \u00b7 Page of Swords",
       "iching-integration": "Long Lasting (#32)",
       "tags": [
         "Two of Cups",
@@ -510,7 +511,7 @@
     },
     "2026-08-17": {
       "single-card": "Two of Swords Reversed",
-      "three-card": "The Hanged Man · Knight of Cups · Knight of Wands (reversed)",
+      "three-card": "The Hanged Man \u00b7 Knight of Cups \u00b7 Knight of Wands (reversed)",
       "iching-integration": "Diversity",
       "tags": [
         "Two of Swords Reversed",
@@ -522,7 +523,7 @@
     },
     "2026-08-16": {
       "single-card": "Five of Pentacles",
-      "three-card": "Queen of Wands · Seven of Wands · Knight of Cups",
+      "three-card": "Queen of Wands \u00b7 Seven of Wands \u00b7 Knight of Cups",
       "iching-integration": "Remedying (#18)",
       "tags": [
         "Five of Pentacles",
@@ -534,7 +535,7 @@
     },
     "2026-08-15": {
       "single-card": "Page of Wands",
-      "three-card": "Five of Cups (reversed) · The Chariot (reversed) · Three of Wands",
+      "three-card": "Five of Cups (reversed) \u00b7 The Chariot (reversed) \u00b7 Three of Wands",
       "iching-integration": "Seeking Harmony",
       "tags": [
         "Page of Wands",
@@ -546,7 +547,7 @@
     },
     "2026-08-14": {
       "single-card": "The World (reversed)",
-      "three-card": "Ace of Swords (reversed) · Ten of Swords (reversed) · Six of Swords",
+      "three-card": "Ace of Swords (reversed) \u00b7 Ten of Swords (reversed) \u00b7 Six of Swords",
       "iching-integration": "Retreat",
       "tags": [
         "The World (reversed)",
@@ -558,7 +559,7 @@
     },
     "2026-08-13": {
       "single-card": "The Moon",
-      "three-card": "The Moon · Six of Cups · Six of Wands (reversed)",
+      "three-card": "The Moon \u00b7 Six of Cups \u00b7 Six of Wands (reversed)",
       "iching-integration": "Little Exceeding (#62)",
       "tags": [
         "The Moon",
@@ -569,7 +570,7 @@
     },
     "2026-08-12": {
       "single-card": "The Fool",
-      "three-card": "The Fool · Four of Cups (reversed) · Eight of Cups",
+      "three-card": "The Fool \u00b7 Four of Cups (reversed) \u00b7 Eight of Cups",
       "iching-integration": "Innermost Sincerity",
       "tags": [
         "The Fool",
@@ -580,7 +581,7 @@
     },
     "2026-08-11": {
       "single-card": "The Hierophant (reversed)",
-      "three-card": "The Chariot (reversed) · The Hierophant · The High Priestess",
+      "three-card": "The Chariot (reversed) \u00b7 The Hierophant \u00b7 The High Priestess",
       "iching-integration": "Encountering (#44)",
       "tags": [
         "The Hierophant (reversed)",
@@ -592,7 +593,7 @@
     },
     "2026-08-10": {
       "single-card": "Five of Pentacles (reversed)",
-      "three-card": "Seven of Pentacles · Ten of Wands (reversed) · The Lovers",
+      "three-card": "Seven of Pentacles \u00b7 Ten of Wands (reversed) \u00b7 The Lovers",
       "iching-integration": "Humbleness (#15)",
       "tags": [
         "Five of Pentacles (reversed)",
@@ -604,7 +605,7 @@
     },
     "2026-08-09": {
       "single-card": "Ace of Cups",
-      "three-card": "Six of Swords · Queen of Pentacles · Ten of Wands (reversed)",
+      "three-card": "Six of Swords \u00b7 Queen of Pentacles \u00b7 Ten of Wands (reversed)",
       "iching-integration": "Six of Swords",
       "tags": [
         "Ace of Cups",
@@ -615,7 +616,7 @@
     },
     "2026-08-08": {
       "single-card": "Ace of Cups",
-      "three-card": "Temperance · King of Swords · Four of Swords (reversed)",
+      "three-card": "Temperance \u00b7 King of Swords \u00b7 Four of Swords (reversed)",
       "iching-integration": "Keeping Still",
       "tags": [
         "Ace of Cups",
@@ -627,7 +628,7 @@
     },
     "2026-08-07": {
       "single-card": "The Empress",
-      "three-card": "Seven of Swords (reversed) · Seven of Wands · Nine of Wands",
+      "three-card": "Seven of Swords (reversed) \u00b7 Seven of Wands \u00b7 Nine of Wands",
       "iching-integration": "Proceeding Humbly",
       "tags": [
         "The Empress",
@@ -639,7 +640,7 @@
     },
     "2026-08-06": {
       "single-card": "Two of Pentacles (reversed)",
-      "three-card": "Six of Wands · Ten of Swords · The Chariot",
+      "three-card": "Six of Wands \u00b7 Ten of Swords \u00b7 The Chariot",
       "tags": [
         "Two of Pentacles (reversed)",
         "Six of Wands",
@@ -649,7 +650,7 @@
     },
     "2026-08-05": {
       "single-card": "Queen of Wands",
-      "three-card": "The Emperor (reversed) · Four of Cups · The Hanged Man",
+      "three-card": "The Emperor (reversed) \u00b7 Four of Cups \u00b7 The Hanged Man",
       "iching-integration": "Brightness (#30)",
       "tags": [
         "Queen of Wands",
@@ -661,7 +662,7 @@
     },
     "2026-08-04": {
       "single-card": "Six of Wands",
-      "three-card": "Six of Wands · Seven of Cups · Nine of Wands",
+      "three-card": "Six of Wands \u00b7 Seven of Cups \u00b7 Nine of Wands",
       "iching-integration": "Great Harvest (#14)",
       "tags": [
         "Six of Wands",
@@ -682,7 +683,7 @@
     },
     "2026-08-02": {
       "single-card": "The Tower (reversed)",
-      "three-card": "Knight of Wands · Queen of Pentacles · Four of Cups reversed",
+      "three-card": "Knight of Wands \u00b7 Queen of Pentacles \u00b7 Four of Cups reversed",
       "iching-integration": "Great Accumulation",
       "tags": [
         "The Tower (reversed)",
@@ -694,7 +695,7 @@
     },
     "2026-08-01": {
       "single-card": "King of Cups",
-      "three-card": "Seven of Swords (reversed), Three of Wands, The Hanged Man (reversed) · The moon in Virgo wants things accounted for · Mars in Gemini accelerates your thought process",
+      "three-card": "Seven of Swords (reversed), Three of Wands, The Hanged Man (reversed) \u00b7 The moon in Virgo wants things accounted for \u00b7 Mars in Gemini accelerates your thought process",
       "iching-integration": "Retreat (#33)",
       "tags": [
         "King of Cups",
@@ -706,7 +707,7 @@
     },
     "2026-07-31": {
       "single-card": "The Emperor",
-      "three-card": "Justice · King of Pentacles · Five of Swords",
+      "three-card": "Justice \u00b7 King of Pentacles \u00b7 Five of Swords",
       "iching-integration": "Replenishing (#48)",
       "tags": [
         "The Emperor",
@@ -718,7 +719,7 @@
     },
     "2026-07-30": {
       "single-card": "Strength (reversed)",
-      "three-card": "Three of Swords · Five of Swords, reversed · Ace of Cups",
+      "three-card": "Three of Swords \u00b7 Five of Swords, reversed \u00b7 Ace of Cups",
       "iching-integration": "Following",
       "tags": [
         "Strength (reversed)",
@@ -730,7 +731,7 @@
     },
     "2026-07-29": {
       "single-card": "Page of Swords",
-      "three-card": "Nine of Pentacles · The Lovers · Five of Pentacles",
+      "three-card": "Nine of Pentacles \u00b7 The Lovers \u00b7 Five of Pentacles",
       "iching-integration": "Restricting (#60)",
       "tags": [
         "Page of Swords",
@@ -742,7 +743,7 @@
     },
     "2026-07-28": {
       "single-card": "Queen of Wands (reversed)",
-      "three-card": "Three of Cups · Five of Wands · Two of Pentacles",
+      "three-card": "Three of Cups \u00b7 Five of Wands \u00b7 Two of Pentacles",
       "iching-integration": "Already Fulfilled (#63)",
       "tags": [
         "Queen of Wands (reversed)",
@@ -754,7 +755,7 @@
     },
     "2026-07-27": {
       "single-card": "The World (reversed)",
-      "three-card": "The World · The Magician · Page of Wands",
+      "three-card": "The World \u00b7 The Magician \u00b7 Page of Wands",
       "tags": [
         "The World (reversed)",
         "The World",
@@ -764,7 +765,7 @@
     },
     "2026-07-26": {
       "single-card": "The Moon (reversed)",
-      "three-card": "Two of Pentacles (reversed) · Page of Swords (reversed) · Page of Pentacles (reversed)",
+      "three-card": "Two of Pentacles (reversed) \u00b7 Page of Swords (reversed) \u00b7 Page of Pentacles (reversed)",
       "iching-integration": "Brightness (#30)",
       "tags": [
         "The Moon (reversed)",
@@ -776,7 +777,7 @@
     },
     "2026-07-25": {
       "single-card": "Knight of Swords (reversed)",
-      "three-card": "The Fool (reversed) · Knight of Pentacles (reversed) · Knight of Cups",
+      "three-card": "The Fool (reversed) \u00b7 Knight of Pentacles (reversed) \u00b7 Knight of Cups",
       "iching-integration": "Marrying Maiden",
       "tags": [
         "Knight of Swords (reversed)",
@@ -788,7 +789,7 @@
     },
     "2026-07-24": {
       "single-card": "Ace of Pentacles",
-      "three-card": "The Devil · Six of Wands · Ten of Pentacles",
+      "three-card": "The Devil \u00b7 Six of Wands \u00b7 Ten of Pentacles",
       "iching-integration": "Proceeding Forward (#35)",
       "tags": [
         "Ace of Pentacles",
@@ -810,7 +811,7 @@
     },
     "2026-07-22": {
       "single-card": "The Devil",
-      "three-card": "Page of Cups · The Moon · Eight of Wands",
+      "three-card": "Page of Cups \u00b7 The Moon \u00b7 Eight of Wands",
       "iching-integration": "Retreat (#33)",
       "tags": [
         "The Devil",
@@ -822,7 +823,7 @@
     },
     "2026-07-21": {
       "single-card": "Ace of Swords",
-      "three-card": "Knight of Cups · Queen of Pentacles, reversed · Queen of Cups, reversed",
+      "three-card": "Knight of Cups \u00b7 Queen of Pentacles, reversed \u00b7 Queen of Cups, reversed",
       "iching-integration": "Dispersing (#59)",
       "tags": [
         "Ace of Swords",
@@ -834,7 +835,7 @@
     },
     "2026-07-20": {
       "single-card": "Nine of Swords",
-      "three-card": "Queen of Pentacles (reversed) · King of Wands · King of Cups (reversed)",
+      "three-card": "Queen of Pentacles (reversed) \u00b7 King of Wands \u00b7 King of Cups (reversed)",
       "iching-integration": "Travelling (#56)",
       "tags": [
         "Nine of Swords",
@@ -846,7 +847,7 @@
     },
     "2026-07-18": {
       "single-card": "Two of Wands (reversed)",
-      "three-card": "Ace of Wands (reversed) · Nine of Pentacles (reversed) · Page of Pentacles",
+      "three-card": "Ace of Wands (reversed) \u00b7 Nine of Pentacles (reversed) \u00b7 Page of Pentacles",
       "tags": [
         "Two of Wands (reversed)",
         "Ace of Wands (reversed)",
@@ -856,7 +857,7 @@
     },
     "2026-07-17": {
       "single-card": "Six of Cups",
-      "three-card": "Two of Swords · Knight of Swords · The Hanged Man",
+      "three-card": "Two of Swords \u00b7 Knight of Swords \u00b7 The Hanged Man",
       "iching-integration": "Travelling (#56)",
       "tags": [
         "Six of Cups",
@@ -868,19 +869,19 @@
     },
     "2026-07-16": {
       "single-card": "Page of Wands",
-      "three-card": "Past — Ace of Wands Reversed · Present — The Empress Reversed · Future — The Fool",
+      "three-card": "Past \u2014 Ace of Wands Reversed \u00b7 Present \u2014 The Empress Reversed \u00b7 Future \u2014 The Fool",
       "iching-integration": "Dispersing (#59)",
       "tags": [
         "Page of Wands",
-        "Past — Ace of Wands Reversed",
-        "Present — The Empress Reversed",
-        "Future — The Fool",
+        "Past \u2014 Ace of Wands Reversed",
+        "Present \u2014 The Empress Reversed",
+        "Future \u2014 The Fool",
         "Dispersing (#59"
       ]
     },
     "2026-07-15": {
       "single-card": "Knight of Pentacles (reversed)",
-      "three-card": "Six of Cups · Two of Cups · Nine of Swords",
+      "three-card": "Six of Cups \u00b7 Two of Cups \u00b7 Nine of Swords",
       "iching-integration": "Long Lasting (#32)",
       "tags": [
         "Knight of Pentacles (reversed)",
@@ -892,7 +893,7 @@
     },
     "2026-07-14": {
       "single-card": "Knight of Cups",
-      "three-card": "The Magician (reversed) · Nine of Cups (reversed) · Ten of Swords",
+      "three-card": "The Magician (reversed) \u00b7 Nine of Cups (reversed) \u00b7 Ten of Swords",
       "iching-integration": "Great Harvest (#14)",
       "tags": [
         "Knight of Cups",
@@ -904,7 +905,7 @@
     },
     "2026-07-13": {
       "single-card": "",
-      "three-card": "The Sun · Four of Pentacles · The World",
+      "three-card": "The Sun \u00b7 Four of Pentacles \u00b7 The World",
       "iching-integration": "Keeping Still (#52)",
       "tags": [
         "The Sun",
@@ -915,7 +916,7 @@
     },
     "2026-07-12": {
       "single-card": "Ace of Pentacles (reversed)",
-      "three-card": "The Devil · Six of Cups · Five of Pentacles",
+      "three-card": "The Devil \u00b7 Six of Cups \u00b7 Five of Pentacles",
       "iching-integration": "Advance",
       "tags": [
         "Ace of Pentacles (reversed)",
@@ -927,7 +928,7 @@
     },
     "2026-07-11": {
       "single-card": "The Hanged Man",
-      "three-card": "Eight of Wands (reversed) · Queen of Wands · Five of Wands",
+      "three-card": "Eight of Wands (reversed) \u00b7 Queen of Wands \u00b7 Five of Wands",
       "iching-integration": "Darkness (#29)",
       "tags": [
         "The Hanged Man",
@@ -939,7 +940,7 @@
     },
     "2026-07-10": {
       "single-card": "The Magician",
-      "three-card": "The Empress (reversed) · Page of Cups · Page of Wands",
+      "three-card": "The Empress (reversed) \u00b7 Page of Cups \u00b7 Page of Wands",
       "iching-integration": "Establishing The New",
       "tags": [
         "The Magician",
@@ -951,7 +952,7 @@
     },
     "2026-07-09": {
       "single-card": "Five of Swords",
-      "three-card": "The Hermit · Page of Swords · Death",
+      "three-card": "The Hermit \u00b7 Page of Swords \u00b7 Death",
       "iching-integration": "Approaching (#19)",
       "tags": [
         "Five of Swords",
@@ -963,7 +964,7 @@
     },
     "2026-07-08": {
       "single-card": "The Hermit (reversed)",
-      "three-card": "Three of Cups (reversed) · Seven of Swords (reversed) · Two of Pentacles (reversed)",
+      "three-card": "Three of Cups (reversed) \u00b7 Seven of Swords (reversed) \u00b7 Two of Pentacles (reversed)",
       "iching-integration": "Diversity (#38)",
       "tags": [
         "The Hermit (reversed)",
@@ -975,7 +976,7 @@
     },
     "2026-07-07": {
       "single-card": "Ace of Pentacles",
-      "three-card": "The Emperor (reversed) · Two of Pentacles · The Star",
+      "three-card": "The Emperor (reversed) \u00b7 Two of Pentacles \u00b7 The Star",
       "iching-integration": "Brightness (#30)",
       "tags": [
         "Ace of Pentacles",
@@ -987,7 +988,7 @@
     },
     "2026-07-06": {
       "single-card": "The Empress",
-      "three-card": "Strength (reversed) · Two of Swords · Queen of Wands",
+      "three-card": "Strength (reversed) \u00b7 Two of Swords \u00b7 Queen of Wands",
       "iching-integration": "Bringing Together (#45)",
       "tags": [
         "The Empress",
@@ -999,7 +1000,7 @@
     },
     "2026-07-05": {
       "single-card": "Five of Cups",
-      "three-card": "Queen of Swords · Ten of Pentacles · Ten of Swords",
+      "three-card": "Queen of Swords \u00b7 Ten of Pentacles \u00b7 Ten of Swords",
       "iching-integration": "Increasing (#42)",
       "tags": [
         "Five of Cups",
@@ -1011,7 +1012,7 @@
     },
     "2026-07-04": {
       "single-card": "the world",
-      "three-card": "Ace of Cups (reversed) · Page of Wands (reversed) · Nine of Pentacles",
+      "three-card": "Ace of Cups (reversed) \u00b7 Page of Wands (reversed) \u00b7 Nine of Pentacles",
       "iching-integration": "Relief",
       "tags": [
         "the world",
@@ -1029,7 +1030,7 @@
     },
     "2026-07-02": {
       "single-card": "Three of Cups",
-      "three-card": "Five of Wands · Death (reversed) · The Moon",
+      "three-card": "Five of Wands \u00b7 Death (reversed) \u00b7 The Moon",
       "iching-integration": "Without Falsehood (#25)",
       "tags": [
         "Three of Cups",
@@ -1041,7 +1042,7 @@
     },
     "2026-07-01": {
       "single-card": "Page of Wands",
-      "three-card": "Seven of Swords · Knight of Pentacles · Five of Swords",
+      "three-card": "Seven of Swords \u00b7 Knight of Pentacles \u00b7 Five of Swords",
       "iching-integration": "Brightness (#30)",
       "tags": [
         "Page of Wands",
@@ -1052,7 +1053,7 @@
       ]
     },
     "2026-06-30": {
-      "three-card": "The Empress · The Star · The Hermit · mercury in cancer · venus in taurus",
+      "three-card": "The Empress \u00b7 The Star \u00b7 The Hermit \u00b7 mercury in cancer \u00b7 venus in taurus",
       "iching-integration": "Growing Upward (#46)",
       "tags": [
         "The Empress",
@@ -1065,7 +1066,7 @@
     },
     "2026-06-29": {
       "single-card": "The Devil",
-      "three-card": "Page of Swords (reversed) · Death · Ace of Swords",
+      "three-card": "Page of Swords (reversed) \u00b7 Death \u00b7 Ace of Swords",
       "iching-integration": "Establishing The New (#50)",
       "tags": [
         "The Devil",
@@ -1077,7 +1078,7 @@
     },
     "2026-06-28": {
       "single-card": "Four of Cups",
-      "three-card": "Ten of Pentacles · Two of Cups · Nine of Cups",
+      "three-card": "Ten of Pentacles \u00b7 Two of Cups \u00b7 Nine of Cups",
       "iching-integration": "Dispersing (#59)",
       "tags": [
         "Four of Cups",
@@ -1089,7 +1090,7 @@
     },
     "2026-06-27": {
       "single-card": "Two of Cups",
-      "three-card": "Seven of Wands · Ten of Cups reversed · Eight of Cups",
+      "three-card": "Seven of Wands \u00b7 Ten of Cups reversed \u00b7 Eight of Cups",
       "iching-integration": "Multitude (#7)",
       "tags": [
         "Two of Cups",
@@ -1101,7 +1102,7 @@
     },
     "2026-06-25": {
       "single-card": "Five of Pentacles",
-      "three-card": "Two of Swords · Queen of Pentacles · Nine of Cups (reversed)",
+      "three-card": "Two of Swords \u00b7 Queen of Pentacles \u00b7 Nine of Cups (reversed)",
       "tags": [
         "Five of Pentacles",
         "Two of Swords",
@@ -1111,7 +1112,7 @@
     },
     "2026-06-24": {
       "single-card": "The Devil (reversed)",
-      "three-card": "Seven of Cups · The World · Seven of Swords",
+      "three-card": "Seven of Cups \u00b7 The World \u00b7 Seven of Swords",
       "iching-integration": "Initiating (#1)",
       "tags": [
         "The Devil (reversed)",
@@ -1123,7 +1124,7 @@
     },
     "2026-06-23": {
       "single-card": "three of cups",
-      "three-card": "The Hanged Man (reversed) · Queen of Swords · Queen of Cups (reversed)",
+      "three-card": "The Hanged Man (reversed) \u00b7 Queen of Swords \u00b7 Queen of Cups (reversed)",
       "iching-integration": "Replenishing (#48)",
       "tags": [
         "three of cups",
@@ -1135,7 +1136,7 @@
     },
     "2026-06-22": {
       "single-card": "Temperance (reversed)",
-      "three-card": "Two of Cups (reversed) · The Hanged Man (reversed) · Nine of Pentacles · mars in leo · mercury in cancer",
+      "three-card": "Two of Cups (reversed) \u00b7 The Hanged Man (reversed) \u00b7 Nine of Pentacles \u00b7 mars in leo \u00b7 mercury in cancer",
       "iching-integration": "Nine of Pentacles",
       "tags": [
         "Temperance (reversed)",
@@ -1148,7 +1149,7 @@
     },
     "2026-06-21": {
       "single-card": "Three of Wands",
-      "three-card": "Page of Swords (reversed) · Seven of Pentacles · Knight of Pentacles",
+      "three-card": "Page of Swords (reversed) \u00b7 Seven of Pentacles \u00b7 Knight of Pentacles",
       "iching-integration": "Retreat (#33)",
       "tags": [
         "Three of Wands",
@@ -1160,7 +1161,7 @@
     },
     "2026-06-20": {
       "single-card": "Ace of Swords",
-      "three-card": "Three of Swords · King of Wands reversed · Six of Pentacles",
+      "three-card": "Three of Swords \u00b7 King of Wands reversed \u00b7 Six of Pentacles",
       "iching-integration": "Union (#8)",
       "tags": [
         "Ace of Swords",
@@ -1172,7 +1173,7 @@
     },
     "2026-06-19": {
       "single-card": "The Magician",
-      "three-card": "Past: Page of Wands (reversed) · Present: Ten of Wands (reversed) · Future: Five of Cups · Mercury in Gemini (10th house) · Venus in Cancer (11th house)",
+      "three-card": "Past: Page of Wands (reversed) \u00b7 Present: Ten of Wands (reversed) \u00b7 Future: Five of Cups \u00b7 Mercury in Gemini (10th house) \u00b7 Venus in Cancer (11th house)",
       "iching-integration": "Great Accumulation (#26)",
       "tags": [
         "The Magician",
@@ -1186,7 +1187,7 @@
     },
     "2026-06-18": {
       "single-card": "Three of Cups",
-      "three-card": "Justice · The Hierophant · Queen of Pentacles",
+      "three-card": "Justice \u00b7 The Hierophant \u00b7 Queen of Pentacles",
       "iching-integration": "Eradicating (#21)",
       "tags": [
         "Three of Cups",
@@ -1198,7 +1199,7 @@
     },
     "2026-06-17": {
       "single-card": "Nine of Pentacles",
-      "three-card": "The Empress · Ace of Swords · Five of Swords · Mercury in Gemini (6th house) · Sun in Gemini (5th house)",
+      "three-card": "The Empress \u00b7 Ace of Swords \u00b7 Five of Swords \u00b7 Mercury in Gemini (6th house) \u00b7 Sun in Gemini (5th house)",
       "iching-integration": "Brightness (#30)",
       "tags": [
         "Nine of Pentacles",
@@ -1212,7 +1213,7 @@
     },
     "2026-06-16": {
       "single-card": "The Fool",
-      "three-card": "The Devil (reversed) · The Star · The Moon (reversed) · Venus in Taurus · Mercury in Gemini",
+      "three-card": "The Devil (reversed) \u00b7 The Star \u00b7 The Moon (reversed) \u00b7 Venus in Taurus \u00b7 Mercury in Gemini",
       "iching-integration": "Multitude",
       "tags": [
         "The Fool",
@@ -1226,7 +1227,7 @@
     },
     "2026-06-15": {
       "single-card": "Queen of Swords",
-      "three-card": "Nine of Cups · Nine of Swords · Temperance",
+      "three-card": "Nine of Cups \u00b7 Nine of Swords \u00b7 Temperance",
       "iching-integration": "Encountering (#44)",
       "tags": [
         "Queen of Swords",
@@ -1238,7 +1239,7 @@
     },
     "2026-06-14": {
       "single-card": "The Chariot",
-      "three-card": "The Lovers · Six of Pentacles · Ten of Pentacles",
+      "three-card": "The Lovers \u00b7 Six of Pentacles \u00b7 Ten of Pentacles",
       "iching-integration": "Diversity (#38)",
       "tags": [
         "The Chariot",
@@ -1250,7 +1251,7 @@
     },
     "2026-06-13": {
       "single-card": "King of Pentacles",
-      "three-card": "Nine of Pentacles (reversed) · Knight of Wands · Three of Swords (reversed) · Mercury in Taurus · Venus in Gemini",
+      "three-card": "Nine of Pentacles (reversed) \u00b7 Knight of Wands \u00b7 Three of Swords (reversed) \u00b7 Mercury in Taurus \u00b7 Venus in Gemini",
       "iching-integration": "Proceeding Forward (#35)",
       "tags": [
         "King of Pentacles",
@@ -1264,7 +1265,7 @@
     },
     "2026-06-12": {
       "single-card": "The High Priestess",
-      "three-card": "Seven of Swords · Page of Cups · The Emperor reversed",
+      "three-card": "Seven of Swords \u00b7 Page of Cups \u00b7 The Emperor reversed",
       "iching-integration": "Seven of Swords",
       "tags": [
         "The High Priestess",
@@ -1275,7 +1276,7 @@
     },
     "2026-06-11": {
       "single-card": "The Fool",
-      "three-card": "The Hanged Man (reversed) · The Lovers · Four of Swords · Mercury in Cancer (10th house) · Venus in Taurus (8th house)",
+      "three-card": "The Hanged Man (reversed) \u00b7 The Lovers \u00b7 Four of Swords \u00b7 Mercury in Cancer (10th house) \u00b7 Venus in Taurus (8th house)",
       "iching-integration": "Needing (#5)",
       "tags": [
         "The Fool",
@@ -1289,7 +1290,7 @@
     },
     "2026-06-10": {
       "single-card": "The World",
-      "three-card": "Ace of Wands · Knight of Pentacles · Nine of Cups",
+      "three-card": "Ace of Wands \u00b7 Knight of Pentacles \u00b7 Nine of Cups",
       "iching-integration": "Joyful (#58)",
       "tags": [
         "The World",
@@ -1301,7 +1302,7 @@
     },
     "2026-06-09": {
       "single-card": "Queen of Pentacles",
-      "three-card": "Ten of Wands · Four of Swords reversed · Strength reversed",
+      "three-card": "Ten of Wands \u00b7 Four of Swords reversed \u00b7 Strength reversed",
       "iching-integration": "Taking Action (#51)",
       "tags": [
         "Queen of Pentacles",
@@ -1313,7 +1314,7 @@
     },
     "2026-06-08": {
       "single-card": "Nine of Swords",
-      "three-card": "Five of Cups · Five of Wands · Judgement (reversed)",
+      "three-card": "Five of Cups \u00b7 Five of Wands \u00b7 Judgement (reversed)",
       "iching-integration": "Watching (#20)",
       "tags": [
         "Nine of Swords",
@@ -1325,7 +1326,7 @@
     },
     "2026-06-07": {
       "single-card": "Knight of Swords",
-      "three-card": "Two of Cups · Two of Wands · King of Cups",
+      "three-card": "Two of Cups \u00b7 Two of Wands \u00b7 King of Cups",
       "iching-integration": "Delight (#16)",
       "tags": [
         "Knight of Swords",
@@ -1337,7 +1338,7 @@
     },
     "2026-06-06": {
       "single-card": "Two of Wands, reversed",
-      "three-card": "Page of Cups · Justice · Eight of Cups",
+      "three-card": "Page of Cups \u00b7 Justice \u00b7 Eight of Cups",
       "iching-integration": "Abolishing The Old (#49)",
       "tags": [
         "Two of Wands, reversed",
@@ -1349,7 +1350,7 @@
     },
     "2026-06-05": {
       "single-card": "Eight of Wands",
-      "three-card": "Five of Cups (reversed) · Queen of Cups (reversed) · Two of Swords (reversed)",
+      "three-card": "Five of Cups (reversed) \u00b7 Queen of Cups (reversed) \u00b7 Two of Swords (reversed)",
       "iching-integration": "Delight (#16)",
       "tags": [
         "Eight of Wands",
@@ -1361,7 +1362,7 @@
     },
     "2026-06-04": {
       "single-card": "The Hierophant",
-      "three-card": "Three of Swords (reversed) · Six of Swords · Seven of Pentacles",
+      "three-card": "Three of Swords (reversed) \u00b7 Six of Swords \u00b7 Seven of Pentacles",
       "iching-integration": "Marrying Maiden (#54)",
       "tags": [
         "The Hierophant",
@@ -1373,7 +1374,7 @@
     },
     "2026-06-03": {
       "single-card": "Queen of Pentacles",
-      "three-card": "The Chariot · Three of Wands · Wheel of Fortune",
+      "three-card": "The Chariot \u00b7 Three of Wands \u00b7 Wheel of Fortune",
       "iching-integration": "Multitude (#7)",
       "tags": [
         "Queen of Pentacles",
@@ -1385,7 +1386,7 @@
     },
     "2026-06-02": {
       "single-card": "The Empress (reversed)",
-      "three-card": "Temperance · Ten of Cups · The Empress",
+      "three-card": "Temperance \u00b7 Ten of Cups \u00b7 The Empress",
       "iching-integration": "Humbleness (#15)",
       "tags": [
         "The Empress (reversed)",
@@ -1397,7 +1398,7 @@
     },
     "2026-06-01": {
       "single-card": "The Magician",
-      "three-card": "Three of Cups · Eight of Wands · Page of Pentacles reversed",
+      "three-card": "Three of Cups \u00b7 Eight of Wands \u00b7 Page of Pentacles reversed",
       "iching-integration": "Darkness (#29)",
       "tags": [
         "The Magician",
@@ -1409,7 +1410,7 @@
     },
     "2026-05-31": {
       "single-card": "Three of Cups (reversed)",
-      "three-card": "Page of Swords · The World reversed · Four of Swords",
+      "three-card": "Page of Swords \u00b7 The World reversed \u00b7 Four of Swords",
       "iching-integration": "Restricting (#60)",
       "tags": [
         "Three of Cups (reversed)",
@@ -1421,7 +1422,7 @@
     },
     "2026-05-30": {
       "single-card": "Nine of Pentacles",
-      "three-card": "Five of Cups (reversed) · Four of Wands (reversed) · Eight of Cups · Saturn Retrograde in Pisces (2nd house) · Mars in Leo (9th house)",
+      "three-card": "Five of Cups (reversed) \u00b7 Four of Wands (reversed) \u00b7 Eight of Cups \u00b7 Saturn Retrograde in Pisces (2nd house) \u00b7 Mars in Leo (9th house)",
       "iching-integration": "Travelling (#56)",
       "tags": [
         "Nine of Pentacles",
@@ -1435,7 +1436,7 @@
     },
     "2026-05-29": {
       "single-card": "King of Swords (reversed)",
-      "three-card": "The Devil · Six of Wands · Three of Cups",
+      "three-card": "The Devil \u00b7 Six of Wands \u00b7 Three of Cups",
       "iching-integration": "Taking Action (#51)",
       "tags": [
         "King of Swords (reversed)",
@@ -1447,11 +1448,11 @@
     },
     "2026-05-28": {
       "single-card": "Two of Cups",
-      "three-card": "The High Priestess (past) → Four of Swords reversed (present) → Strength (future) · pluto in aquarius (1st house) · mars in leo (9th house)",
+      "three-card": "The High Priestess (past) \u2192 Four of Swords reversed (present) \u2192 Strength (future) \u00b7 pluto in aquarius (1st house) \u00b7 mars in leo (9th house)",
       "iching-integration": "Proceeding Humbly (#57)",
       "tags": [
         "Two of Cups",
-        "The High Priestess (past) → Four of Swords reversed (present) → Strength (future)",
+        "The High Priestess (past) \u2192 Four of Swords reversed (present) \u2192 Strength (future)",
         "pluto in aquarius (1st house)",
         "mars in leo (9th house)",
         "Proceeding Humbly (#57"
@@ -1483,7 +1484,7 @@
     },
     "2026-05-23": {
       "single-card": "Three of Pentacles",
-      "three-card": "King of Cups · Two of Pentacles · Seven of Wands",
+      "three-card": "King of Cups \u00b7 Two of Pentacles \u00b7 Seven of Wands",
       "iching-integration": "Advance",
       "tags": [
         "Three of Pentacles",
@@ -1495,7 +1496,7 @@
     },
     "2026-05-22": {
       "single-card": "Nine of Cups",
-      "three-card": "Queen of Pentacles · Knight of Cups · King of Swords",
+      "three-card": "Queen of Pentacles \u00b7 Knight of Cups \u00b7 King of Swords",
       "iching-integration": "Taking Action",
       "tags": [
         "Nine of Cups",
@@ -1507,7 +1508,7 @@
     },
     "2026-05-21": {
       "single-card": "The Chariot (Reversed)",
-      "three-card": "The Hermit · Nine of Pentacles · Justice (reversed)",
+      "three-card": "The Hermit \u00b7 Nine of Pentacles \u00b7 Justice (reversed)",
       "iching-integration": "Brightness",
       "tags": [
         "The Chariot (Reversed)",
@@ -1519,7 +1520,7 @@
     },
     "2026-05-20": {
       "single-card": "Two of Wands",
-      "three-card": "the past: two of swords · the present: the magician (reversed) · the future: seven of wands (reversed)",
+      "three-card": "the past: two of swords \u00b7 the present: the magician (reversed) \u00b7 the future: seven of wands (reversed)",
       "iching-integration": "Decreasing",
       "tags": [
         "Two of Wands",
@@ -1531,7 +1532,7 @@
     },
     "2026-05-19": {
       "single-card": "Seven of Cups",
-      "three-card": "Page of Wands · Seven of Cups · Three of Pentacles",
+      "three-card": "Page of Wands \u00b7 Seven of Cups \u00b7 Three of Pentacles",
       "iching-integration": "Proceeding Humbly",
       "tags": [
         "Seven of Cups",
@@ -1541,8 +1542,8 @@
       ]
     },
     "2026-05-18": {
-      "three-card": "Six of Cups · Eight of Wands · The Tower",
-      "iching-integration": "Abundance 豐",
+      "three-card": "Six of Cups \u00b7 Eight of Wands \u00b7 The Tower",
+      "iching-integration": "Abundance \u8c50",
       "tags": [
         "Six of Cups",
         "Eight of Wands",
@@ -1552,7 +1553,7 @@
     },
     "2026-05-17": {
       "single-card": "The Empress",
-      "three-card": "Three of Pentacles · Knight of Cups · Knight of Wands",
+      "three-card": "Three of Pentacles \u00b7 Knight of Cups \u00b7 Knight of Wands",
       "iching-integration": "Childhood (#4)",
       "tags": [
         "The Empress",
@@ -1564,7 +1565,7 @@
     },
     "2026-05-16": {
       "single-card": "Judgement",
-      "three-card": "The Sun (reversed) · Page of Wands · Six of Cups (reversed)",
+      "three-card": "The Sun (reversed) \u00b7 Page of Wands \u00b7 Six of Cups (reversed)",
       "iching-integration": "Dispersing (#59)",
       "tags": [
         "Judgement",
@@ -1576,7 +1577,7 @@
     },
     "2026-05-15": {
       "single-card": "Queen of Pentacles",
-      "three-card": "Page of Cups · Wheel of Fortune · Four of Swords",
+      "three-card": "Page of Cups \u00b7 Wheel of Fortune \u00b7 Four of Swords",
       "iching-integration": "Darkness (#29)",
       "tags": [
         "Queen of Pentacles",
@@ -1588,7 +1589,7 @@
     },
     "2026-05-14": {
       "single-card": "Ten of Cups",
-      "three-card": "Past: Strength · Present: Knight of Cups · Future: Nine of Cups",
+      "three-card": "Past: Strength \u00b7 Present: Knight of Cups \u00b7 Future: Nine of Cups",
       "iching-integration": "Diversity",
       "tags": [
         "Ten of Cups",
@@ -1600,7 +1601,7 @@
     },
     "2026-05-13": {
       "single-card": "Ace of Swords",
-      "three-card": "Ace of Swords · The Emperor · Eight of Swords",
+      "three-card": "Ace of Swords \u00b7 The Emperor \u00b7 Eight of Swords",
       "iching-integration": "Developing Gradually (#53)",
       "tags": [
         "Ace of Swords",
@@ -1611,7 +1612,7 @@
     },
     "2026-05-12": {
       "single-card": "Ace of Wands (reversed)",
-      "three-card": "[PAST] Seven of Pentacles · [PRESENT] The Empress · [FUTURE] Ten of Swords",
+      "three-card": "[PAST] Seven of Pentacles \u00b7 [PRESENT] The Empress \u00b7 [FUTURE] Ten of Swords",
       "iching-integration": "Great Accumulation (#26)",
       "tags": [
         "Ace of Wands (reversed)",
@@ -1623,11 +1624,11 @@
     },
     "2026-05-11": {
       "single-card": "Knight of Wands (reversed)",
-      "three-card": "Five of Cups (reversed) — The Hanged Man — The World · Mars in Leo · Venus in Taurus",
+      "three-card": "Five of Cups (reversed) \u2014 The Hanged Man \u2014 The World \u00b7 Mars in Leo \u00b7 Venus in Taurus",
       "iching-integration": "Taking Action",
       "tags": [
         "Knight of Wands (reversed)",
-        "Five of Cups (reversed) — The Hanged Man — The World",
+        "Five of Cups (reversed) \u2014 The Hanged Man \u2014 The World",
         "Mars in Leo",
         "Venus in Taurus",
         "Taking Action"
@@ -1635,7 +1636,7 @@
     },
     "2026-05-10": {
       "single-card": "Seven of Wands",
-      "three-card": "The World (past) / King of Cups (reversed) (present) / Eight of Cups (future) · The World · King of Cups",
+      "three-card": "The World (past) / King of Cups (reversed) (present) / Eight of Cups (future) \u00b7 The World \u00b7 King of Cups",
       "iching-integration": "Nourishing (#27)",
       "tags": [
         "Seven of Wands",
@@ -1647,8 +1648,8 @@
     },
     "2026-05-07": {
       "single-card": "Three of Wands (reversed)",
-      "three-card": "Past: Wheel of Fortune · Present: Six of Swords · Future: The Moon · Sun in Taurus · Moon in Capricorn",
-      "iching-integration": "Increasing (益)",
+      "three-card": "Past: Wheel of Fortune \u00b7 Present: Six of Swords \u00b7 Future: The Moon \u00b7 Sun in Taurus \u00b7 Moon in Capricorn",
+      "iching-integration": "Increasing (\u76ca)",
       "tags": [
         "Three of Wands (reversed)",
         "Wheel of Fortune",
@@ -1661,8 +1662,8 @@
     },
     "2026-05-06": {
       "single-card": "Ten of Swords",
-      "three-card": "past: Nine of Cups (reversed) · present: Eight of Pentacles · future: King of Swords (reversed)",
-      "iching-integration": "Innermost Sincerity (中孚)",
+      "three-card": "past: Nine of Cups (reversed) \u00b7 present: Eight of Pentacles \u00b7 future: King of Swords (reversed)",
+      "iching-integration": "Innermost Sincerity (\u4e2d\u5b5a)",
       "tags": [
         "Ten of Swords",
         "Nine of Cups (reversed)",
@@ -1673,8 +1674,8 @@
     },
     "2026-05-05": {
       "single-card": "Ace of Pentacles",
-      "three-card": "past: Knight of Wands (reversed) · present: Ten of Cups · future: Nine of Cups",
-      "iching-integration": "Retreat (遯)",
+      "three-card": "past: Knight of Wands (reversed) \u00b7 present: Ten of Cups \u00b7 future: Nine of Cups",
+      "iching-integration": "Retreat (\u906f)",
       "tags": [
         "Ace of Pentacles",
         "Knight of Wands (reversed)",
@@ -1685,8 +1686,8 @@
     },
     "2026-05-04": {
       "single-card": "Seven of Cups",
-      "three-card": "past: The Empress · present: Four of Cups · future: Ace of Swords",
-      "iching-integration": "Responding (坤)",
+      "three-card": "past: The Empress \u00b7 present: Four of Cups \u00b7 future: Ace of Swords",
+      "iching-integration": "Responding (\u5764)",
       "tags": [
         "Seven of Cups",
         "The Empress",
@@ -1697,8 +1698,8 @@
     },
     "2026-05-03": {
       "single-card": "King of Pentacles",
-      "three-card": "past: The Chariot (reversed) · present: Three of Wands (reversed) · future: Death",
-      "iching-integration": "Keeping Still (艮)",
+      "three-card": "past: The Chariot (reversed) \u00b7 present: Three of Wands (reversed) \u00b7 future: Death",
+      "iching-integration": "Keeping Still (\u826e)",
       "tags": [
         "King of Pentacles",
         "The Chariot (reversed)",
@@ -1709,8 +1710,8 @@
     },
     "2026-05-02": {
       "single-card": "Two of Wands",
-      "three-card": "past: Page of Cups · present: Ace of Cups (reversed) · future: Page of Pentacles",
-      "iching-integration": "Abundance (豐)",
+      "three-card": "past: Page of Cups \u00b7 present: Ace of Cups (reversed) \u00b7 future: Page of Pentacles",
+      "iching-integration": "Abundance (\u8c50)",
       "tags": [
         "Two of Wands",
         "Page of Cups",
@@ -1721,8 +1722,8 @@
     },
     "2026-05-01": {
       "single-card": "Two of Swords",
-      "three-card": "past: King of Swords · present: Seven of Swords (reversed) · future: The Hanged Man (reversed)",
-      "iching-integration": "Advance (泰)",
+      "three-card": "past: King of Swords \u00b7 present: Seven of Swords (reversed) \u00b7 future: The Hanged Man (reversed)",
+      "iching-integration": "Advance (\u6cf0)",
       "tags": [
         "Two of Swords",
         "King of Swords",
@@ -1733,8 +1734,8 @@
     },
     "2026-04-30": {
       "single-card": "Death",
-      "three-card": "past: Five of Swords (reversed) · present: Page of Cups (reversed) · future: Three of Pentacles",
-      "iching-integration": "Humbleness (謙)",
+      "three-card": "past: Five of Swords (reversed) \u00b7 present: Page of Cups (reversed) \u00b7 future: Three of Pentacles",
+      "iching-integration": "Humbleness (\u8b19)",
       "tags": [
         "Death",
         "Five of Swords (reversed)",
@@ -1745,8 +1746,8 @@
     },
     "2026-04-29": {
       "single-card": "Judgement",
-      "three-card": "past: The Magician · present: Three of Cups · future: King of Pentacles",
-      "iching-integration": "Humility (謙)",
+      "three-card": "past: The Magician \u00b7 present: Three of Cups \u00b7 future: King of Pentacles",
+      "iching-integration": "Humility (\u8b19)",
       "tags": [
         "Judgement",
         "The Magician",
@@ -1757,8 +1758,8 @@
     },
     "2026-04-28": {
       "single-card": "Six of Cups",
-      "three-card": "past: Six of Cups (reversed) · present: Nine of Pentacles · future: Three of Cups (reversed)",
-      "iching-integration": "Hindrance (否)",
+      "three-card": "past: Six of Cups (reversed) \u00b7 present: Nine of Pentacles \u00b7 future: Three of Cups (reversed)",
+      "iching-integration": "Hindrance (\u5426)",
       "tags": [
         "Six of Cups",
         "Six of Cups (reversed)",
@@ -1769,7 +1770,7 @@
     },
     "2026-04-27": {
       "single-card": "Knight of Cups",
-      "three-card": "Past: Ace of Wands (reversed) · Present: Page of Pentacles (reversed) · Future: Queen of Wands",
+      "three-card": "Past: Ace of Wands (reversed) \u00b7 Present: Page of Pentacles (reversed) \u00b7 Future: Queen of Wands",
       "iching-integration": "Keeping Still",
       "tags": [
         "Knight of Cups",
