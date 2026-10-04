@@ -1,14 +1,16 @@
 {
-  "updated": "2026-10-04T19:00:58Z",
+  "updated": "2026-10-04T20:48:57Z",
   "dates": {
     "2026-10-04": {
       "single-card": "Three of Cups (reversed)",
       "three-card": "King of Wands · Ace of Cups · The Fool",
+      "iching-integration": "Little Exceeding (#62)",
       "tags": [
         "Three of Cups (reversed)",
         "King of Wands",
         "Ace of Cups",
-        "The Fool"
+        "The Fool",
+        "Little Exceeding (#62"
       ]
     },
     "2026-10-03": {
