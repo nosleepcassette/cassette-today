@@ -1,14 +1,16 @@
 {
-  "updated": "2026-10-05T16:00:47Z",
+  "updated": "2026-10-05T21:13:06Z",
   "dates": {
     "2026-10-05": {
       "single-card": "Seven of Wands (reversed)",
       "three-card": "Eight of Wands · The High Priestess · The Emperor",
+      "iching-integration": "Encountering (#44)",
       "tags": [
         "Seven of Wands (reversed)",
         "Eight of Wands",
         "The High Priestess",
-        "The Emperor"
+        "The Emperor",
+        "Encountering (#44"
       ]
     },
     "2026-10-04": {
