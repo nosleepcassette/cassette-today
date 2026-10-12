@@ -1,10 +1,14 @@
 {
-  "updated": "2026-10-12T14:00:03Z",
+  "updated": "2026-10-12T16:00:04Z",
   "dates": {
     "2026-10-12": {
       "single-card": "Six of Cups",
+      "three-card": "The Fool · The Hanged Man · King of Pentacles",
       "tags": [
-        "Six of Cups"
+        "Six of Cups",
+        "The Fool",
+        "The Hanged Man",
+        "King of Pentacles"
       ]
     },
     "2026-10-06": {
