@@ -1,14 +1,16 @@
 {
-  "updated": "2026-10-26T17:52:16Z",
+  "updated": "2026-10-26T19:00:13Z",
   "dates": {
     "2026-10-26": {
       "single-card": "Six of Swords",
       "three-card": "Ten of Cups (reversed) · Five of Pentacles (reversed) · The Emperor (reversed)",
+      "iching-integration": "The Emperor",
       "tags": [
         "Six of Swords",
         "Ten of Cups (reversed)",
         "Five of Pentacles (reversed)",
-        "The Emperor (reversed)"
+        "The Emperor (reversed)",
+        "The Emperor"
       ]
     },
     "2026-10-25": {
