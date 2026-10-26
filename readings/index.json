@@ -1,10 +1,14 @@
 {
-  "updated": "2026-10-26T15:59:58Z",
+  "updated": "2026-10-26T17:52:16Z",
   "dates": {
     "2026-10-26": {
       "single-card": "Six of Swords",
+      "three-card": "Ten of Cups (reversed) · Five of Pentacles (reversed) · The Emperor (reversed)",
       "tags": [
-        "Six of Swords"
+        "Six of Swords",
+        "Ten of Cups (reversed)",
+        "Five of Pentacles (reversed)",
+        "The Emperor (reversed)"
       ]
     },
     "2026-10-25": {
