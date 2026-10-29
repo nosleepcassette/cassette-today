@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T06:30:04Z",
+  "updated": "2026-10-29T06:46:07Z",
   "dates": {
     "2026-10-28": {
       "single-card": "Four of Pentacles Reversed",
@@ -196,21 +196,37 @@
     "2026-10-12": {
       "single-card": "Six of Cups",
       "three-card": "The Fool · The Hanged Man · King of Pentacles",
+      "iching-integration": "Great Harvest",
       "tags": [
         "Six of Cups",
         "The Fool",
         "The Hanged Man",
-        "King of Pentacles"
+        "King of Pentacles",
+        "Great Harvest"
+      ]
+    },
+    "2026-10-11": {
+      "single-card": "Six of Swords",
+      "three-card": "Three of Pentacles · Seven of Cups · The Lovers (reversed)",
+      "iching-integration": "Watching",
+      "tags": [
+        "Six of Swords",
+        "Three of Pentacles",
+        "Seven of Cups",
+        "The Lovers (reversed)",
+        "Watching"
       ]
     },
     "2026-10-10": {
       "single-card": "Nine of Wands",
       "three-card": "Four of Swords · Five of Cups · Seven of Pentacles (reversed)",
+      "iching-integration": "Developing Gradually",
       "tags": [
         "Nine of Wands",
         "Four of Swords",
         "Five of Cups",
-        "Seven of Pentacles (reversed)"
+        "Seven of Pentacles (reversed)",
+        "Developing Gradually"
       ]
     },
     "2026-10-09": {
