@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T19:00:05Z",
+  "updated": "2026-10-29T06:25:20Z",
   "dates": {
     "2026-10-28": {
       "single-card": "Four of Pentacles Reversed",
@@ -65,6 +65,40 @@
         "The Fool",
         "The Hanged Man",
         "King of Pentacles"
+      ]
+    },
+    "2026-10-09": {
+      "single-card": "Three of Cups",
+      "three-card": "Temperance Reversed · The Chariot · The Magician",
+      "tags": [
+        "Three of Cups",
+        "Temperance Reversed",
+        "The Chariot",
+        "The Magician"
+      ]
+    },
+    "2026-10-08": {
+      "single-card": "Nine of Cups",
+      "three-card": "Page of Pentacles · Four of Wands · The Hermit",
+      "iching-integration": "Remedying",
+      "tags": [
+        "Nine of Cups",
+        "Page of Pentacles",
+        "Four of Wands",
+        "The Hermit",
+        "Remedying"
+      ]
+    },
+    "2026-10-07": {
+      "single-card": "Three of Pentacles",
+      "three-card": "Three of Swords · Knight of Cups · Eight of Swords",
+      "iching-integration": "Union (#8)",
+      "tags": [
+        "Three of Pentacles",
+        "Three of Swords",
+        "Knight of Cups",
+        "Eight of Swords",
+        "Union (#8"
       ]
     },
     "2026-10-06": {
