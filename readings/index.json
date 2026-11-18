@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:53:19Z",
+  "updated": "2026-11-18T15:08:18Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2318,6 +2318,9 @@
         "Ace of Wands (upright)",
         "Turning Back"
       ]
+    },
+    "2026-11-18": {
+      "single-card": "Three of Swords (reversed)"
     }
   }
 }
