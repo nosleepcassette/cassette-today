@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:21:44Z",
+  "updated": "2026-11-18T01:32:53Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2138,6 +2138,90 @@
       "three-card": "",
       "iching-integration": "",
       "tags": []
+    },
+    "2026-10-29": {
+      "iching-integration": "Eradicating",
+      "tags": [
+        "Eradicating"
+      ]
+    },
+    "2026-10-30": {
+      "iching-integration": "Bringing Together",
+      "tags": [
+        "Bringing Together"
+      ]
+    },
+    "2026-11-10": {
+      "single-card": "Five of Pentacles",
+      "three-card": "Seven of Cups · The Emperor · Two of Cups",
+      "iching-integration": "Multitude",
+      "tags": [
+        "Five of Pentacles",
+        "Seven of Cups",
+        "The Emperor",
+        "Two of Cups",
+        "Multitude"
+      ]
+    },
+    "2026-11-11": {
+      "single-card": "Three of Wands (Reversed)",
+      "three-card": "The Hanged Man · Page of Pentacles · The Empress",
+      "iching-integration": "Encountering",
+      "tags": [
+        "Three of Wands (Reversed)",
+        "The Hanged Man",
+        "Page of Pentacles",
+        "The Empress",
+        "Encountering"
+      ]
+    },
+    "2026-11-12": {
+      "single-card": "Three of Pentacles",
+      "three-card": "Ten of Wands · Page of Pentacles · Nine of Swords",
+      "iching-integration": "Long Lasting",
+      "tags": [
+        "Three of Pentacles",
+        "Ten of Wands",
+        "Page of Pentacles",
+        "Nine of Swords",
+        "Long Lasting"
+      ]
+    },
+    "2026-11-13": {
+      "single-card": "Four of Pentacles",
+      "three-card": "The High Priestess · Knight of Wands · Four of Wands (Reversed)",
+      "iching-integration": "Initiating",
+      "tags": [
+        "Four of Pentacles",
+        "The High Priestess",
+        "Knight of Wands",
+        "Four of Wands (Reversed)",
+        "Initiating"
+      ]
+    },
+    "2026-11-14": {
+      "single-card": "The Sun (Reversed)",
+      "three-card": "Ace of Wands · Ten of Wands · Knight of Wands",
+      "iching-integration": "Brightness",
+      "tags": [
+        "The Sun (Reversed)",
+        "Ace of Wands",
+        "Ten of Wands",
+        "Knight of Wands",
+        "Brightness"
+      ]
+    },
+    "2026-11-15": {
+      "single-card": "Eight of Pentacles",
+      "three-card": "Two of Wands · Temperance · Three of Swords (Reversed)",
+      "iching-integration": "Restricting",
+      "tags": [
+        "Eight of Pentacles",
+        "Two of Wands",
+        "Temperance",
+        "Three of Swords (Reversed)",
+        "Restricting"
+      ]
     }
   }
 }
