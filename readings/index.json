@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:32:53Z",
+  "updated": "2026-11-18T01:48:33Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2142,14 +2142,26 @@
     "2026-10-29": {
       "iching-integration": "Eradicating",
       "tags": [
+        "Three of Swords",
+        "Knight of Wands (reversed)",
+        "Queen of Wands",
+        "Ace of Cups",
         "Eradicating"
-      ]
+      ],
+      "single-card": "Three of Swords",
+      "three-card": "Knight of Wands (reversed) · Queen of Wands · Ace of Cups"
     },
     "2026-10-30": {
       "iching-integration": "Bringing Together",
       "tags": [
+        "Page of Cups (reversed)",
+        "Knight of Swords (reversed)",
+        "Two of Cups",
+        "Nine of Cups (reversed)",
         "Bringing Together"
-      ]
+      ],
+      "single-card": "Page of Cups (reversed)",
+      "three-card": "Knight of Swords (reversed) · Two of Cups · Nine of Cups (reversed)"
     },
     "2026-11-10": {
       "single-card": "Five of Pentacles",
@@ -2221,6 +2233,46 @@
         "Temperance",
         "Three of Swords (Reversed)",
         "Restricting"
+      ]
+    },
+    "2026-10-31": {
+      "single-card": "Ten of Cups",
+      "three-card": "Four of Wands · Seven of Swords (reversed) · Seven of Pentacles",
+      "tags": [
+        "Ten of Cups",
+        "Four of Wands",
+        "Seven of Swords (reversed)",
+        "Seven of Pentacles"
+      ]
+    },
+    "2026-11-01": {
+      "single-card": "Temperance",
+      "three-card": "Four of Swords · Page of Pentacles (reversed) · The Fool",
+      "tags": [
+        "Temperance",
+        "Four of Swords",
+        "Page of Pentacles (reversed)",
+        "The Fool"
+      ]
+    },
+    "2026-11-02": {
+      "single-card": "Four of Cups (reversed)",
+      "three-card": "Eight of Cups · The Devil (reversed) · King of Pentacles (reversed)",
+      "tags": [
+        "Four of Cups (reversed)",
+        "Eight of Cups",
+        "The Devil (reversed)",
+        "King of Pentacles (reversed)"
+      ]
+    },
+    "2026-11-03": {
+      "single-card": "Six of Cups",
+      "three-card": "Eight of Pentacles · Seven of Wands · Two of Cups",
+      "tags": [
+        "Six of Cups",
+        "Eight of Pentacles",
+        "Seven of Wands",
+        "Two of Cups"
       ]
     }
   }
