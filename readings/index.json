@@ -1,10 +1,64 @@
 {
-  "updated": "2026-11-18T01:13:15Z",
+  "updated": "2026-11-18T01:21:44Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
+      "three-card": "Past: Ten of Pentacles (upright) · Present: Eight of Pentacles (upright) · Future: The Lovers (upright)",
+      "iching-integration": "Multitude",
       "tags": [
-        "The Fool (reversed)"
+        "The Fool (reversed)",
+        "Ten of Pentacles (upright)",
+        "Eight of Pentacles (upright)",
+        "The Lovers (upright)",
+        "Multitude"
+      ]
+    },
+    "2026-11-16": {
+      "single-card": "Two of Swords — upright",
+      "three-card": "Past: Queen of Cups (reversed) · Present: Nine of Pentacles — upright · Future: The World — upright",
+      "iching-integration": "Taking Action",
+      "tags": [
+        "Two of Swords — upright",
+        "Queen of Cups (reversed)",
+        "Nine of Pentacles — upright",
+        "The World — upright",
+        "Taking Action"
+      ]
+    },
+    "2026-11-09": {
+      "single-card": "Nine of Cups",
+      "three-card": "Past: Page of Pentacles (reversed) · Present: The Lovers (reversed) · Future: Seven of Pentacles",
+      "iching-integration": "Relief",
+      "tags": [
+        "Nine of Cups",
+        "Page of Pentacles (reversed)",
+        "The Lovers (reversed)",
+        "Seven of Pentacles",
+        "Relief"
+      ]
+    },
+    "2026-11-08": {
+      "single-card": "Ace of Pentacles (reversed)",
+      "three-card": "Past: Six of Cups · Present: Ace of Wands · Future: The Emperor (reversed)",
+      "iching-integration": "Decreasing",
+      "tags": [
+        "Ace of Pentacles (reversed)",
+        "Six of Cups",
+        "Ace of Wands",
+        "The Emperor (reversed)",
+        "Decreasing"
+      ]
+    },
+    "2026-11-07": {
+      "single-card": "Five of Cups",
+      "three-card": "Past: Four of Wands (reversed) · Present: Nine of Swords · Future: Four of Pentacles",
+      "iching-integration": "Replenishing",
+      "tags": [
+        "Five of Cups",
+        "Four of Wands (reversed)",
+        "Nine of Swords",
+        "Four of Pentacles",
+        "Replenishing"
       ]
     },
     "2026-10-28": {
@@ -1763,18 +1817,6 @@
         "Proceeding Humbly (#57"
       ]
     },
-    "2026-05-27": {
-      "single-card": "",
-      "three-card": "",
-      "iching-integration": "",
-      "tags": []
-    },
-    "2026-05-26": {
-      "single-card": "",
-      "three-card": "",
-      "iching-integration": "",
-      "tags": []
-    },
     "2026-05-25": {
       "single-card": "Ace of Swords (reversed)",
       "tags": [
@@ -2084,6 +2126,18 @@
         "Queen of Wands",
         "Keeping Still"
       ]
+    },
+    "2026-05-26": {
+      "single-card": "",
+      "three-card": "",
+      "iching-integration": "",
+      "tags": []
+    },
+    "2026-05-27": {
+      "single-card": "",
+      "three-card": "",
+      "iching-integration": "",
+      "tags": []
     }
   }
 }
