@@ -1,4 +1,6 @@
-## The Fool, Reversed
+## the card
+
+**The Fool (reversed)**
 
 The Fool reversed is your focus today: the open door is real, but openness alone is not a plan.
 
