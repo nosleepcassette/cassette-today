@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:48:33Z",
+  "updated": "2026-11-18T01:53:19Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2242,8 +2242,10 @@
         "Ten of Cups",
         "Four of Wands",
         "Seven of Swords (reversed)",
-        "Seven of Pentacles"
-      ]
+        "Seven of Pentacles",
+        "Great Strength"
+      ],
+      "iching-integration": "Great Strength"
     },
     "2026-11-01": {
       "single-card": "Temperance",
@@ -2252,8 +2254,10 @@
         "Temperance",
         "Four of Swords",
         "Page of Pentacles (reversed)",
-        "The Fool"
-      ]
+        "The Fool",
+        "Hindrance"
+      ],
+      "iching-integration": "Hindrance"
     },
     "2026-11-02": {
       "single-card": "Four of Cups (reversed)",
@@ -2262,8 +2266,10 @@
         "Four of Cups (reversed)",
         "Eight of Cups",
         "The Devil (reversed)",
-        "King of Pentacles (reversed)"
-      ]
+        "King of Pentacles (reversed)",
+        "Hindrance"
+      ],
+      "iching-integration": "Hindrance"
     },
     "2026-11-03": {
       "single-card": "Six of Cups",
@@ -2272,7 +2278,45 @@
         "Six of Cups",
         "Eight of Pentacles",
         "Seven of Wands",
-        "Two of Cups"
+        "Two of Cups",
+        "Developing Gradually"
+      ],
+      "iching-integration": "Developing Gradually"
+    },
+    "2026-11-04": {
+      "single-card": "Five of Cups (upright) — focus",
+      "three-card": "Past: Five of Wands (upright) · Present: Strength (upright) · Future: The Chariot (upright)",
+      "iching-integration": "Contention",
+      "tags": [
+        "Five of Cups (upright) — focus",
+        "Five of Wands (upright)",
+        "Strength (upright)",
+        "The Chariot (upright)",
+        "Contention"
+      ]
+    },
+    "2026-11-05": {
+      "single-card": "Ace of Cups (reversed) — focus",
+      "three-card": "Past: Three of Wands (upright) · Present: King of Swords (upright) · Future: Five of Pentacles (upright)",
+      "iching-integration": "Adorning",
+      "tags": [
+        "Ace of Cups (reversed) — focus",
+        "Three of Wands (upright)",
+        "King of Swords (upright)",
+        "Five of Pentacles (upright)",
+        "Adorning"
+      ]
+    },
+    "2026-11-06": {
+      "single-card": "Queen of Swords (upright) — focus",
+      "three-card": "Past: Four of Cups (upright) · Present: Seven of Pentacles (reversed) · Future: Ace of Wands (upright)",
+      "iching-integration": "Turning Back",
+      "tags": [
+        "Queen of Swords (upright) — focus",
+        "Four of Cups (upright)",
+        "Seven of Pentacles (reversed)",
+        "Ace of Wands (upright)",
+        "Turning Back"
       ]
     }
   }
