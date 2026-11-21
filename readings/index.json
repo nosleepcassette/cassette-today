@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T15:05:07Z",
+  "updated": "2026-11-21T17:08:17Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2332,7 +2332,8 @@
       "three-card": "Nine of Cups · Knight of Cups · Six of Cups, reversed"
     },
     "2026-11-21": {
-      "single-card": "Page of Cups"
+      "single-card": "Page of Cups",
+      "three-card": "Past — The Lovers (reversed) · Present — Seven of Wands (reversed) · Future — Four of Pentacles (reversed)"
     }
   }
 }
