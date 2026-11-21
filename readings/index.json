@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T17:05:24Z",
+  "updated": "2026-11-21T15:05:07Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2330,6 +2330,9 @@
     "2026-11-20": {
       "single-card": "Ten of Wands",
       "three-card": "Nine of Cups · Knight of Cups · Six of Cups, reversed"
+    },
+    "2026-11-21": {
+      "single-card": "Page of Cups"
     }
   }
 }
