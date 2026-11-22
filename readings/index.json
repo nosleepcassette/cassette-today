@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T15:06:14Z",
+  "updated": "2026-11-22T17:08:13Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2336,7 +2336,8 @@
       "three-card": "Past — The Lovers (reversed) · Present — Seven of Wands (reversed) · Future — Four of Pentacles (reversed)"
     },
     "2026-11-22": {
-      "single-card": "Queen of Swords"
+      "single-card": "Queen of Swords",
+      "three-card": "The Chariot · Five of Swords · The World"
     }
   }
 }
