@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T15:05:56Z",
+  "updated": "2026-11-23T17:07:16Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2340,7 +2340,8 @@
       "three-card": "The Chariot · Five of Swords · The World"
     },
     "2026-11-23": {
-      "single-card": "Seven of Pentacles"
+      "single-card": "Seven of Pentacles",
+      "three-card": "The Hanged Man — past · Four of Pentacles — present · The Hierophant — future"
     }
   }
 }
