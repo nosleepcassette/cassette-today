@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T15:07:30Z",
+  "updated": "2026-11-24T17:08:00Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2344,7 +2344,8 @@
       "three-card": "The Hanged Man — past · Four of Pentacles — present · The Hierophant — future"
     },
     "2026-11-24": {
-      "single-card": "Ten of Wands (reversed)"
+      "single-card": "Ten of Wands (reversed)",
+      "three-card": "Queen of Pentacles · The Lovers · King of Cups"
     }
   }
 }
