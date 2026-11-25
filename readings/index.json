@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T07:00:04Z",
+  "updated": "2026-11-25T15:05:53Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2347,6 +2347,9 @@
       "single-card": "Ten of Wands (reversed)",
       "three-card": "Queen of Pentacles · The Lovers · King of Cups",
       "iching-integration": "Mutual Influence"
+    },
+    "2026-11-25": {
+      "single-card": "The Devil"
     }
   }
 }
