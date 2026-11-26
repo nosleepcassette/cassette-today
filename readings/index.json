@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T20:07:19Z",
+  "updated": "2026-11-26T15:05:25Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2352,6 +2352,9 @@
       "single-card": "The Devil",
       "three-card": "Five of Pentacles reversed · Queen of Cups · Three of Swords · Sun in Sagittarius · Moon in Gemini",
       "iching-integration": "Initiating"
+    },
+    "2026-11-26": {
+      "single-card": "Two of Wands (reversed)"
     }
   }
 }
