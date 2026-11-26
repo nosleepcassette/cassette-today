@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T17:06:21Z",
+  "updated": "2026-11-26T20:06:45Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2355,7 +2355,8 @@
     },
     "2026-11-26": {
       "single-card": "Two of Wands (reversed)",
-      "three-card": "Two of Swords · The Hermit · Two of Pentacles"
+      "three-card": "Two of Swords · The Hermit · Two of Pentacles",
+      "iching-integration": "Little Accumulation"
     }
   }
 }
