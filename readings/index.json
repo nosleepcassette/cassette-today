@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T17:06:52Z",
+  "updated": "2026-11-28T20:08:14Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2365,7 +2365,8 @@
     },
     "2026-11-28": {
       "single-card": "Nine of Swords reversed",
-      "three-card": "Four of Wands · Queen of Swords · Two of Swords reversed · Sun in Sagittarius · Moon in Leo"
+      "three-card": "Four of Wands · Queen of Swords · Two of Swords reversed · Sun in Sagittarius · Moon in Leo",
+      "iching-integration": "Increasing"
     }
   }
 }
