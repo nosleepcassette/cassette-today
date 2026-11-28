@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T15:07:07Z",
+  "updated": "2026-11-28T17:06:52Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2364,7 +2364,8 @@
       "iching-integration": "Marrying Maiden"
     },
     "2026-11-28": {
-      "single-card": "Nine of Swords reversed"
+      "single-card": "Nine of Swords reversed",
+      "three-card": "Four of Wands · Queen of Swords · Two of Swords reversed · Sun in Sagittarius · Moon in Leo"
     }
   }
 }
