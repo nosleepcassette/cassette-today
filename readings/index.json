@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T20:21:28Z",
+  "updated": "2026-11-28T15:07:07Z",
   "dates": {
     "2026-11-17": {
       "single-card": "The Fool (reversed)",
@@ -2362,6 +2362,9 @@
       "single-card": "Ace of Wands",
       "three-card": "past — The Star (reversed) · present — Eight of Wands · future — Five of Cups (reversed)",
       "iching-integration": "Marrying Maiden"
+    },
+    "2026-11-28": {
+      "single-card": "Nine of Swords reversed"
     }
   }
 }
